@@ -4,30 +4,40 @@ import Partners from "./Partners";
 import Jeep2 from "../assets/jeep2.png";
 import { motion } from "framer-motion";
 import { carAnimation } from "../animations/animation";
+import Line from "../assets/line.png";
+import Vehicel from "../assets/vehicel.png";
 
 const SecondSection = () => {
   return (
     <div className="relative">
       <div className="absolute xl:left-20 md:left-10 left-4 right-0 bottom-0 top-60 md:top-80 z-10">
         <div className="flex flex-col space-y-4">
-          <p className="text-black xl:text-4xl md:text-3xl font-semibold">
-            in nibh mauris cursus mattis
-          </p>
-          <p className="text-gray-700 text-xs w-36 md:w-72 xl:w-72">
-            elit duis tristique sollicitudin nibh sit amet commodol eu feugiat
-            pretium nibh ipsum consequat nisl vel amet volutpat consequat mauris
-            nunc congue nisi vitae
-          </p>
-          <p className="text-black text-xs w-48 md:w-72 xl:w-72">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+          <div className="flex flex-col">
+            <p className="text-black xl:text-4xl md:text-3xl font-semibold">
+              in nibh mauris cursus mattis
+            </p>
+            {/* <img src={Line} alt="" className="py-4" /> */}
+            <p className="text-gray-700 text-xs w-36 md:w-72 xl:w-72">
+              elit duis tristique sollicitudin nibh sit amet commodol eu feugiat
+              pretium nibh ipsum consequat nisl vel amet volutpat consequat
+              mauris nunc congue nisi vitae
+            </p>
+            <p className="text-black text-xs w-48 md:w-72 xl:w-72">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
         </div>
       </div>
 
       <div className="relative">
         <div className="flex justify-end">
-          <div className="">
+          <div className="absolute right-0  md:top-40 xl:top-60 top-60 ">
+
+            <img src={Vehicel} alt="" className="w-48 xl:w-72 md:w-72" />
+
+           
+
             {/* <motion.img
                 initial={carAnimation.initialMobile}
                 animate={carAnimation.animate}
@@ -36,7 +46,7 @@ const SecondSection = () => {
                 src={Jeep2}
                 alt="main"
               /> */}
-            <div className="hidden md:block xl:block">
+            {/* <div className="hidden md:block xl:block">
               <motion.img
                 initial={{ x: -180, opacity: 0 }} // Initial position and opacity (hidden)
                 animate={{ x: 0, opacity: 1 }} // Move and fade in when in view
@@ -45,8 +55,8 @@ const SecondSection = () => {
                 src={Jeep2}
                 alt="main"
               />
-            </div>
-            <div className="block md:hidden xl:hidden">
+            </div> */}
+            {/* <div className="block md:hidden xl:hidden">
               <motion.img
                 initial={{ x: -180, opacity: 0 }} // Initial position and opacity (hidden)
                 animate={{ x: 0, opacity: 1 }} // Move and fade in when in view
@@ -55,7 +65,7 @@ const SecondSection = () => {
                 src={Jeep2}
                 alt="main"
               />
-            </div>
+            </div> */}
 
             {/* <img src={Jeep2} alt="" className="w-1/2"/> */}
           </div>
