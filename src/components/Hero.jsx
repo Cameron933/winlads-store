@@ -42,7 +42,7 @@ const Hero = () => {
           <p className="text-6xl xl:text-8xl 4xl:text-10xl capitalize font-semibold text-black text-center">
             Get Chance<br />to Win<br />Everyday
           </p>
-          <p className="text-black text-sm text-center 4xl:text-lg capitalize">
+          <p className="text-black text-sm text-center 4xl:text-xl capitalize">
             OUR MEMBERSHIP PROGRAMME PROVIDES PERSONALISED RECOMMENDATIONS TO
             ENSURE THAT YOU RECEIVE OFFERS AND DEALS THAT MATCH YOUR UNIQUE
             TASTES.
