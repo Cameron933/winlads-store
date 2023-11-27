@@ -40,11 +40,12 @@ const Hero = () => {
         </div>
         <div className="flex flex-col gap-4 px-4">
           <p className="text-6xl xl:text-8xl capitalize font-semibold text-black text-center">
-            risus in hendrerit gravida
+            Get Chance to Win
           </p>
           <p className="text-black text-sm text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            OUR MEMBERSHIP PROGRAMME PROVIDES PERSONALISED RECOMMENDATIONS TO
+            ENSURE THAT YOU RECEIVE OFFERS AND DEALS THAT MATCH YOUR UNIQUE
+            TASTES.
           </p>
         </div>
       </div>

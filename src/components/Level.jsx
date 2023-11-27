@@ -30,7 +30,7 @@ const Level = () => {
 
     <div className="flex flex-col md:flex-col xl:flex-row xl:px-8 px-4 justify-between xl:items-center">
       <div className="flex flex-col gap-2 items-center">
-        <p className="xl:text-8xl md:text-6xl text-4xl font-semibold">Choose<br /> Your  <br />Level</p>
+        <p className="xl:text-8xl md:text-6xl text-4xl font-semibold 4xl:text-10xl">Choose<br /> Your  <br />Level</p>
         <img src={Jeep3} className="w-3/4 4xl:w-7/5" />
       </div>
       <motion.div variants={textAnimate}>
