@@ -15,6 +15,19 @@ const textAnimate = {
 
 const Level = () => {
   return (
+    <motion.div
+    initial={"offscreen"}
+    whileInView={"onscreen"}
+    viewport={{ once: true, amount: 0.5 }}
+    transition={{ staggerChildren: 0 }}
+    // style={{
+    //   paddingBottom: "50px",
+    //   height: "auto",
+    //   position: "relative",
+    //   background: "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
+    // }}
+  >
+
     <div className="flex flex-col md:flex-col xl:flex-row xl:px-8 px-4 justify-between xl:items-center">
       <div className="flex flex-col gap-2 items-center">
         <p className="xl:text-8xl md:text-6xl text-4xl font-semibold">Choose<br /> Your  <br />Level</p>
@@ -80,6 +93,7 @@ const Level = () => {
         </div>
       </motion.div>
     </div>
+    </motion.div>
   );
 };
 
