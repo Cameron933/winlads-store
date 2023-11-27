@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="absolute top-10 right-10 xl:left-40 left-10 bottom-0 z-10">
         <Header />
       </div>
-      <div className="flex flex-col xl:flex-row items-center gap-2">
+      <div className="flex flex-col xl:flex-row items-center gap-2 space-y-6">
         <div className="relative">
           <img src={HeroGroup} className="" />
           <div className="absolute xl:top-60 top-40 md:top-80">
@@ -35,7 +35,7 @@ const Hero = () => {
                 zIndex: "2",
               }}
             /> */}
-            <img src={Jeep} alt="" className="w-3/4 4xl:w-5/6" />
+            <img src={Jeep} alt="" className="" />
           </div>
         </div>
         <div className="flex flex-col gap-4 px-4">

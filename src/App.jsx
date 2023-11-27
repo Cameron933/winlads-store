@@ -13,7 +13,7 @@ function App() {
     <>
       <div className="relative pageBgColor">
         <Hero />
-        <div className="absolute left-0 right-0">
+        <div className="absolute left-0 right-0 xl:pt-24">
         <Reviews />
         </div>
       
