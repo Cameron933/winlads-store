@@ -48,7 +48,7 @@ const Reviews = () => {
           </div>
         </div>
       </div>
-      <div className="px-4 flex-col flex xl:hidden items-center justify-center space-y-4 pt-8 ">
+      <div className="px-4 flex-col flex xl:hidden items-center justify-center space-y-4 pt-8 absolute z-10 left-0 right-0">
         <div className="flex flex-col space-y-1 items-center">
           <div className="buttonColor px-4 py-2 rounded-md">
             <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm">
