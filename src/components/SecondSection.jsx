@@ -39,7 +39,7 @@ const SecondSection = () => {
             <div className="hidden md:block xl:block">
               <motion.img
                 initial={{ x: -180, opacity: 0 }} // Initial position and opacity (hidden)
-                animate={{ x: 180, opacity: 1 }} // Move and fade in when in view
+                animate={{ x: 0, opacity: 1 }} // Move and fade in when in view
                 transition={{ type: "tween", duration: 1, delay: 1 }}
                 className="absolute right-0 top-40 md:top-80 xl:w-1/2 md:w-3/4"
                 src={Jeep2}
@@ -49,7 +49,7 @@ const SecondSection = () => {
             <div className="block md:hidden xl:hidden">
               <motion.img
                 initial={{ x: -180, opacity: 0 }} // Initial position and opacity (hidden)
-                animate={{ x: 100, opacity: 1 }} // Move and fade in when in view
+                animate={{ x: 0, opacity: 1 }} // Move and fade in when in view
                 transition={{ type: "tween", duration: 1, delay: 1 }}
                 className="absolute right-0 top-60 w-3/4"
                 src={Jeep2}
