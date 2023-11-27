@@ -33,8 +33,8 @@ const Level = () => {
         <div className="block 4xl:hidden">
         <p className="xl:text-8xl md:text-6xl text-4xl font-semibold 4xl:text-10xl md:text-center text-center xl:text-start">Choose<br /> Your  <br />Level</p>
         </div>
-        <div className="hidden max-2xl:block">
-        <p className="xl:text-8xl md:text-6xl text-4xl font-semibold 4xl:text-10xl md:text-center text-center xl:text-start">Choose<br /> Your Level</p>
+        <div className="hidden 2xl:block">
+        <p className="xl:text-8xl md:text-6xl text-4xl font-semibold 2xl:text-10xl md:text-center text-center xl:text-start">Choose<br /> Your Level</p>
         </div>
        
         <img src={Jeep3} className="" />
