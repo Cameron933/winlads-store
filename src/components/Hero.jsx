@@ -35,14 +35,14 @@ const Hero = () => {
                 zIndex: "2",
               }}
             /> */}
-            <img src={Jeep} alt="" className="w-3/4" />
+            <img src={Jeep} alt="" className="w-3/4 4xl:w-5/6" />
           </div>
         </div>
         <div className="flex flex-col gap-4 px-4">
-          <p className="text-6xl xl:text-8xl capitalize font-semibold text-black text-center">
-            Get Chance to Win
+          <p className="text-6xl xl:text-8xl 4xl:text-10xl capitalize font-semibold text-black text-center">
+            Get Chance<br /> to<br /> Win
           </p>
-          <p className="text-black text-sm text-center">
+          <p className="text-black text-sm text-center 4xl:text-lg capitalize">
             OUR MEMBERSHIP PROGRAMME PROVIDES PERSONALISED RECOMMENDATIONS TO
             ENSURE THAT YOU RECEIVE OFFERS AND DEALS THAT MATCH YOUR UNIQUE
             TASTES.
