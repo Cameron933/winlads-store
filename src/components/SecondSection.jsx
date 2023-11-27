@@ -13,7 +13,7 @@ const SecondSection = () => {
           <p className="text-black xl:text-4xl md:text-3xl font-semibold">
             in nibh mauris cursus mattis
           </p>
-          <p className="text-gray-700 text-xs w-48 md:w-72 xl:w-72">
+          <p className="text-gray-700 text-xs w-36 md:w-72 xl:w-72">
             elit duis tristique sollicitudin nibh sit amet commodol eu feugiat
             pretium nibh ipsum consequat nisl vel amet volutpat consequat mauris
             nunc congue nisi vitae
@@ -63,7 +63,7 @@ const SecondSection = () => {
         </div>
       </div>
 
-      <div className="absolute left-0 right-0 xl:bottom-80 md:bottom-80 bottom-20 ">
+      <div className="absolute left-0 right-0 xl:bottom-80 md:bottom-80 bottom-10 ">
         <Partners />
       </div>
     </div>
