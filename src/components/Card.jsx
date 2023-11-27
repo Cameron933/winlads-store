@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Card = ({bgColor, titleColor, title, price, desc1, buttonTextColor, desc2, desc3, descColor, buttonColor, arrowColor}) => {
   return (
-    <div className={`rounded-md bg-${bgColor} p-4 4xl:p-8 shadow-md flex flex-col space-y-8`}>
+    <div className={`rounded-md bg-${bgColor} p-4 2xl:p-8 shadow-md flex flex-col space-y-8`}>
         <div className='flex flex-row justify-between'>
             <p className={`text-${titleColor} text-lg 2xl:text-xl`}>{title}</p>
             <p className={`text-${titleColor} text-lg 2xl:text-xl`}>{price}</p>

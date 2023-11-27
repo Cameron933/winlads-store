@@ -39,10 +39,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex flex-col gap-4 px-4">
-          <p className="text-6xl xl:text-8xl 4xl:text-10xl capitalize font-semibold text-black text-center">
+          <p className="text-6xl xl:text-8xl 2xl:text-10xl capitalize font-semibold text-black text-center">
             Get Chance<br />to Win<br />Everyday
           </p>
-          <p className="text-black text-sm text-center 4xl:text-xl capitalize">
+          <p className="text-black text-sm text-center 2xl:text-xl capitalize">
             OUR MEMBERSHIP PROGRAMME PROVIDES PERSONALISED RECOMMENDATIONS TO
             ENSURE THAT YOU RECEIVE OFFERS AND DEALS THAT MATCH YOUR UNIQUE
             TASTES.
