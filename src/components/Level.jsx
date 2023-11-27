@@ -31,7 +31,7 @@ const Level = () => {
     <div className="flex flex-col md:flex-col xl:flex-row xl:px-8 px-4 justify-between xl:items-center">
       <div className="flex flex-col gap-2 items-center">
         <p className="xl:text-8xl md:text-6xl text-4xl font-semibold 4xl:text-10xl">Choose<br /> Your  <br />Level</p>
-        <img src={Jeep3} className="w-3/4 4xl:w-7/5" />
+        <img src={Jeep3} className="" />
       </div>
       <motion.div variants={textAnimate}>
         <div className="grid xl:grid-cols-2 grid-cols-1 md:grid-cols-2 gap-2">
@@ -50,9 +50,9 @@ const Level = () => {
           />
           <Card
             bgColor="[#01819D]"
-            title="Standard"
+            title="Bronz"
             titleColor="white"
-            price="$10"
+            price="$30"
             desc1="2 Day database discount Access"
             desc2="Winlands Events Invites"
             desc3="10% off Winlads Merch"
@@ -62,23 +62,23 @@ const Level = () => {
             buttonTextColor="[#01819D]"
           />
           <Card
-            bgColor="[#01819D]"
-            title="Standard"
-            titleColor="white"
-            price="$10"
+            bgColor="white"
+            title="Silver"
+            titleColor="black"
+            price="$100"
             desc1="2 Day database discount Access"
             desc2="Winlands Events Invites"
             desc3="10% off Winlads Merch"
-            descColor="white"
-            buttonColor="white"
-            arrowColor="[#01819D]"
-            buttonTextColor="[#01819D]"
+            descColor="black"
+            buttonColor="[#01819D]"
+            arrowColor="white"
+            buttonTextColor="white"
           />
           <Card
             bgColor="[#01819D]"
-            title="Standard"
+            title="Gold"
             titleColor="white"
-            price="$10"
+            price="$250"
             desc1="2 Day database discount Access"
             desc2="Winlands Events Invites"
             desc3="10% off Winlads Merch"

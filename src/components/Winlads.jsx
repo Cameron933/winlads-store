@@ -17,7 +17,7 @@ const Winlads = () => {
       </div>
       <div className="flex xl:flex-row md:flex-row flex-row justify-between">
         {/* <div> */}
-        <div className="relative">
+        <div className="relative hover:scale-105">
           <img src={Img1} />
           <div className="absolute xl:top-60 md:top-20 top-10 left-0 right-0 z-10">
             <div className="flex flex-col xl:space-y-4 md:space-y-2 space-y-1 items-center xl:px-16 md:px-8 px-2">

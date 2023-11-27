@@ -40,7 +40,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-col gap-4 px-4">
           <p className="text-6xl xl:text-8xl 4xl:text-10xl capitalize font-semibold text-black text-center">
-            Get Chance<br /> to<br /> Win
+            Get Chance<br />to Win<br />Everyday
           </p>
           <p className="text-black text-sm text-center 4xl:text-lg capitalize">
             OUR MEMBERSHIP PROGRAMME PROVIDES PERSONALISED RECOMMENDATIONS TO
