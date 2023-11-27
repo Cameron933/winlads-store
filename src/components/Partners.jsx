@@ -7,8 +7,8 @@ const Partners = () => {
     <div className="mt-12 flex flex-col space-y-4">
       <p className="text-center text-black font-bold text-6xl uppercase">Partners</p>
       <div className="flex-col space-y-2">
-        <img src={Stripe} />
-        <img src={Nontera} />
+        <img src={Stripe} className="w-full" />
+        <img src={Nontera} className="w-full" />
       </div>
     </div>
   );
