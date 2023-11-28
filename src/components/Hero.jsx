@@ -29,7 +29,7 @@ const Hero = () => {
       // }}
     >
       <div className="flex flex-col relative">
-        <div className="absolute top-10 right-0 xl:right-10 md:right-10 xl:left-20 left-4 bottom-0 z-10">
+        <div className="absolute top-10 right-4 xl:right-10 md:right-10 xl:left-20 left-4 bottom-0 z-10">
           <Header />
         </div>
         <div className="flex flex-col xl:flex-row items-center gap-2 space-y-6">
