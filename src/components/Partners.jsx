@@ -63,7 +63,7 @@ const Partners = () => {
         </div>
         {/* <img src={Stripe} className="w-full" /> */}
         {/* <img src={Nontera} className="w-full" /> */}
-        <div className="flex flex-row items-center bg-white border-2 border-[#01819D] py-2 w-full">
+        {/* <div className="flex flex-row items-center bg-white border-2 border-[#01819D] py-2 w-full">
           <div className="scroll-text1 flex flex-row space-x-8">
             <p className="text-[#01819D] font-bold text-xl uppercase">Nontera</p>
             <p className="text-[#01819D] text-lg">|</p>
@@ -126,7 +126,7 @@ const Partners = () => {
             <p className="text-[#01819D] font-bold text-xl uppercase">Nontera</p>
             <p className="text-[#01819D] text-lg">|</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
