@@ -24,7 +24,7 @@ const Winlads = () => {
         {/* <div> */}
         <div className="relative hover:scale-105">
           <img src={Car} />
-          <div className="absolute xl:top-60 md:top-20 top-10 left-0 right-0 z-10">
+          {/* <div className="absolute xl:top-60 md:top-20 top-10 left-0 right-0 z-10">
             <div className="flex flex-col xl:space-y-4 md:space-y-2 space-y-1 items-center xl:px-16 md:px-8 px-2">
               <p className="xl:text-[54.7px] md:text-[37.7px] text-[17.7px] text-white left-0 right-0">consequat</p>
               <p className="xl:text-xs md:text-xs text-[8px] text-white text-center">
@@ -32,7 +32,7 @@ const Winlads = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* </div> */}
         {/* <div className="flex flex-row"> */}
