@@ -35,15 +35,15 @@ const Reviews = () => {
           </div>
           <div className="flex flex-col space-y-1">
             <div className="buttonColor px-4 py-2 rounded-md">
-              <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm 2xl:text-lg">
+              <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm 2xl:text-xl">
                 Purchase
               </button>
             </div>
             <div className="flex justify-end">
-              <img src={ReviewsImg} className="w-16" />
+              <img src={ReviewsImg} className="w-16 2xl:w-24" />
             </div>
             <p className="text-[#01819D text-[8px] flex justify-end">
-              Based on<span className="text-[#8E8E8E]">456 reviews</span>
+              Based on<span className="text-[#8E8E8E] 2xl:text-sm">456 reviews</span>
             </p>
           </div>
         </div>

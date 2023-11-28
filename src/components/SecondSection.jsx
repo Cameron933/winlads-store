@@ -16,7 +16,7 @@ const SecondSection = () => {
             winlads.com
           </p>
           <div className="flex flex-col xl:space-y-4 md:space-y-4 space-y-2">
-            <p className="text-black xl:text-4xl md:text-3xl 2xl:text-6xl font-semibold">
+            <p className="text-black xl:text-4xl md:text-3xl 2xl:text-4xl font-semibold">
               Homewares, Trades & Services
             </p>
             <img src={Line} alt="" className="xl:py-4 md:py-4 py-2 w-48" />
