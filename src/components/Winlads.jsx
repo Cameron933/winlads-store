@@ -61,10 +61,10 @@ const Winlads = () => {
             />
             {/* <img src={Car1} className="hover:scale-105" /> */}
           </div>
-          <div>
+          <div className="hover:scale-105">
             <motion.img
               variants={imageAnimate}
-              className="hover:scale-105"
+              className=""
               src={Car2}
             />
             {/* <img src={Car2} className="hover:scale-105" /> */}

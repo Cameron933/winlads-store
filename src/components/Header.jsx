@@ -10,7 +10,7 @@ const Header = () => {
         </div>
         <div className="flex flex-row gap-2 uppercase text-[#01819D] items-center cursor-pointer 2xl:text-lg">
           <p className="text-xs hover:font-bold">login</p>
-          <p className="text-xs hover:font-bold">register</p>
+          {/* <p className="text-xs hover:font-bold">register</p> */}
           <p className="text-xs hover:font-bold">language</p>
         </div>
       </div>
