@@ -29,7 +29,7 @@ const Footer = () => {
       // }}
     >
       <div className="flex flex-col bg-[#01819D] rounded-t-[60px] px-12 text-white py-6 space-y-4">
-        <div className="flex flex-col xl:flex-row md:flex-row xl:justify-between space-y-4 xl:items-center md:justify-between md:items-center">
+        <div className="flex flex-row justify-between items-center xl:flex-row md:flex-row xl:justify-between space-y-4 xl:items-center md:justify-between md:items-center">
           <div className="flex flex-col space-y-4">
             <p className="uppercase text-lg 2xl:text-xl font-semibold">Links</p>
             <motion.div variants={textAnimate}>

@@ -8,6 +8,11 @@ import Img4 from "../assets/winlads/img4.png";
 import Img11 from "../assets/winlads/img11.png";
 import Img22 from "../assets/winlads/img22.png";
 import Img33 from "../assets/winlads/img33.png";
+import Car from "../assets/cars/Card.png"
+import Car1 from "../assets/cars/Card 1.png"
+import Car2 from "../assets/cars/Card 2.png"
+import Car3 from "../assets/cars/Card 3.png"
+
 
 const Winlads = () => {
   return (
@@ -18,7 +23,7 @@ const Winlads = () => {
       <div className="flex xl:flex-row md:flex-row flex-row justify-between">
         {/* <div> */}
         <div className="relative hover:scale-105">
-          <img src={Img1} />
+          <img src={Car} />
           <div className="absolute xl:top-60 md:top-20 top-10 left-0 right-0 z-10">
             <div className="flex flex-col xl:space-y-4 md:space-y-2 space-y-1 items-center xl:px-16 md:px-8 px-2">
               <p className="xl:text-[54.7px] md:text-[37.7px] text-[17.7px] text-white left-0 right-0">consequat</p>
@@ -32,13 +37,13 @@ const Winlads = () => {
         {/* </div> */}
         {/* <div className="flex flex-row"> */}
         <div>
-          <img src={Img11} className="hover:scale-105" />
+          <img src={Car1} className="hover:scale-105" />
         </div>
         <div>
-          <img src={Img22} className="hover:scale-105" />
+          <img src={Car2} className="hover:scale-105" />
         </div>
         <div>
-          <img src={Img33} className="hover:scale-105" />
+          <img src={Car3} className="hover:scale-105" />
         </div>
       </div>
       {/* </div> */}

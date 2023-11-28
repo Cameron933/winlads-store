@@ -11,7 +11,7 @@ const SecondSection = () => {
   return (
     <div className="relative">
       <div className="absolute xl:left-20 md:-left-20 -left-20 right-0 bottom-0 top-60 md:top-80 z-10">
-        <div className="flex flex-row xl:gap-16 md:gap-16 2xl:gap-16 gap-16">
+        <div className="flex flex-row xl:gap-16 md:gap-16 2xl:gap-24 gap-16">
           <p className="rotate-90 text-[#01819D] xl:text-xl text-lg 2xl:text-2xl font-semibold">
             winlads.com
           </p>
