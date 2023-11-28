@@ -106,3 +106,31 @@ button:focus-visible {
     transform: rotate(360deg);
   }
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-text {
+  animation: scroll 5s linear infinite; 
+  white-space: nowrap; 
+}
+
+@keyframes scroll1 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.scroll-text1 {
+  animation: scroll1 5s linear infinite; 
+  white-space: nowrap; 
+}

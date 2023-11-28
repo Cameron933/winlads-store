@@ -16,7 +16,7 @@ const Reviews = () => {
             </p>
           </div>
           <div className="flex flex-col space-y-1">
-            <p className="text-[#01819D] xl:text-4xl md:text-4xl 2xl:text-6xl 4xl:text-6xl text-2xl  font-semibold">
+            <p className="text-[#01819D] xl:text-4xl md:text-4xl 2xl:text-6xl 4xl:text-6xl text-2xl font-semibold">
               1.000<span className="text-gray-600">S</span>
             </p>
             <p className="text-xs 2xl:text-lg text-center">
@@ -25,7 +25,7 @@ const Reviews = () => {
             </p>
           </div>
           <div className="flex flex-col space-y-1">
-            <p className="text-[#01819D] xl:text-4xl md:text-4xl 2xl:text-6xl 4xl:text-6xl text-2xl  font-semibold">
+            <p className="text-[#01819D] xl:text-4xl md:text-4xl 2xl:text-6xl 4xl:text-6xl text-2xl font-semibold">
               +600<span className="text-gray-600">K</span>
             </p>
             <p className="text-xs 2xl:text-lg text-center">
@@ -35,7 +35,7 @@ const Reviews = () => {
           </div>
           <div className="flex flex-col space-y-1">
             <div className="buttonColor px-4 py-2 rounded-md">
-              <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm">
+              <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm 2xl:text-lg">
                 Purchase
               </button>
             </div>

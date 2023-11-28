@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <div className="flex flex-row justify-between">
-      <div className="flex flex-row gap-2 uppercase text-[#01819D] items-center">
+      <div className="flex flex-row gap-2 uppercase text-[#01819D] items-center cursor-pointer">
         <p className="text-xs">login</p>
         <p className="text-xs">register</p>
         <p className="text-xs">language</p>
