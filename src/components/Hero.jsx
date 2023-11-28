@@ -17,7 +17,7 @@ const imageAnimate = {
 const Hero = () => {
   return (
     <div className="flex flex-col relative">
-      <div className="absolute top-10 right-10 xl:left-40 left-10 bottom-0 z-10">
+      <div className="absolute top-10 right-10 xl:left-20 left-10 bottom-0 z-10">
         <Header />
       </div>
       <div className="flex flex-col xl:flex-row items-center gap-2 space-y-6">
