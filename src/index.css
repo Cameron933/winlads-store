@@ -117,7 +117,7 @@ button:focus-visible {
 }
 
 .scroll-text {
-  animation: scroll 5s linear infinite; 
+  animation: scroll 10s linear infinite; 
   white-space: nowrap; 
 }
 
@@ -131,6 +131,6 @@ button:focus-visible {
 }
 
 .scroll-text1 {
-  animation: scroll1 5s linear infinite; 
+  animation: scroll1 10s linear infinite; 
   white-space: nowrap; 
 }
