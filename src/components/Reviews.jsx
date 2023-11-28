@@ -7,28 +7,28 @@ const Reviews = () => {
       <div className="hidden xl:flex">
         <div className="mx-8 flex md:gap-12 gap-4 xl:gap-36 justify-center xl:absolute bottom-0 right-0 left-0  pt-4 z-10">
           <div className="flex flex-col space-y-1">
-            <p className="text-[#01819D] xl:text-4xl md:text-4xl 4xl:text-6xl text-2xl font-semibold">
+            <p className="text-[#01819D] xl:text-4xl 2xl:text-6xl md:text-4xl 4xl:text-6xl text-2xl font-semibold">
               1.000<span className="text-gray-600">S</span>
             </p>
-            <p className="text-xs text-center">
+            <p className="text-xs 2xl:text-lg text-center">
               In savings through our
               <br /> mates rates discounts
             </p>
           </div>
           <div className="flex flex-col space-y-1">
-            <p className="text-[#01819D] xl:text-4xl md:text-4xl 4xl:text-6xl text-2xl  font-semibold">
+            <p className="text-[#01819D] xl:text-4xl md:text-4xl 2xl:text-6xl 4xl:text-6xl text-2xl  font-semibold">
               1.000<span className="text-gray-600">S</span>
             </p>
-            <p className="text-xs text-center">
+            <p className="text-xs 2xl:text-lg text-center">
               Australian business
               <br /> Benefits
             </p>
           </div>
           <div className="flex flex-col space-y-1">
-            <p className="text-[#01819D] xl:text-4xl md:text-4xl 4xl:text-6xl text-2xl  font-semibold">
+            <p className="text-[#01819D] xl:text-4xl md:text-4xl 2xl:text-6xl 4xl:text-6xl text-2xl  font-semibold">
               +600<span className="text-gray-600">K</span>
             </p>
-            <p className="text-xs text-center">
+            <p className="text-xs 2xl:text-lg text-center">
               Australian business
               <br /> Benefits
             </p>

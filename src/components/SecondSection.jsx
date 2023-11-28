@@ -10,23 +10,23 @@ import Vehicel from "../assets/vehicel.png";
 const SecondSection = () => {
   return (
     <div className="relative">
-      <div className="absolute xl:left-20 md:-left-20 -left-40 right-0 bottom-0 top-60 md:top-80 z-10">
-        <div className="flex flex-row xl:gap-12 md:gap-12 gap-16">
-          <p className="rotate-90 text-[#01819D] xl:text-xl text-lg 4xl:text-2xl font-semibold">
-            metus vulputate eu
+      <div className="absolute xl:left-20 md:-left-20 -left-20 right-0 bottom-0 top-60 md:top-80 z-10">
+        <div className="flex flex-row xl:gap-16 md:gap-16 2xl:gap-16 gap-16">
+          <p className="rotate-90 text-[#01819D] xl:text-xl text-lg 2xl:text-2xl font-semibold">
+            winlads.com
           </p>
           <div className="flex flex-col xl:space-y-4 md:space-y-4 space-y-2">
-            <p className="text-black xl:text-4xl md:text-3xl 4xl:text-6xl font-semibold">
-              in nibh mauris cursus mattis
+            <p className="text-black xl:text-4xl md:text-3xl 2xl:text-6xl font-semibold">
+              Homewares, Trades & Services
             </p>
             <img src={Line} alt="" className="xl:py-4 md:py-4 py-2 w-48" />
-            <p className="text-gray-700 text-xs 4xl:text-lg w-36 md:w-72 xl:w-72">
-              elit duis tristique sollicitudin nibh sit amet commodol eu feugiat
-              pretium nibh ipsum consequat nisl vel amet volutpat consequat
-              mauris nunc congue nisi vitae
+            <p className="text-gray-700 text-xs 2xl:text-lg w-36 md:w-72 xl:w-72">
+              Homewares, Trades & Services We ve teamed up with the best in the
+              business. Get great deals on Furniture, homeware & decor,
+              electrical, plumbing and more!
             </p>
-            <p className="text-black text-xs 4xl:text-lg w-48 md:w-72 xl:w-72 capitalize">
-            AUSTRALIA WIDEFROM ONLY $19.99 PER MONTH, OPT-OUT ANYTIME
+            <p className="text-black text-xs 2xl:text-lg w-48 md:w-72 xl:w-72 capitalize">
+              AUSTRALIA WIDEFROM ONLY $19.99 PER MONTH, OPT-OUT ANYTIME
             </p>
           </div>
         </div>
