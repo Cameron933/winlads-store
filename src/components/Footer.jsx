@@ -28,10 +28,10 @@ const Footer = () => {
       //   background: "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
       // }}
     >
-      <div className="flex flex-col bg-[#01819D] rounded-t-[60px] px-12 text-white py-6 space-y-4">
-        <div className="flex flex-col xl:flex-row md:flex-row xl:justify-between space-y-4 xl:items-center md:justify-between">
+      <div className="flex flex-col bg-[#01819D] rounded-t-[60px] xl:px-12 md:px-12 px-6 text-white py-6 space-y-4">
+        <div className="flex flex-row space-x-4 justify-between">
           <div className="flex flex-col space-y-4">
-            <p className="uppercase text-lg 2xl:text-xl font-semibold">Links</p>
+            <p className="uppercase xl:text-lg md:text-lg text-sm 2xl:text-xl font-semibold">Links</p>
             <motion.div variants={textAnimate}>
               <div className="text-xs 2xl:text-lg space-y-1">
                 <p>Home</p>
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col space-y-4">
-            <p className="uppercase text-lg 2xl:text-xl font-semibold">
+            <p className="uppercase xl:text-lg md:text-lg text-sm 2xl:text-xl font-semibold">
               Product
             </p>
             <motion.div variants={textAnimate}>
@@ -58,7 +58,7 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col space-y-4">
-            <p className="uppercase text-lg 2xl:text-xl font-semibold">
+            <p className="uppercase xl:text-lg md:text-lg text-sm 2xl:text-xl font-semibold">
               Community
             </p>
             <motion.div variants={textAnimate}>

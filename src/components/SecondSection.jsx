@@ -10,9 +10,9 @@ import Vehicel from "../assets/vehicel.png";
 const SecondSection = () => {
   return (
     <div className="relative">
-      <div className="absolute xl:left-20 md:-left-20 -left-20 right-0 bottom-0 top-60 md:top-80 z-10">
-        <div className="flex flex-row xl:gap-16 md:gap-16 2xl:gap-36 gap-16">
-          <p className="rotate-90 text-[#01819D] xl:text-xl text-lg 2xl:text-2xl font-semibold">
+      <div className="absolute xl:left-20 md:-left-20 -left-40 right-0 bottom-0 top-60 md:top-80 z-10">
+        <div className="flex flex-row xl:gap-4 md:gap-4 2xl:gap-8 gap-4">
+          <p className="rotate-90 text-[#01819D] xl:text-4xl md:text-4xl text-4xl 2xl:text-4xl font-semibold">
             winlads.com
           </p>
           <div className="flex flex-col xl:space-y-4 md:space-y-4 space-y-2">
@@ -72,7 +72,7 @@ const SecondSection = () => {
         </div>
       </div>
 
-      <div className="absolute left-0 right-0 xl:bottom-80 md:bottom-80 bottom-10 ">
+      <div className="absolute left-0 right-0 xl:bottom-80 md:bottom-80 bottom-0 ">
         <Partners />
       </div>
     </div>
