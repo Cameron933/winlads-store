@@ -2,12 +2,15 @@ import React from 'react'
 import Correct from "../assets/correct.png"
 import { MdKeyboardArrowRight } from "react-icons/md";
 
-const Card = ({bgColor, titleColor, title, price, desc1, buttonTextColor, desc2, desc3, desc4, desc5, desc6, desc7, descColor, buttonColor, arrowColor, btnword, point1, point2, point3, point4, point5, point6, point7,}) => {
+const Card = ({bgColor, titleColor, title, titleColor2, title2, price, desc1, buttonTextColor, desc2, desc3, desc4, desc5, desc6, desc7, descColor, buttonColor, arrowColor, btnword, point1, point2, point3, point4, point5, point6, point7,}) => {
   return (
     <div className={`rounded-md bg-${bgColor} p-4 2xl:p-8 shadow-md flex flex-col space-y-8 card-container`}>
         <div className='flex flex-row justify-between'>
             <p className={`text-${titleColor} text-lg 2xl:text-xl`}>{title}</p>
             <p className={`text-${titleColor} text-lg 2xl:text-xl`}>{price}</p>
+        </div>
+        <div className='flex flex-col justify-between items-center '>
+            <p className={`font-bold text-${titleColor2} text-2xl 2xl:text-4xl`}>{title2}</p>
         </div>
         <div className='flex flex-col space-y-2'>
             <div className='flex flex-row items-center gap-2'>

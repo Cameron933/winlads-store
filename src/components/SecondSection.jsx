@@ -23,9 +23,9 @@ const SecondSection = () => {
             <p className="text-gray-700 text-xs 2xl:text-lg w-36 md:w-72 xl:w-72">
             Picture this: you're kicking back, chilling, and earning easy cash—yeah, it's possible! We've got a stash of unreal deals waiting for ya. Plus, sling our program to your mates, and you'll be raking in dosh on the side. No worries, it's that easy!
             </p>
-            <p className="text-black text-xs 2xl:text-lg w-48 md:w-72 xl:w-72 capitalize">
+            {/* <p className="text-black text-xs 2xl:text-lg w-48 md:w-72 xl:w-72 capitalize">
               AUSTRALIA WIDEFROM ONLY $9.99 PER MONTH, OPT-OUT ANYTIME
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
