@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Card = ({bgColor, titleColor, title, price, desc1, buttonTextColor, desc2, desc3, desc4, desc5, desc6, desc7, descColor, buttonColor, arrowColor, btnword, point1, point2, point3, point4, point5, point6, point7,}) => {
   return (
-    <div className={`rounded-md bg-${bgColor} p-4 2xl:p-8 shadow-md flex flex-col space-y-8`}>
+    <div className={`rounded-md bg-${bgColor} p-4 2xl:p-8 shadow-md flex flex-col space-y-8 card-container`}>
         <div className='flex flex-row justify-between'>
             <p className={`text-${titleColor} text-lg 2xl:text-xl`}>{title}</p>
             <p className={`text-${titleColor} text-lg 2xl:text-xl`}>{price}</p>
@@ -40,11 +40,11 @@ const Card = ({bgColor, titleColor, title, price, desc1, buttonTextColor, desc2,
             </div>
         </div>
         <div className={`rounded-md flex flex-row justify-center py-2 bg-${buttonColor} hover:scale-105 hover:transition-transform ease-out duration-300`}>
-            <button className='flex flex-row items-center gap-2'>
-                <p className={`text-${buttonTextColor} text-xs 2xl:text-lg`}>{btnword}</p>
-                <MdKeyboardArrowRight className={`text-${arrowColor}`} />
-            </button>
-        </div>
+        <button className='flex flex-row items-center gap-2'>
+          <p className={`text-${buttonTextColor} text-xs 2xl:text-lg`}>{btnword}</p>
+          {/* <MdKeyboardArrowRight className={`text-${arrowColor}`} /> */}
+        </button>
+      </div>
     </div>
   )
 }

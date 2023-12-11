@@ -55,7 +55,7 @@ const Level = () => {
             buttonColor="white"
             arrowColor="[#01819D]"
             buttonTextColor="[#01819D]"
-            btnword="01 CHANCE"
+            btnword="01 FREE CHANCE"
             point1={Correct}
             point2={Correct}
             point3={Correct}
@@ -74,7 +74,7 @@ const Level = () => {
             buttonColor="[#01819D]"
             arrowColor="white"
             buttonTextColor="white"
-            btnword="03 CHANCES"   
+            btnword="03 FREE CHANCES"   
             point1={Correct}
             point2={Correct}
             point3={Correct}
@@ -94,7 +94,7 @@ const Level = () => {
             buttonColor="[#01819D]"
             arrowColor="white"
             buttonTextColor="white"
-            btnword="10 CHANCES"
+            btnword="10 FREE CHANCES"
             point1={Correct}
             point2={Correct}
             point3={Correct}
@@ -116,7 +116,7 @@ const Level = () => {
             buttonColor="white"
             arrowColor="[#01819D]"
             buttonTextColor="[#01819D]"
-            btnword="25 CHANCES"
+            btnword="25 FREE CHANCES"
             point1={Correct}
             point2={Correct}
             point3={Correct}
@@ -140,7 +140,7 @@ const Level = () => {
             buttonColor="white"
             arrowColor="[#01819D]"
             buttonTextColor="[#01819D]"
-            btnword="150 CHANCES"
+            btnword="150 FREE CHANCES"
             point1={Correct}
             point2={Correct}
             point3={Correct}
