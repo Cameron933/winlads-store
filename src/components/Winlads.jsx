@@ -37,9 +37,9 @@ const Winlads = () => {
         <div className="flex justify-center">
           <img src={WinladsLogo} alt="" />
         </div>
-        <div className="flex xl:flex-row md:flex-row flex-row justify-between">
+        <div className="flex xl:flex-row md:flex-row flex-row justify-between overflow-x-hidden">
           {/* <div> */}
-          <div className="relative hover:scale-105">
+          <div className="relative">
             <img src={Car} />
             {/* <div className="absolute xl:top-60 md:top-20 top-10 left-0 right-0 z-10">
             <div className="flex flex-col xl:space-y-4 md:space-y-2 space-y-1 items-center xl:px-16 md:px-8 px-2">
@@ -56,26 +56,26 @@ const Winlads = () => {
           <div>
             <motion.img
               variants={imageAnimate}
-              className="hover:scale-105"
+              className=""
               src={Car1}
             />
-            {/* <img src={Car1} className="hover:scale-105" /> */}
+            {/* <img src={Car1} className="" /> */}
           </div>
-          <div className="hover:scale-105">
+          <div className="">
             <motion.img
               variants={imageAnimate}
               className=""
               src={Car2}
             />
-            {/* <img src={Car2} className="hover:scale-105" /> */}
+            {/* <img src={Car2} className="" /> */}
           </div>
           <div>
             <motion.img
               variants={imageAnimate}
-              className="hover:scale-105"
+              className=""
               src={Car3}
             />
-            {/* <img src={Car3} className="hover:scale-105" /> */}
+            {/* <img src={Car3} className="" /> */}
           </div>
         </div>
         {/* </div> */}

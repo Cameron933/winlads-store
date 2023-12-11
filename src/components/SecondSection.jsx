@@ -20,7 +20,7 @@ const SecondSection = () => {
               WELCOME TO WINLADS
             </p>
             <img src={Line} alt="" className="xl:py-4 md:py-4 py-2 w-48" />
-            <p className="text-gray-700 text-xs 2xl:text-lg w-36 md:w-72 xl:w-72">
+            <p className="text-gray-700 sm:text-md text-sm 2xl:text-lg w-36 md:w-72 xl:w-72">
             Picture this: you're kicking back, chilling, and earning easy cash—yeah, it's possible! We've got a stash of unreal deals waiting for ya. Plus, sling our program to your mates, and you'll be raking in dosh on the side. No worries, it's that easy!
             </p>
             {/* <p className="text-black text-xs 2xl:text-lg w-48 md:w-72 xl:w-72 capitalize">

@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="absolute top-10 right-4 xl:right-10 md:right-10 xl:left-20 left-4 bottom-0 z-10">
           <Header />
         </div>
-        <div className="flex flex-col xl:flex-row items-center gap-2 space-y-6">
+        <div className="flex flex-col xl:flex-row items-center gap-2 space-y-6 pointer-events-none">
           <div className="relative">
             <img src={HeroGroup} className="" />
             <div className="absolute xl:top-60 top-40 md:top-80">
@@ -60,7 +60,7 @@ const Hero = () => {
               Everyday
             </p>
             <p className="text-black text-sm text-center 2xl:text-xl capitalize">
-            With over 650+ businesses across 1000+ stores where you can accessexclusive discounts.
+            With over 200+ businesses across 200+ stores where you can accessexclusive discounts.
             </p>
           </div>
         </div>

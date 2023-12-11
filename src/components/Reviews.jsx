@@ -35,7 +35,7 @@ const Reviews = () => {
           </div>
           <div className="flex flex-col space-y-1">
             <div className="buttonColor px-4 py-2 rounded-md">
-              <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm 2xl:text-xl">
+              <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm 2xl:text-xl px-6">
                 Purchase
               </button>
             </div>
@@ -43,7 +43,7 @@ const Reviews = () => {
               <img src={ReviewsImg} className="w-16 2xl:w-24" />
             </div>
             <p className="text-[#01819D text-[8px] flex justify-end">
-              Based on<span className="text-[#8E8E8E] 2xl:text-sm">456 reviews</span>
+              Based on <span className="text-[#8E8E8E] 2xl:text-sm"> 456 reviews</span>
             </p>
           </div>
         </div>
@@ -64,7 +64,7 @@ const Reviews = () => {
         </div>
         <div className="flex flex-row items-center justify-between gap-4">
           <div className="flex flex-col space-y-1">
-            <p className="text-[#01819D] xl:text-4xl md:text-4xl 4xl:text-6xl text-2xl font-semibold">
+            <p className="text-[#01819D] xl:text-4xl md:text-4xl 4xl:text-6xl text-2xl font-semibold text-center">
               200<span className="text-gray-600">+</span>
             </p>
             <p className="text-[10px] text-center">
@@ -73,7 +73,7 @@ const Reviews = () => {
             </p>
           </div>
           <div className="flex flex-col space-y-1">
-            <p className="text-[#01819D] xl:text-4xl md:text-4xl 4xl:text-6xl text-2xl  font-semibold">
+            <p className="text-[#01819D] xl:text-4xl md:text-4xl 4xl:text-6xl text-2xl  font-semibold text-center">
               350<span className="text-gray-600">+</span>
             </p>
             <p className="text-[10px] text-center">
@@ -82,7 +82,7 @@ const Reviews = () => {
             </p>
           </div>
           <div className="flex flex-col space-y-1">
-            <p className="text-[#01819D] xl:text-4xl md:text-4xl 4xl:text-6xl text-2xl  font-semibold">
+            <p className="text-[#01819D] xl:text-4xl md:text-4xl 4xl:text-6xl text-2xl  font-semibold text-center">
               200<span className="text-gray-600">+</span>
             </p>
             <p className="text-[10px] text-center">

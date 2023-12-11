@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Card = ({bgColor, titleColor, title, titleColor2, title2, price, desc1, buttonTextColor, desc2, desc3, desc4, desc5, desc6, desc7, descColor, buttonColor, arrowColor, btnword, point1, point2, point3, point4, point5, point6, point7,}) => {
   return (
-    <div className={`rounded-md bg-${bgColor} p-4 2xl:p-8 shadow-md flex flex-col space-y-8 card-container`}>
+    <div className={`rounded-md p-4 2xl:p-8 shadow-md flex flex-col space-y-8 card-container`} style={{ backgroundColor: bgColor }}>
         <div className='flex flex-row justify-between'>
             <p className={`text-${titleColor} text-lg 2xl:text-xl`}>{title}</p>
             <p className={`text-${titleColor} text-lg 2xl:text-xl`}>{price}</p>
@@ -17,10 +17,13 @@ const Card = ({bgColor, titleColor, title, titleColor2, title2, price, desc1, bu
                 <img src={point1} alt="" />
                 <p className={`text-${descColor} text-xs 2xl:text-xl`}>{desc1}</p>
             </div>
-            <div className='flex flex-row items-center gap-2'>
+            {
+                desc2 &&  <div className='flex flex-row items-center gap-2'>
                 <img src={point2} alt="" />
                 <p className={`text-${descColor} text-xs 2xl:text-xl`}>{desc2}</p>
             </div>
+            }
+           
             <div className='flex flex-row items-center gap-2'>
                 <img src={point3} alt="" />
                 <p className={`text-${descColor} text-xs 2xl:text-xl`}>{desc3}</p>
