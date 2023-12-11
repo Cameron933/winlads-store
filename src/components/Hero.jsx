@@ -53,11 +53,11 @@ const Hero = () => {
           </div>
           <div className="flex flex-col gap-4 px-4">
             <p className="text-6xl xl:text-8xl 2xl:text-10xl capitalize font-semibold text-black text-center">
-              Get Chance
+            Elevating 
               <br />
-              to Win
+              Your 
               <br />
-              Everyday
+              Lifestyle
             </p>
             <p className="text-black text-sm text-center 2xl:text-xl capitalize">
             With over 200+ businesses across 200+ stores where you can accessexclusive discounts.
