@@ -41,7 +41,7 @@ const Level = () => {
        
         <img src={Jeep4} className="" />
       </div>
-      <motion.div variants={textAnimate}>
+      {/* <motion.div variants={textAnimate}> */}
         <div className="grid xl:grid-cols-2 grid-cols-1 md:grid-cols-2 gap-2">
           <Card
             bgColor="[#01819D]"
@@ -153,7 +153,7 @@ const Level = () => {
         <Card />
         <Card /> */}
         </div>
-      </motion.div>
+      {/* </motion.div> */}
     </div>
     </motion.div>
   );
