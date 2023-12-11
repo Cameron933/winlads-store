@@ -65,29 +65,29 @@ const Reviews = () => {
         <div className="flex flex-row items-center justify-between gap-4">
           <div className="flex flex-col space-y-1">
             <p className="text-[#01819D] xl:text-4xl md:text-4xl 4xl:text-6xl text-2xl font-semibold">
-              1.000<span className="text-gray-600">S</span>
+              750<span className="text-gray-600">+</span>
             </p>
             <p className="text-[10px] text-center">
-              In savings through our
-              <br /> mates rates discounts
+            Australian business
+              <br />  partners
             </p>
           </div>
           <div className="flex flex-col space-y-1">
             <p className="text-[#01819D] xl:text-4xl md:text-4xl 4xl:text-6xl text-2xl  font-semibold">
-              1.000<span className="text-gray-600">S</span>
+              750<span className="text-gray-600">+</span>
             </p>
             <p className="text-[10px] text-center">
-              Australian business
-              <br /> Benefits
+            In savings through
+              <br /> our partner discount
             </p>
           </div>
           <div className="flex flex-col space-y-1">
             <p className="text-[#01819D] xl:text-4xl md:text-4xl 4xl:text-6xl text-2xl  font-semibold">
-              +600<span className="text-gray-600">K</span>
+              1000<span className="text-gray-600">+</span>
             </p>
             <p className="text-[10px] text-center">
-              Australian business
-              <br /> Benefits
+            Stores you can redeem 
+              <br /> offers in person or online
             </p>
           </div>
         </div>
