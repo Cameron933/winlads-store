@@ -108,11 +108,7 @@ const Level = () => {
             point5={Correct}
           />
           <Card
-<<<<<<< HEAD
             bgColor="#dbc502"
-=======
-            bgColor="#a99800"
->>>>>>> 5007b8b (update project)
             title="Gold Tier"
             titleColor="white"
             title2="25 FREE ENTRIES"
