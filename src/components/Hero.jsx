@@ -1,6 +1,7 @@
 import React from "react";
 import HeroGroup from "../assets/heroGroup.png";
 import Jeep from "../assets/jeep.png";
+import Jeep5 from "../assets/jeep5.png";
 import Header from "./Header";
 import { motion } from "framer-motion";
 
@@ -39,7 +40,7 @@ const Hero = () => {
               <motion.img
                 variants={imageAnimate}
                 className=""
-                src={Jeep}
+                src={Jeep5}
                 // style={{
                 //   position: "absolute",
                 //   top: "300px",
@@ -59,9 +60,7 @@ const Hero = () => {
               Everyday
             </p>
             <p className="text-black text-sm text-center 2xl:text-xl capitalize">
-              OUR MEMBERSHIP PROGRAMME PROVIDES PERSONALISED RECOMMENDATIONS TO
-              ENSURE THAT YOU RECEIVE OFFERS AND DEALS THAT MATCH YOUR UNIQUE
-              TASTES.
+            With over 650+ businesses across 1000+ stores where you can accessexclusive discounts.
             </p>
           </div>
         </div>

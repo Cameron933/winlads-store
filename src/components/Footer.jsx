@@ -34,11 +34,11 @@ const Footer = () => {
             <p className="uppercase xl:text-lg md:text-lg text-sm 2xl:text-xl font-semibold">Links</p>
             <motion.div variants={textAnimate}>
               <div className="text-xs 2xl:text-lg space-y-1">
-                <p>Home</p>
-                <p>Service</p>
-                <p>Price</p>
-                <p>About Us</p>
-                <p>Features</p>
+                <p className="cursor-pointer">Home</p>
+                <p className="cursor-pointer">Service</p>
+                <p className="cursor-pointer">Price</p>
+                <p className="cursor-pointer">About Us</p>
+                <p className="cursor-pointer">Features</p>
               </div>
             </motion.div>
           </div>
@@ -49,10 +49,10 @@ const Footer = () => {
             </p>
             <motion.div variants={textAnimate}>
               <div className="text-xs 2xl:text-lg space-y-1">
-                <p>Membership T&C</p>
-                <p>Cars</p>
-                <p>Drive</p>
-                <p>Winners</p>
+              <a href="https://www.winlads.com/conditions"  className="cursor-pointer">Membership T&C</a>
+              <p className="cursor-pointer">Cars</p>
+              <p className="cursor-pointer">Drive</p>
+              <p className="cursor-pointer">Winners</p>
               </div>
             </motion.div>
           </div>
@@ -63,11 +63,11 @@ const Footer = () => {
             </p>
             <motion.div variants={textAnimate}>
               <div className="text-xs 2xl:text-lg space-y-1">
-                <p>Global Partners</p>
-                <p>Forum</p>
-                <p>Careers</p>
-                <p>Community</p>
-                <p>Brand Assets</p>
+              <p className="cursor-pointer">Global Partners</p>
+              <p className="cursor-pointer">Forum</p>
+              <p className="cursor-pointer">Careers</p>
+              <p className="cursor-pointer">Community</p>
+              <p className="cursor-pointer">Brand Assets</p>
               </div>
             </motion.div>
           </div>
