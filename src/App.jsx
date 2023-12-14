@@ -7,6 +7,8 @@ import Shared from "./components/Shared";
 import Footer from "./components/Footer"
 import Winlads from "./components/Winlads"
 import Partners from "./components/Partners";
+import Footer2 from "./components/Footer2";
+import Footer3 from "./components/Footer3";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
         <Level />
         <Shared />
         <Winlads />
-        <Footer />
+        {/* <Footer /> */}
+        {/* <Footer2/> */}
+        <Footer3/>
       </div>
     </>
   );
