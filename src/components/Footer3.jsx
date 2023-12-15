@@ -8,13 +8,13 @@ function Footer() {
       <div className="mx-auto max-w-[2400px] rounded-t-3xl bg-[#01819D] w-full">
         <div className="md:pl-0   px-3 sm:py-5 py-3">
           <div className="flex flex-col md:flex-row md:px-14">
-            <div className="xl:w-7/12 md:w-1/2 w-full m-2 sm:m-4  pt-5 2xl:pt-10 lg:pl-0">
+            <div className="xl:w-7/12 md:w-5/12 w-full m-2 sm:m-4  pt-5 2xl:pt-10 lg:pl-0">
               <img src={logo2} alt="" className="2xl:w-96" />
               <p className="text-sx sm:text-sm mt-5 2xl:text-xl special:text-2xl text-[#fff]">
                 Empowering Lives Through Winlads: A Journey of Giving Back
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row xl:w-5/12 md:w-1/2 w-full sm:justify-between pb-2 ">
+            <div className="flex flex-col sm:flex-row xl:w-5/12 md:w-7/12 w-full sm:justify-between pb-2 ">
               <div className="m-2 sm:m-4 text-[#fff] flex-1 ">
                 <p className="font-bold text-sm mb-3 2xl:text-xl special:text-2xl">
                   QUICK LINK
