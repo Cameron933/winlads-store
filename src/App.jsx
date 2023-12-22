@@ -1,34 +1,30 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Level from "./components/Level";
-import SecondSection from "./components/SecondSection"
-import Reviews from "./components/Reviews";
-import Shared from "./components/Shared";
-import Footer from "./components/Footer"
-import Winlads from "./components/Winlads"
-import Partners from "./components/Partners";
-import Footer2 from "./components/Footer2";
-import Footer3 from "./components/Footer3";
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./pages/Home"
+import Privacy from "./pages/Privacy";
+import TermsCondition from "./pages/TermsCondition";
 
 function App() {
-  return (
-    <>
-      <div className="relative pageBgColor">
-        <Hero />
-        <div className="absolute left-0 right-0 xl:pt-24">
-        <Reviews />
-        </div>
-      
-        <SecondSection />
+
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home/>,
+    },
+    {
+      path: "/privacy",
+      element: <Privacy/>,
+    },
+    {
+      path: "/conditions",
+      element: <TermsCondition/>,
+    },
+   
     
-        <Level />
-        <Shared />
-        <Winlads />
-        {/* <Footer /> */}
-        {/* <Footer2/> */}
-        <Footer3/>
-      </div>
-    </>
+      
+  ]);
+  return (
+    <RouterProvider router={router} />
   );
 }
 

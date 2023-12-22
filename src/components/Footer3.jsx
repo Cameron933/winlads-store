@@ -1,6 +1,7 @@
 import logo2 from "../assets/logo2.png";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { MdOutlineEmail } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -21,13 +22,8 @@ function Footer() {
                 </p>
                 <ul className="text-xs 2xl:text-xl flex flex-col gap-1">
                   <li className="cursor-pointer">
-                    <a
-                      href="https://winladsgiveaway.com/privacy"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Privacy Policy
-                    </a>
+                    <Link to="/privacy"> Privacy Policy</Link>
+                    
                   </li>
                   <li className="cursor-pointer">
                     {/* <a href="#" target="_blank" rel="noopener noreferrer">
@@ -35,13 +31,7 @@ function Footer() {
                     </a> */}
                   </li>
                   <li className="cursor-pointer">
-                    <a
-                      href="https://winladsgiveaway.com/terms"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Terms and Conditions
-                    </a>
+                    <Link to="/conditions"> Terms and Conditions</Link>
                   </li>
                 </ul>
               </div>
@@ -85,6 +75,12 @@ function Footer() {
                   </li>
                   <li className="cursor-pointer">
                    3039
+                  </li>
+                  <li className="cursor-pointer">
+                  NSW: TP/03199
+                  </li>
+                  <li className="cursor-pointer">
+                  Permit No: ACT TP 23/02687
                   </li>
                 </ul>
               </div>
