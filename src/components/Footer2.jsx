@@ -48,16 +48,14 @@ const Footer2 = () => {
           </p>
           <div className="flex flex-col text-xs 2xl:text-lg space-y-1">
             <p className="flex items-center gap-2 2xl:gap-5">
-                
-            <MdOutlineLocalPhone className="text-white text-sm 2xl:text-lg"/>
+              <MdOutlineLocalPhone className="text-white text-sm 2xl:text-lg" />
 
               <a href="#" target="_blank" rel="noopener noreferrer">
                 +44 05885 5455
               </a>
             </p>
             <p className="flex items-center gap-2 2xl:gap-5">
-
-            <MdOutlineEmail className="text-white text-sm 2xl:text-lg"/>
+              <MdOutlineEmail className="text-white text-sm 2xl:text-lg" />
 
               <a href="#" target="_blank" rel="noopener noreferrer">
                 info@windlads.com
