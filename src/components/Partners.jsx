@@ -48,6 +48,18 @@ const Partners = () => {
               <p className="text-white text-lg">|</p>
               <p className="text-white font-bold text-lg">Strip</p>
               <p className="text-white text-lg">|</p>
+              <p className="text-white font-bold text-lg">Stripe</p>
+              <p className="text-white text-lg">|</p>
+              <p className="text-white font-bold text-lg">Stripe</p>
+              <p className="text-white text-lg">|</p>
+              <p className="text-white font-bold text-lg">Stripe</p>
+              <p className="text-white text-lg">|</p>
+              <p className="text-white font-bold text-lg">Stripe</p>
+              <p className="text-white text-lg">|</p>
+              <p className="text-white font-bold text-lg">Stripe</p>
+              <p className="text-white text-lg">|</p>
+              <p className="text-white font-bold text-lg">Strip</p>
+              <p className="text-white text-lg">|</p>
             </div>
           </Marquee>
         </div>

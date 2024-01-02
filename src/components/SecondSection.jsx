@@ -33,7 +33,7 @@ const SecondSection = () => {
       <div className="relative">
         <div className="flex justify-end">
           <div className="absolute right-0  md:top-40 xl:top-40 top-60">
-            <img src={Vehicel} alt="" className="w-96 xl:w-[800px] lg:w-[500px]" />
+            <img src={Vehicel} alt="" className="w-64 xl:w-[800px] lg:w-[500px]" />
 
             {/* <motion.img
                 initial={carAnimation.initialMobile}

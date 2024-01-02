@@ -3,6 +3,9 @@ import { MdOutlineLocalPhone } from "react-icons/md";
 import { MdOutlineEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
 import NewLogo from "../assets/newLogo.png"
+import { FaInstagram } from "react-icons/fa";
+import { LuTwitter } from "react-icons/lu";
+import { PiTelegramLogo } from "react-icons/pi";
 
 function Footer() {
   return (
@@ -10,8 +13,15 @@ function Footer() {
       <div className="mx-auto max-w-[2400px] w-full">
         <div className="md:pl-0 px-3 sm:py-5 py-3">
           <div className="flex flex-col md:flex-row md:px-14">
-            <div className="xl:w-5/12 lg:w-5/12 md:w-4/12 w-full m-2 sm:m-4  pt-5 2xl:pt-10 lg:pl-0 ">
-              <img src={NewLogo} alt="" className="2xl:w-96" />
+            <div className="xl:w-5/12 lg:w-5/12 md:w-4/12 w-full m-2 sm:m-4  pt-5 2xl:pt-10 lg:pl-0 space-y-2">
+              <img src={NewLogo} alt="" className="w-12" />
+              <div className="flex flex-row items-center gap-4 text-white pt-2">
+                <FaInstagram className="" />
+                |
+                <LuTwitter />
+                |
+                <PiTelegramLogo />
+              </div>
               <div className="py-2">
                 <p className="text-xs special:text-base text-white">
                   Copyright 2023 Winlads, All Rights Reserved.

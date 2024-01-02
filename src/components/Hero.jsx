@@ -59,13 +59,13 @@ const Hero = () => {
               <br />
               Lifestyle
             </p>
-            <p className="text-black text-sm text-end 2xl:text-xl capitalize">
+            <p className="text-black text-sm xl:text-end 2xl:text-xl capitalize text-center">
               With over 200+ businesses across 200+ stores where you can
               accessexclusive discounts.
             </p>
             <div className="flex xl:justify-end justify-center">
             <div className="bgColor px-4 py-2 rounded-md text-center w-24 flex justify-center items-center">
-              <button className="text-white  font-semibold capitalize xl:text-lg md:text-lg text-sm">
+              <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm">
                 Purchase
               </button>
             </div>
