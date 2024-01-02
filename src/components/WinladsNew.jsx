@@ -1,5 +1,5 @@
 import React from "react";
-import WinladsLogo from "../assets/Winlads.png";
+// import WinladsLogo from "../assets/Winlads.png";
 import Car10 from "../assets/cars/Card 10.png";
 import Car8 from "../assets/cars/Card 8.png";
 import Car9 from "../assets/cars/Card 9.png";
@@ -27,7 +27,7 @@ const WinladsNew = () => {
     >
       <div className="mt-4 flex flex-col space-y-8 px-4 md:px-20 my-20">
         <div className="flex justify-center">
-          <img src={WinladsLogo} alt="" />
+          {/* <img src={WinladsLogo} alt="" /> */}
         </div>
         <div className="flex items-center justify-center gap-2 md:gap-3">
             <WinladsCard
