@@ -11,12 +11,12 @@ const SecondSection = () => {
   return (
     <div className="relative">
       <div className="absolute xl:left-20 md:-left-20 -left-52 right-0 bottom-0 top-60 md:top-80 z-10">
-        <div className="flex flex-row xl:gap-4 md:gap-4 2xl:gap-16 gap-4">
-          <p className="rotate-90 text-[#E83F3F] xl:text-4xl md:text-4xl text-4xl 2xl:text-6xl font-semibold">
+        <div className="flex flex-row xl:space-x-8 md:space-x-4 2xl:space-x-16 space-x-4">
+          <p className="rotate-90 text-[#E83F3F] xl:text-2xl md:text-3xl text-4xl 2xl:text-4xl font-semibold">
             winladsgiveaway
           </p>
-          <div className="flex flex-col xl:space-y-4 md:space-y-4 space-y-2">
-            <p className="text-black xl:text-4xl md:text-3xl 2xl:text-4xl font-semibold">
+          <div className="flex flex-col xl:space-y-2 md:space-y-4 space-y-2">
+            <p className="text-black xl:text-3xl md:text-3xl 2xl:text-4xl font-semibold">
               WELCOME TO WINLADS
             </p>
             <img src={Line} alt="" className="xl:py-4 md:py-4 py-2 w-48" />
