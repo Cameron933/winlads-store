@@ -17,7 +17,7 @@ const Card = ({ bgColorFrom = '#D9E9FF', bgColorTo = '#89CCFD', titleColor = 'bl
                 <p className={`text-${titleColor} text-lg lg:text-xl 2xl:text-2xl`}>{price}</p>
             </div>
             <div className='flex flex-col justify-between items-center mb-10'>
-                <p className={`font-bold text-xl 2xl:text-2xl`} style={{ color: titleColor2 }}><span className='text-8xl'>{title2.slice(0,3).trim()}</span> FREE ENTRIES</p>
+                <p className={`font-bold text-lg 2xl:text-xl`} style={{ color: titleColor2 }}><span className='text-6xl lg:text-7xl'>{title2.slice(0,3).trim()}</span> FREE ENTRIES</p>
             </div>
             <div className='flex flex-col space-y-2 bg-white p-5 rounded-xl mb-10'>
                 <div className='flex flex-row items-center gap-2'>
