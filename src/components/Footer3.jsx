@@ -44,7 +44,7 @@ function Footer() {
                 <ul className="text-xs 2xl:text-sm flex flex-col gap-1">
                   <li className="cursor-pointer">
                     <Link
-                      to="/privacy"
+                      to="/privacypolicy"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -58,7 +58,7 @@ function Footer() {
                   </li>
                   <li className="cursor-pointer">
                     <Link
-                      to="/conditions"
+                      to="/termsconditions"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

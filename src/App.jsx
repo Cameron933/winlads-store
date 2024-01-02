@@ -11,11 +11,11 @@ function App() {
       element: <Home />,
     },
     {
-      path: "/privacy",
+      path: "/privacypolicy",
       element: <Privacy />,
     },
     {
-      path: "/conditions",
+      path: "/termsconditions",
       element: <TermsCondition />,
     },
   ]);
