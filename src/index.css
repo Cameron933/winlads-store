@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.bgImg{
+  background-image: url("./assets/bgCar.png");
+}
+
+.bgColor{
+  background: linear-gradient(to right, #E83F3F 100%, #A20505  100%);
+}
 
 .buttonColor {
   background: linear-gradient(to right, #43BBED 100%, #017E9D 100%);

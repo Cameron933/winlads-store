@@ -11,7 +11,7 @@ const Partners = () => {
       </p>
 
       <div className="flex-col space-y-2">
-        <div className="flex flex-row items-center bg-[#01819D] py-2 w-full">
+        <div className="flex flex-row items-center  py-2 w-full bgColor">
           <Marquee>
             <div className="flex flex-row space-x-8">
               <p className="text-white font-bold text-lg">Stripe</p>

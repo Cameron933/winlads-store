@@ -51,17 +51,26 @@ const Hero = () => {
               {/* <img src={Jeep} alt="" className="" /> */}
             </div>
           </div>
-          <div className="flex flex-col gap-4 px-4">
+          <div className="flex flex-col gap-4 xl:px-8">
             <p className="text-6xl xl:text-8xl 2xl:text-10xl capitalize font-semibold text-black text-center">
-            Elevating 
+              Elevating
               <br />
-              Your 
+              Your
               <br />
               Lifestyle
             </p>
-            <p className="text-black text-sm text-center 2xl:text-xl capitalize">
-            With over 200+ businesses across 200+ stores where you can accessexclusive discounts.
+            <p className="text-black text-sm text-end 2xl:text-xl capitalize">
+              With over 200+ businesses across 200+ stores where you can
+              accessexclusive discounts.
             </p>
+            <div className="flex xl:justify-end justify-center">
+            <div className="bgColor px-4 py-2 rounded-md text-center w-24 flex justify-center items-center">
+              <button className="text-white  font-semibold capitalize xl:text-lg md:text-lg text-sm">
+                Purchase
+              </button>
+            </div>
+            </div>
+         
           </div>
         </div>
       </div>

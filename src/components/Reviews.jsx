@@ -3,7 +3,7 @@ import ReviewsImg from "../assets/reviews.png";
 
 const Reviews = () => {
   return (
-    <div className="">
+    <div className="" style={{backgroundImage: ReviewsImg}}>
       <div className="hidden xl:flex">
         <div className="mx-8 flex md:gap-12 gap-4 xl:gap-36 justify-center xl:absolute bottom-0 right-0 left-0  pt-4 z-10">
           <div className="flex flex-col space-y-1">
