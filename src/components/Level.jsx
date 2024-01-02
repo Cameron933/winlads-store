@@ -1,6 +1,7 @@
 import React from "react";
 import Jeep3 from "../assets/jeep3.png";
 import Jeep4 from "../assets/jeep4.png";
+import cabBack from "../assets/cab-back.png";
 import Card from "./Card";
 import { motion } from "framer-motion";
 import Correct from "../assets/correct.png"
@@ -30,33 +31,32 @@ const Level = () => {
     // }}
   >
 
-    <div className="flex flex-col md:flex-col xl:flex-row xl:px-8 px-4 justify-between xl:items-center pt-8 2xl-pt-0 xl:pt-0 md:pt-0">
+    <div className="flex flex-col xl:px-8 px-4 justify-between xl:items-center pt-8 2xl-pt-0 xl:pt-0 md:pt-0 mb-20">
       <div className="flex flex-col gap-2 items-center">
         <div className="block 2xl:hidden">
         <p className="xl:text-8xl md:text-6xl text-4xl font-semibold 4xl:text-10xl md:text-center text-center xl:text-start">CHOOSE A<br /> SUBSCRIPTION  <br />PLAN</p>
         </div>
         <div className="hidden 2xl:block">
-        <p className="text-6xl">CHOOSE A<br /> SUBSCRIPTION PLAN</p>
+        <p className="text-6xl font-bold">CHOOSE YOUR LEVEL</p>
         </div>
        
-        <img src={Jeep4} className="" />
+        <img src={cabBack} className="" />
       </div>
       {/* <motion.div variants={textAnimate}> */}
-        <div className="grid xl:grid-cols-2 grid-cols-1 md:grid-cols-2 gap-2">
+        <div className="grid xl:grid-cols-5 grid-cols-1 md:grid-cols-2 gap-2">
           <Card
-            bgColor="#808080"
             title="Starter Tier"
-            titleColor="white"
+            // titleColor="white"
             title2="01 FREE ENTRY"
-            titleColor2="white"
+            titleColor2="#0082E1"
             // price="$9.99"
             desc1="$9.99 per month"
             // desc2="Referral Commission: 2.5%"
             desc3="Partner Store Discounts: 10% discount for 1 month upon sign-up"
-            descColor="white"
-            buttonColor="white"
+            // descColor="white"
+            buttonColor="#0082E1"
             arrowColor="[#01819D]"
-            buttonTextColor="[#01819D]"
+            buttonTextColor={'white'}
             btnword="SIGNED UP FOR FREE"
             point1={Correct}
             point2={Correct}
@@ -64,18 +64,19 @@ const Level = () => {
             // btnword="Get started now"
           />
           <Card
-            bgColor="#366b71"
+            bgColorFrom="#FFF0EB"
+            bgColorTo="#FEC2A9"
             title="Boomer Tier"
-            titleColor="white"
+            // titleColor="white"
             title2="03 FREE ENTRIES"
-            titleColor2="white"
+            titleColor2="#CF3A00"
             // price="$19.99"
             desc1="$19.99 per month"
             // desc2="Referral Commission: 5%"
             desc3="Access to partner store database at a 10% discount for 3 months"
             desc4=" Partner Store Discounts: 10% discount for 3 months"
-            descColor="white"
-            buttonColor="[#01819D]"
+            // descColor="white"
+            buttonColor="#CF3A00"
             arrowColor="white"
             buttonTextColor="white"
             btnword="SIGNED UP FOR FREE"   
@@ -85,19 +86,20 @@ const Level = () => {
             point4={Correct}
           />
           <Card
-            bgColor="white"
+            bgColorFrom="#DDFCFF"
+            bgColorTo="#90F8FF"
             title="Platinum Tier"
-            titleColor="[#01819D]"
+            // titleColor="[#01819D]"
             title2="10 FREE ENTRIES"
-            titleColor2="[#01819D]"
+            titleColor2="#269CA5"
             // price="$49.99"
             desc1="$49.99 per month"
             desc2="Partner Store Database Access"
             desc3="Access to partner store database at a 10%-15% discount for 3 months"
             desc4="Partner Store Discounts: 10%-15% discount for 6 months"
             desc5=" Access to Winlads Public Events"
-            descColor="[#01819D]"
-            buttonColor="[#01819D]"
+            // descColor="[#01819D]"
+            buttonColor="#007D87"
             arrowColor="white"
             buttonTextColor="white"
             btnword="SIGNED UP FOR FREE"
@@ -108,11 +110,13 @@ const Level = () => {
             point5={Correct}
           />
           <Card
-            bgColor="#dbc502"
+            bgColorFrom="#FFFAEB"
+            bgColorTo="#FFEA8D"
+            mostPopular={true}
             title="Gold Tier"
-            titleColor="white"
+            // titleColor="white"
             title2="25 FREE ENTRIES"
-            titleColor2="white"
+            titleColor2="#9B7D00"
             // price="$100"
             desc1="$100 per month"
             // desc2="Premium Tier"
@@ -120,10 +124,10 @@ const Level = () => {
             desc4="Access to partner store database at a 15% discount for 12 months"
             desc5="Access to Winlads Urgency Program"
             desc6="Access to Winlads Public Events"
-            descColor="white"
-            buttonColor="white"
+            // descColor="white"
+            buttonColor="#000000"
             arrowColor="[#01819D]"
-            buttonTextColor="[#01819D]"
+            buttonTextColor={'white'}
             btnword="SIGNED UP FOR FREE"
             point1={Correct}
             point2={Correct}
@@ -133,11 +137,12 @@ const Level = () => {
             point6={Correct}
           />
           <Card
-            bgColor="#1f1f1f"
+            bgColorFrom="#E5EEF6"
+            bgColorTo="#BABDC3"
             title="Black Tier"
-            titleColor="white"
+            // titleColor="white"
             title2="150 FREE ENTRIES"
-            titleColor2="white"
+            titleColor2="#475A79"
             // price="$500"
             desc1="$500 per month"
             desc2="Partner Store Discounts rates ranging upto 20%"
@@ -146,10 +151,10 @@ const Level = () => {
             desc5="Winlads OG member Eligibility after 6 months"
             desc6="Access to Winlads Urgency Program"
             desc7="Access to Winlads limited and Public Events"
-            descColor="white"
-            buttonColor="white"
+            // descColor="white"
+            buttonColor="#475A79"
             arrowColor="[#01819D]"
-            buttonTextColor="[#01819D]"
+            buttonTextColor={'white'}
             btnword="SIGNED UP FOR FREE"
             point1={Correct}
             point2={Correct}
