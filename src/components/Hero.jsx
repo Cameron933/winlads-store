@@ -4,6 +4,7 @@ import Jeep from "../assets/jeep.png";
 import Jeep5 from "../assets/new-jeep.png";
 import Header from "./Header";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const imageAnimate = {
   offscreen: { x: -100, opacity: 0 },
@@ -16,6 +17,12 @@ const imageAnimate = {
 };
 
 const Hero = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    window.location.href = 'https://www.winlads.com/signup';
+  };
+
   return (
     <motion.div
       initial={"offscreen"}
@@ -64,13 +71,14 @@ const Hero = () => {
               accessexclusive discounts.
             </p>
             <div className="flex xl:justify-end justify-center">
-            <div className="bgColor px-4 py-2 rounded-md text-center w-24 flex justify-center items-center">
-              <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm">
-                Purchase
-              </button>
+              <div
+                className="bgColor hover:bg-red-300 px-4 py-2 rounded-md text-center w-48 flex justify-center items-center"
+              >
+                <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm cursor-pointer">
+                  Sign up for free
+                </button>
+              </div>
             </div>
-            </div>
-         
           </div>
         </div>
       </div>

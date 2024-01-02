@@ -10,13 +10,13 @@ const Header = () => {
           <p className="text-white text-xs xl:text-lg md:text-lg">Winlads</p>
         </div>
         <div className="flex flex-row gap-2 uppercase text-black items-center cursor-pointer 2xl:text-lg">
-          <a
+          {/* <a
             href="https://www.winlads.com/login"
             target="_blank"
             rel="noopener noreferrer"
           >
             <p className="text-xs md:text-md hover:font-bold">Login</p>
-          </a>
+          </a> */}
 
           {/* <p className="text-xs hover:font-bold">register</p> */}
           {/* <p className="text-xs md:text-md hover:font-bold">language</p> */}
