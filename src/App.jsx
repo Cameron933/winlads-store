@@ -1,30 +1,29 @@
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/Home"
+import Home from "./pages/Home";
 import Privacy from "./pages/Privacy";
 import TermsCondition from "./pages/TermsCondition";
+import GoogleAnalytics from "./utils/GoogleAnalytics";
 
 function App() {
-
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home/>,
+      element: <Home />,
     },
     {
       path: "/privacy",
-      element: <Privacy/>,
+      element: <Privacy />,
     },
     {
       path: "/conditions",
-      element: <TermsCondition/>,
+      element: <TermsCondition />,
     },
-   
-    
-      
   ]);
   return (
-    <RouterProvider router={router} />
+    <>
+    <GoogleAnalytics trackingCode="G-YDXC1L2QP5" />
+      <RouterProvider router={router} />
+    </>
   );
 }
 
