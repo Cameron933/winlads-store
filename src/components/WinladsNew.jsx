@@ -25,11 +25,11 @@ const WinladsNew = () => {
       viewport={{ once: true, amount: 0.5 }}
       transition={{ staggerChildren: 0.5 }}
     >
-      <div className="mt-4 flex flex-col space-y-8 px-4 my-20">
+      <div className="mt-4 flex flex-col space-y-8 px-4 md:px-20 my-20">
         <div className="flex justify-center">
           <img src={WinladsLogo} alt="" />
         </div>
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-center gap-2 md:gap-3">
             <WinladsCard
             image={Car}
             isExpand={true}
