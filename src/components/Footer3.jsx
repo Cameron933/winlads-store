@@ -41,10 +41,10 @@ function Footer() {
                 <p className="font-bold text-sm mb-3 2xl:text-xl special:text-2xl">
                   QUICK LINK
                 </p>
-                <ul className="text-xs 2xl:text-xl flex flex-col gap-1">
+                <ul className="text-xs 2xl:text-sm flex flex-col gap-1">
                   <li className="cursor-pointer">
                     <Link
-                      to="privacy"
+                      to="/privacy"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -58,7 +58,7 @@ function Footer() {
                   </li>
                   <li className="cursor-pointer">
                     <Link
-                      to="conditions"
+                      to="/conditions"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -72,7 +72,7 @@ function Footer() {
                 <p className="font-bold mb-3 text-sm 2xl:text-xl special:text-2xl">
                   Contact Us
                 </p>
-                <ul className="text-xs 2xl:text-xl flex flex-col gap-1 ">
+                <ul className="text-xs 2xl:text-sm flex flex-col gap-1 ">
                   <li className=" cursor-pointer flex items-center gap-2 2xl:gap-5">
                     <MdOutlineLocalPhone className="text-white text-sm 2xl:text-lg" />
 
@@ -94,7 +94,7 @@ function Footer() {
                 <p className="font-bold text-sm mb-3 2xl:text-xl special:text-2xl">
                   News Letter
                 </p>
-                <ul className="text-xs 2xl:text-xl flex flex-col gap-1">
+                <ul className="text-xs 2xl:text-sm  flex flex-col gap-1">
                   <li className="cursor-pointer">2009/15 Everage St</li>
                   <li className="cursor-pointer">Moonee Ponds</li>
                   <li className="cursor-pointer">Victoria</li>
@@ -105,7 +105,7 @@ function Footer() {
                 <p className="font-bold text-sm mb-3 2xl:text-xl special:text-2xl">
                   Registration
                 </p>
-                <ul className="text-xs 2xl:text-xl flex flex-col gap-1">
+                <ul className="text-xs 2xl:text-sm flex flex-col gap-1">
                   <li className="cursor-pointer">ABN: 87671535149</li>
                   <li className="cursor-pointer">NSW: TP/03199</li>
                   <li className="cursor-pointer">Permit No: ACT TP 23/02687</li>

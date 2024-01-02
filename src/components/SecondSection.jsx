@@ -10,7 +10,7 @@ import Vehicel from "../assets/new-jeep-half.png";
 const SecondSection = () => {
   return (
     <div className="relative">
-      <div className="absolute xl:left-20 md:-left-20 -left-52 right-0 bottom-0 top-60 md:top-80 z-10">
+      <div className="absolute xl:left-20 md:-left-20 -left-52 right-0 bottom-0 top-20 md:top-40 z-10">
         <div className="flex flex-row xl:space-x-8 md:space-x-4 2xl:space-x-16 space-x-4">
           <p className="rotate-90 text-[#E83F3F] xl:text-2xl md:text-3xl text-4xl 2xl:text-4xl font-semibold">
             winladsgiveaway
@@ -32,8 +32,8 @@ const SecondSection = () => {
 
       <div className="relative">
         <div className="flex justify-end">
-          <div className="absolute right-0  md:top-40 xl:top-40 top-60">
-            <img src={Vehicel} alt="" className="w-64 xl:w-[800px] lg:w-[500px]" />
+          <div className="absolute right-0  md:top-40 xl:top-40 top-20">
+            <img src={Vehicel} alt="" className="w-64 xl:w-[600px] lg:w-[400px]" />
 
             {/* <motion.img
                 initial={carAnimation.initialMobile}

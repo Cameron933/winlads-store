@@ -31,10 +31,10 @@ const Level = () => {
     // }}
     >
 
-      <div className="flex flex-col xl:px-8 px-4 justify-between xl:items-center pt-24 2xl-pt-0 xl:pt-0 mb-20 md:-translate-y-32">
+      <div className="flex flex-col xl:px-8 px-4 justify-between xl:items-center md:pt-4 pt-24 2xl-pt-0 xl:pt-0 mb-20 md:-translate-y-32">
         <div className="flex flex-col gap-2 items-center">
           <div className="block 2xl:hidden">
-            <p className="xl:text-8xl md:text-6xl text-4xl font-semibold 4xl:text-10xl md:text-center text-center xl:text-start">CHOOSE A<br /> SUBSCRIPTION  <br />PLAN</p>
+            <p className="xl:text-6xl md:text-4xl text-3xl font-semibold special:text-10xl md:text-center text-center xl:text-start">CHOOSE A<br /> SUBSCRIPTION  <br />PLAN</p>
           </div>
           <div className="hidden 2xl:block">
             <p className="text-6xl font-bold">CHOOSE YOUR LEVEL</p>
@@ -53,6 +53,7 @@ const Level = () => {
             desc1="$9.99 per month"
             // desc2="Referral Commission: 2.5%"
             desc2="Partner Store Discounts: 10% discount for 1 month upon sign-up"
+            desc3="Virtual access to Winlads Club Day"
             // descColor="white"
             buttonColor="#0082E1"
             arrowColor="[#01819D]"
