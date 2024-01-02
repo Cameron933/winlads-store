@@ -19,30 +19,30 @@ const textAnimate = {
 const Level = () => {
   return (
     <motion.div
-    initial={"offscreen"}
-    whileInView={"onscreen"}
-    viewport={{ once: true, amount: 0.5 }}
-    transition={{ staggerChildren: 0 }}
+      initial={"offscreen"}
+      whileInView={"onscreen"}
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ staggerChildren: 0 }}
     // style={{
     //   paddingBottom: "50px",
     //   height: "auto",
     //   position: "relative",
     //   background: "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
     // }}
-  >
+    >
 
-    <div className="flex flex-col xl:px-8 px-4 justify-between xl:items-center pt-8 2xl-pt-0 xl:pt-0 md:pt-0 mb-20">
-      <div className="flex flex-col gap-2 items-center">
-        <div className="block 2xl:hidden">
-        <p className="xl:text-8xl md:text-6xl text-4xl font-semibold 4xl:text-10xl md:text-center text-center xl:text-start">CHOOSE A<br /> SUBSCRIPTION  <br />PLAN</p>
+      <div className="flex flex-col xl:px-8 px-4 justify-between xl:items-center pt-8 2xl-pt-0 xl:pt-0 md:pt-0 mb-20 md:-translate-y-32">
+        <div className="flex flex-col gap-2 items-center">
+          <div className="block 2xl:hidden">
+            <p className="xl:text-8xl md:text-6xl text-4xl font-semibold 4xl:text-10xl md:text-center text-center xl:text-start">CHOOSE A<br /> SUBSCRIPTION  <br />PLAN</p>
+          </div>
+          <div className="hidden 2xl:block">
+            <p className="text-6xl font-bold">CHOOSE YOUR LEVEL</p>
+          </div>
+
+          <img src={cabBack} className="" />
         </div>
-        <div className="hidden 2xl:block">
-        <p className="text-6xl font-bold">CHOOSE YOUR LEVEL</p>
-        </div>
-       
-        <img src={cabBack} className="" />
-      </div>
-      {/* <motion.div variants={textAnimate}> */}
+        {/* <motion.div variants={textAnimate}> */}
         <div className="grid xl:grid-cols-5 grid-cols-1 md:grid-cols-2 gap-4 px-3">
           <Card
             title="Starter Tier"
@@ -61,7 +61,7 @@ const Level = () => {
             point1={Correct}
             point2={Correct}
             point3={Correct}
-            // btnword="Get started now"
+          // btnword="Get started now"
           />
           <Card
             bgColorFrom="#FFF0EB"
@@ -79,7 +79,7 @@ const Level = () => {
             buttonColor="#CF3A00"
             arrowColor="white"
             buttonTextColor="white"
-            btnword="SIGNED UP FOR FREE"   
+            btnword="SIGNED UP FOR FREE"
             point1={Correct}
             point2={Correct}
             point3={Correct}
@@ -168,8 +168,8 @@ const Level = () => {
         <Card />
         <Card /> */}
         </div>
-      {/* </motion.div> */}
-    </div>
+        {/* </motion.div> */}
+      </div>
     </motion.div>
   );
 };
