@@ -149,7 +149,7 @@ const Card = ({
               style={{ color: buttonColor }}
               onClick={handleClick}
             >
-              view more
+              {showmore ? "View Less" : "View More"}
             </p>
           </div>
         )}

@@ -4,7 +4,7 @@ import Jeep4 from "../assets/jeep4.png";
 import cabBack from "../assets/cab-back.png";
 import Card from "./Card";
 import { motion } from "framer-motion";
-import Correct from "../assets/correct.png"
+import Correct from "../assets/correct.png";
 
 const textAnimate = {
   offscreen: { y: -100, opacity: 0 },
@@ -23,18 +23,20 @@ const Level = () => {
       whileInView={"onscreen"}
       viewport={{ once: true, amount: 0.5 }}
       transition={{ staggerChildren: 0 }}
-    // style={{
-    //   paddingBottom: "50px",
-    //   height: "auto",
-    //   position: "relative",
-    //   background: "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
-    // }}
+      // style={{
+      //   paddingBottom: "50px",
+      //   height: "auto",
+      //   position: "relative",
+      //   background: "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
+      // }}
     >
-
       <div className="flex flex-col xl:px-8 px-4 justify-between xl:items-center md:pt-4 pt-24 2xl-pt-0 xl:pt-0 mb-20 md:-translate-y-32">
         <div className="flex flex-col gap-2 items-center">
           <div className="block 2xl:hidden">
-            <p className="xl:text-6xl md:text-4xl text-3xl font-semibold special:text-10xl md:text-center text-center xl:text-start">CHOOSE A<br /> SUBSCRIPTION  <br />PLAN</p>
+            <p className="xl:text-6xl md:text-4xl text-3xl font-semibold special:text-10xl md:text-center text-center xl:text-start">
+              CHOOSE A<br /> SUBSCRIPTION <br />
+              PLAN
+            </p>
           </div>
           <div className="hidden 2xl:block">
             <p className="text-6xl font-bold">CHOOSE YOUR LEVEL</p>
@@ -57,15 +59,15 @@ const Level = () => {
             // descColor="white"
             buttonColor="#0082E1"
             arrowColor="[#01819D]"
-            buttonTextColor={'white'}
-            btnword="SIGNED UP FOR FREE"
+            buttonTextColor={"white"}
+            btnword="SIGN UP FOR FREE"
             bgColorFrom="#0094FF"
             bgColorTo="#00347C"
             point1={Correct}
             point2={Correct}
             point3={Correct}
             titleColor="black"
-          // btnword="Get started now"
+            // btnword="Get started now"
           />
           <Card
             bgColorFrom="#FF4700"
@@ -84,7 +86,7 @@ const Level = () => {
             buttonColor="#CF3A00"
             arrowColor="white"
             buttonTextColor="white"
-            btnword="SIGNED UP FOR FREE"
+            btnword="SIGN UP FOR FREE"
             point1={Correct}
             point2={Correct}
             point3={Correct}
@@ -101,14 +103,14 @@ const Level = () => {
             // price="$49.99"
             desc1="$49.99 per month"
             desc2="Partner Store Database Access"
-            desc3="Access to partner store database at a 10%-15% discount for 3 months"
-            desc4="Partner Store Discounts: 10%-15% discount for 6 months"
-            desc5=" Access to Winlads Public Events"
+            desc3="Partner Store Discounts: 10%-15% discount for 6 months"
+            desc4="Access to Winlads Public Events"
+            desc5="Access to partner store database at a 10%-15% discount for 3 months"
             // descColor="[#01819D]"
             buttonColor="#007D87"
             arrowColor="white"
             buttonTextColor="white"
-            btnword="SIGNED UP FOR FREE"
+            btnword="SIGN UP FOR FREE"
             point1={Correct}
             point2={Correct}
             point3={Correct}
@@ -128,14 +130,14 @@ const Level = () => {
             desc1="$100 per month"
             // desc2="Premium Tier"
             desc2="Partner Store Database Access"
-            desc3="Access to partner store database at a 15% discount for 12 months"
-            desc4="Access to Winlads Urgency Program"
+            desc3="Access to Winlads Urgency Program"
+            desc4="Access to partner store database at a 15% discount for 12 months"
             desc5="Access to Winlads Public Events"
             // descColor="white"
             buttonColor="#000000"
             arrowColor="[#01819D]"
-            buttonTextColor={'white'}
-            btnword="SIGNED UP FOR FREE"
+            buttonTextColor={"white"}
+            btnword="SIGN UP FOR FREE"
             point1={Correct}
             point2={Correct}
             point3={Correct}
@@ -154,16 +156,16 @@ const Level = () => {
             // price="$500"
             desc1="$500 per month"
             desc2="Partner Store Discounts rates ranging upto 20%"
-            desc3="12 months access to premium merchant discounts upto 20%."
+            desc3="Access to Winlads Urgency Program"
             desc4="Exclusive perks and privileges tailored for Black Tier members"
             desc5="Winlads OG member Eligibility after 6 months"
-            desc6="Access to Winlads Urgency Program"
+            desc6="12 months access to premium merchant discounts upto 20%."
             desc7="Access to Winlads limited and Public Events"
             // descColor="white"
             buttonColor="#475A79"
             arrowColor="[#01819D]"
-            buttonTextColor={'white'}
-            btnword="SIGNED UP FOR FREE"
+            buttonTextColor={"white"}
+            btnword="SIGN UP FOR FREE"
             point1={Correct}
             point2={Correct}
             point3={Correct}
