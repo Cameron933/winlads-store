@@ -8,7 +8,7 @@ import Img5 from "../assets/gallery/img5.png";
 
 const NewGallery = () => {
   return (
-    <div className="flex flex-col xl:space-y-8 space-x-4 py-8">
+    <div className="flex flex-col xl:space-y-8 space-y-4 py-8">
       <div className="flex justify-center">
         <img src={NewLogo} alt="" className="w-48 xl:w-72" />
       </div>
