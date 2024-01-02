@@ -36,7 +36,7 @@ const Hero = () => {
         <div className="flex flex-col xl:flex-row items-center gap-2 space-y-6 pointer-events-none">
           <div className="relative">
             <img src={HeroGroup} className="" />
-            <div className="absolute xl:top-60 top-40 md:top-80">
+            <div className="absolute xl:top-64 top-40 md:top-80 xl:scale-110 xl:left-10">
               <motion.img
                 variants={imageAnimate}
                 className=""

@@ -43,12 +43,12 @@ const Level = () => {
           <img src={cabBack} className="" />
         </div>
         {/* <motion.div variants={textAnimate}> */}
-        <div className="grid xl:grid-cols-5 grid-cols-1 md:grid-cols-3 gap-4 px-3">
+        <div className="grid xl:grid-cols-5 grid-cols-1 md:grid-cols-3 gap-4 px-3 xs:px-32 md:px-0">
           <Card
             title="Starter Tier"
             // titleColor="white"
             title2="01 FREE ENTRY"
-            titleColor2="#0082E1"
+            titleColor2="#FFF"
             // price="$9.99"
             desc1="$9.99 per month"
             // desc2="Referral Commission: 2.5%"
@@ -58,18 +58,22 @@ const Level = () => {
             arrowColor="[#01819D]"
             buttonTextColor={'white'}
             btnword="SIGNED UP FOR FREE"
+            bgColorFrom="#0094FF"
+            bgColorTo="#00347C"
             point1={Correct}
             point2={Correct}
             point3={Correct}
+            titleColor="white"
           // btnword="Get started now"
           />
           <Card
-            bgColorFrom="#FFF0EB"
-            bgColorTo="#FEC2A9"
+            bgColorFrom="#FF4700"
+            bgColorTo="#611C00"
             title="Boomer Tier"
+            titleColor="white"
             // titleColor="white"
             title2="03 FREE ENTRIES"
-            titleColor2="#CF3A00"
+            titleColor2="#FFF"
             // price="$19.99"
             desc1="$19.99 per month"
             // desc2="Referral Commission: 5%"
@@ -86,12 +90,13 @@ const Level = () => {
             point4={Correct}
           />
           <Card
-            bgColorFrom="#DDFCFF"
-            bgColorTo="#90F8FF"
+            bgColorFrom="#00ECFF"
+            bgColorTo="#006168"
             title="Platinum Tier"
+            titleColor="white"
             // titleColor="[#01819D]"
             title2="10 FREE ENTRIES"
-            titleColor2="#269CA5"
+            titleColor2="#FFF"
             // price="$49.99"
             desc1="$49.99 per month"
             desc2="Partner Store Database Access"
@@ -110,13 +115,14 @@ const Level = () => {
             point5={Correct}
           />
           <Card
-            bgColorFrom="#FFFAEB"
-            bgColorTo="#FFEA8D"
+            bgColorFrom="#FFBE00"
+            bgColorTo="#766000"
             mostPopular={true}
             title="Gold Tier"
+            titleColor="white"
             // titleColor="white"
             title2="25 FREE ENTRIES"
-            titleColor2="#9B7D00"
+            titleColor2="#FFF"
             // price="$100"
             desc1="$100 per month"
             // desc2="Premium Tier"
@@ -137,12 +143,13 @@ const Level = () => {
             point6={Correct}
           />
           <Card
-            bgColorFrom="#E5EEF6"
-            bgColorTo="#BABDC3"
+            bgColorFrom="#23282E"
+            bgColorTo="#000"
             title="Black Tier"
+            titleColor="white"
             // titleColor="white"
             title2="150 FREE ENTRIES"
-            titleColor2="#475A79"
+            titleColor2="#FFF"
             // price="$500"
             desc1="$500 per month"
             desc2="Partner Store Discounts rates ranging upto 20%"

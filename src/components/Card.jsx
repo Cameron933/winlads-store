@@ -5,9 +5,9 @@ import { FaStar } from "react-icons/fa6";
 
 const Card = ({ bgColorFrom = '#D9E9FF', bgColorTo = '#89CCFD', titleColor = 'black', title, titleColor2, title2, price, desc1, buttonTextColor, desc2, desc3, desc4, desc5, desc6, desc7, descColor = 'black', buttonColor, arrowColor, btnword, point1, point2, point3, point4, point5, point6, point7, mostPopular = false }) => {
     return (
-        <div className={`rounded-b-2xl p-4 2xl:p-4 shadow-lg shadow-gray-400 flex flex-col card-container relative`} style={{ background: `linear-gradient(180deg, ${bgColorFrom} 0%, ${bgColorTo} 100%)` }}>
+        <div className={`rounded-b-2xl lg:rounded-t-none rounded-t-2xl p-4 2xl:p-4 shadow-lg shadow-gray-400 flex flex-col card-container relative`} style={{ background: `linear-gradient(180deg, ${bgColorFrom} 0%, ${bgColorTo} 100%)` }}>
             {
-                mostPopular && <div className='flex items-center justify-center gap-2 text-center absolute top-0 left-0 w-full py-2 bg-black font-semibold' style={{ color: bgColorTo }}>
+                mostPopular && <div className='flex items-center justify-center gap-2 text-center absolute top-0 left-0 w-full py-2 bg-black font-semibold' style={{ color: bgColorFrom }}>
                    <FaStar/> Most Popular
                 </div>
             }
