@@ -43,7 +43,7 @@ const Level = () => {
           <img src={cabBack} className="" />
         </div>
         {/* <motion.div variants={textAnimate}> */}
-        <div className="grid xl:grid-cols-5 grid-cols-1 md:grid-cols-2 gap-4 px-3">
+        <div className="grid xl:grid-cols-5 grid-cols-1 md:grid-cols-3 gap-4 px-3">
           <Card
             title="Starter Tier"
             // titleColor="white"

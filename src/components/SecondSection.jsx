@@ -5,7 +5,7 @@ import Jeep2 from "../assets/jeep2.png";
 import { motion } from "framer-motion";
 import { carAnimation } from "../animations/animation";
 import Line from "../assets/line.png";
-import Vehicel from "../assets/vehicel.png";
+import Vehicel from "../assets/new-jeep-half.png";
 
 const SecondSection = () => {
   return (
@@ -33,7 +33,7 @@ const SecondSection = () => {
       <div className="relative">
         <div className="flex justify-end">
           <div className="absolute right-0  md:top-40 xl:top-60 top-60 ">
-            <img src={Vehicel} alt="" className="w-48 xl:w-72 md:w-72" />
+            <img src={Vehicel} alt="" className="w-52 xl:w-[500px] lg:w-96" />
 
             {/* <motion.img
                 initial={carAnimation.initialMobile}

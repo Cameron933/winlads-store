@@ -3,8 +3,9 @@ import Level from "../components/Level"
 import Reviews from "../components/Reviews"
 import SecondSection from "../components/SecondSection"
 import Shared from "../components/Shared"
-import Winlads from "../components/Winlads"
+//import Winlads from "../components/Winlads"
 import Footer3 from "../components/Footer3";
+import WinladsNew from "../components/WinladsNew"
 
 const Home = () => {
   return (
@@ -18,7 +19,8 @@ const Home = () => {
 
     <Level />
     <Shared />
-    <Winlads />
+    {/* <Winlads /> */}
+    <WinladsNew/>
     <Footer3/>
   </div>
   )

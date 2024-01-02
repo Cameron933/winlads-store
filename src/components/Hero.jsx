@@ -1,7 +1,7 @@
 import React from "react";
 import HeroGroup from "../assets/heroGroup.png";
 import Jeep from "../assets/jeep.png";
-import Jeep5 from "../assets/jeep5.png";
+import Jeep5 from "../assets/new-jeep.png";
 import Header from "./Header";
 import { motion } from "framer-motion";
 
