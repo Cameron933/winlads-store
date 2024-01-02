@@ -9,6 +9,7 @@ import WinladsNew from "../components/WinladsNew"
 import BgImg from "../assets/bgCar.png"
 import Sec2 from "../components/Sec2"
 import NewGallery from "../components/NewGallery"
+import Partners from "../components/Partners"
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
     <Sec2 />
   
     <SecondSection />
+    {/* <Partners /> */}
 
     <Level />
     <Shared />

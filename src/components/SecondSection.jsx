@@ -70,7 +70,7 @@ const SecondSection = () => {
         </div>
       </div>
 
-      <div className="absolute left-0 right-0 xl:bottom-80 md:bottom-80 -bottom-20 xs:bottom-20 ">
+      <div className="absolute left-0 right-0 xl:bottom-80 md:bottom-80 -bottom-10 xs:bottom-20 ">
         <Partners />
       </div>
     </div>
