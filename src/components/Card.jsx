@@ -161,9 +161,10 @@ const Card = ({
       <div
         className={`rounded-md border-2 border-white flex flex-row justify-center py-2 hover:scale-105 hover:transition-transform ease-out duration-300 mt-auto`}
         style={{ backgroundColor: buttonColor }}
+        onClick={handleClickButton}
       >
         <button className="flex flex-row items-center gap-2">
-          <p className={`text-${buttonTextColor} text-xs 2xl:text-lg`} onClick={handleClickButton}>
+          <p className={`text-${buttonTextColor} text-xs 2xl:text-lg`} >
             {btnword}
           </p>
           {/* <MdKeyboardArrowRight className={`text-${arrowColor}`} /> */}
