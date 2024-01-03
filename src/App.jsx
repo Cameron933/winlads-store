@@ -1,11 +1,11 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, createHashRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Privacy from "./pages/Privacy";
 import TermsCondition from "./pages/TermsCondition";
 import GoogleAnalytics from "./utils/GoogleAnalytics";
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: <Home />,
