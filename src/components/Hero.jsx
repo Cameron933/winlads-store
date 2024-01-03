@@ -29,7 +29,7 @@ const Hero = () => {
         <div className="absolute top-10 right-4 xl:right-10 md:right-10 xl:left-20 left-4 bottom-0 z-10">
           <Header />
         </div>
-        <div className="flex flex-col xl:flex-row items-center gap-2 space-y-6">
+        <div className="flex flex-col xl:flex-row items-center special:justify-between special:pr-52 gap-2 space-y-6">
           <div className="relative">
             <img src={HeroGroup} className="" />
             <div className="absolute xl:top-64 top-40 md:top-80 xl:scale-110 xl:left-10">

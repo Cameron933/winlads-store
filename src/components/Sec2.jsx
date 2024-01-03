@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import BgImg from "../assets/bgCar.png";
-
+import video from '../assets/video.mp4'
 const Sec2 = () => {
   const divStyle = {
     backgroundImage: `url(${BgImg})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    height: "300px",
+    height: "500px",
   };
 
-  const targetDate = new Date("February 28, 2024 00:00:00").getTime();
+  const targetDate = new Date("February 28, 2024 12:00:00").getTime();
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
 
   useEffect(() => {
@@ -40,8 +40,10 @@ const Sec2 = () => {
   }
 
   return (
-    <div style={divStyle} className="mt-4 flex py-4 text-center  justify-center flex-col">
-      <div className="text-center flex justify-center flex-col">
+    <div style={divStyle} className="mt-4 flex py-0 text-center relative justify-center flex-col">
+      <video src={video} className="w-full h-full object-cover" autoPlay loop playsInline muted></video>
+      <div className="bg-gradient-to-t from-black/75 to-black/50 absolute top-0 left-0 w-full h-full"/>
+      <div className="text-center flex justify-center flex-col absolute top-1/2 -translate-y-1/2 left-0 w-full">
         <p className="text-xl lg:text-4xl 2xl:text-5xl text-white font-semibold pb-12">
           Giveaway ends in
         </p>

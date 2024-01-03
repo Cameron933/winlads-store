@@ -41,8 +41,15 @@ const Level = () => {
           <div className="hidden 2xl:block">
             <p className="text-6xl font-bold">CHOOSE YOUR LEVEL</p>
           </div>
-
-          <img src={cabBack} className="" />
+          <motion.img
+                initial={{opacity:0, scale:0.9}}
+                whileInView={{opacity:1, scale:1}}
+                viewport={{once:true}}
+                transition={{duration:1.5}}
+                src={cabBack}
+                alt="main"
+              />
+          {/* <img src={cabBack} className="" /> */}
         </div>
         {/* <motion.div variants={textAnimate}> */}
         <div className="grid xl:grid-cols-5 grid-cols-1 md:grid-cols-3 gap-4 px-3 xs:px-32 md:px-0">
@@ -67,7 +74,8 @@ const Level = () => {
             point2={Correct}
             point3={Correct}
             titleColor="black"
-            // btnword="Get started now"
+            // btnword="Get started now"\
+            yValue={-20}
           />
           <Card
             bgColorFrom="#FF4700"
@@ -91,6 +99,7 @@ const Level = () => {
             point2={Correct}
             point3={Correct}
             point4={Correct}
+            yValue={-40}
           />
           <Card
             bgColorFrom="#00ECFF"
@@ -116,6 +125,7 @@ const Level = () => {
             point3={Correct}
             // point4={Correct}
             // point5={Correct}
+            yValue={-60}
           />
           <Card
             bgColorFrom="#FFBE00"
@@ -144,6 +154,7 @@ const Level = () => {
             point4={Correct}
             point5={Correct}
             point6={Correct}
+            yValue={-80}
           />
           <Card
             bgColorFrom="#23282E"
@@ -173,6 +184,7 @@ const Level = () => {
             point5={Correct}
             point6={Correct}
             point7={Correct}
+            yValue={-100}
           />
           {/* <Card />
         <Card />
