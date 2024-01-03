@@ -15,17 +15,17 @@ const NewGallery = () => {
       <div className="grid grid-cols-4 xl:px-20 md:px-10 px-5 gap-2">
         <div className="col-span-5 md:col-span-1 flex flex-col gap-2">
           <div className="flex flex-col gap-2">
-            <img src={Img1} alt="" className="w-full" />
-            <img src={Img2} alt="" className="w-full" />
+            <img src={Img1} alt="" className="w-full hover:scale-105" />
+            <img src={Img2} alt="" className="w-full hover:scale-105" />
           </div>
         </div>
         <div className="col-span-5 md:col-span-2">
-        <img src={Img3} alt="" className="w-full" />
+        <img src={Img3} alt="" className="w-full hover:scale-105" />
         </div>
         <div className="col-span-5 md:col-span-1">
           <div className="flex flex-col gap-2">
-            <img src={Img4} alt="" className="w-full" />
-            <img src={Img5} alt="" className="w-full" />
+            <img src={Img4} alt="" className="w-full hover:scale-105" />
+            <img src={Img5} alt="" className="w-full hover:scale-105" />
           </div>
         </div>
       </div>
