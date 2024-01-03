@@ -2,7 +2,7 @@ import React from "react";
 import BG2 from "../assets/bg2.png";
 import Partners from "./Partners";
 import Jeep2 from "../assets/jeep2.png";
-import { motion } from "framer-motion";
+import { animate, motion } from "framer-motion";
 import { carAnimation } from "../animations/animation";
 import Line from "../assets/line.png";
 import Vehicel from "../assets/new-jeep-half.png";
@@ -30,10 +30,19 @@ const SecondSection = () => {
         </div>
       </div>
 
-      <div className="relative">
+      <div className="relative overflow-hidden">
         <div className="flex justify-end">
           <div className="absolute right-0  md:top-40 xl:top-40 top-20">
-            <img src={Vehicel} alt="" className="w-64 xl:w-[600px] lg:w-[400px]" />
+          <motion.img
+                initial={{x:100,opacity:0}}
+                whileInView={{x:0,opacity:1}}
+                viewport={{once:true}}
+                transition={{duration:1.5, delay:0.8}}
+                className="w-64 xl:w-[600px] lg:w-[400px]"
+                src={Vehicel}
+                alt="main"
+              />
+            {/* <img src={Vehicel} alt="" className="w-64 xl:w-[600px] lg:w-[400px]" /> */}
 
             {/* <motion.img
                 initial={carAnimation.initialMobile}
