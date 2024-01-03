@@ -5,7 +5,7 @@ const Header = () => {
   const handleClick = () => {
     window.location.href = "https://www.winlads.com/login";
   };
-  
+
   return (
     <div id="header" className="flex flex-row justify-between">
       <div className="flex flex-row justify-between xl:gap-8 md:gap-8 gap-2">
@@ -36,7 +36,7 @@ const Header = () => {
       </div> */}
        <div className="flex xl:justify-end justify-center">
         <div
-          className="bgColor hover:bg-red-300 px-4 py-2 rounded-md text-center w-48 flex justify-center items-center"
+          className="bgColor hover:bg-red-300 px-2 py-2 rounded-md text-center w-40 flex justify-center items-center"
           onClick={handleClick}
         >
           <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm cursor-pointer">
