@@ -40,8 +40,8 @@ const Sec2 = () => {
   }
 
   return (
-    <div style={divStyle} className="mt-4 flex flex-col py-4">
-      <div className="text-center">
+    <div style={divStyle} className="mt-4 flex py-4 text-center  justify-center flex-col">
+      <div className="text-center flex justify-center flex-col">
         <p className="text-xl lg:text-4xl 2xl:text-5xl text-white font-semibold pb-12">
           Giveaway ends in
         </p>

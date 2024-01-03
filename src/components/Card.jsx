@@ -39,6 +39,10 @@ const Card = ({
     setShowmore(!showmore);
   };
 
+  const handleClickButton = () => {
+    window.location.href = "https://www.winlads.com/login";
+  };
+
   return (
     <div
       className={`rounded-2xl px-2 pt-12 pb-4 shadow-lg shadow-gray-400 relative flex flex-col border-2 border-black`}
@@ -159,7 +163,7 @@ const Card = ({
         style={{ backgroundColor: buttonColor }}
       >
         <button className="flex flex-row items-center gap-2">
-          <p className={`text-${buttonTextColor} text-xs 2xl:text-lg`}>
+          <p className={`text-${buttonTextColor} text-xs 2xl:text-lg`} onClick={handleClickButton}>
             {btnword}
           </p>
           {/* <MdKeyboardArrowRight className={`text-${arrowColor}`} /> */}
