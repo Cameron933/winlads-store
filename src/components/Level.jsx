@@ -52,7 +52,7 @@ const Level = () => {
           {/* <img src={cabBack} className="" /> */}
         </div>
         {/* <motion.div variants={textAnimate}> */}
-        <div className="grid xl:grid-cols-5 grid-cols-1 md:grid-cols-3 gap-4 px-3 xs:px-32 md:px-0">
+        <div className="grid xl:grid-cols-5 grid-cols-2 md:grid-cols-3 gap-4 px-3 xs:px-0 md:px-0">
           <Card
             title="Starter Tier"
             // titleColor="white"
@@ -185,6 +185,7 @@ const Level = () => {
             point6={Correct}
             point7={Correct}
             yValue={-100}
+            classNames={'col-span-2 md:col-span-1'}
           />
           {/* <Card />
         <Card />

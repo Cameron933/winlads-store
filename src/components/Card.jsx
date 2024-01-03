@@ -33,7 +33,8 @@ const Card = ({
     point6,
     point7,
     mostPopular = false,
-    yValue
+    yValue,
+    classNames
 }) => {
     const [showmore, setShowmore] = useState(false);
     const [btnBgColor, setBtnBgColor] = useState(buttonColor);
@@ -59,7 +60,7 @@ const Card = ({
             whileInView={{y:0, opacity:1}}
             viewport={{once:true}}
             transition={{duration:1, delay:0.5}}
-            className={`rounded-2xl px-2 pt-12 pb-4 shadow-lg shadow-gray-400 relative flex flex-col border-2 border-black`}
+            className={`rounded-2xl px-2 pt-12 pb-4 shadow-lg shadow-gray-400 relative flex flex-col border-2 border-black ${classNames}`}
             style={{
                 background: `linear-gradient(180deg, ${bgColorFrom} 0%, ${bgColorTo} 100%)`,
             }}
@@ -73,7 +74,7 @@ const Card = ({
                 </div>
             )}
             <p
-                className={`text-${titleColor} text-center uppercase text-lg lg:text-xl 2xl:text-2xl font-bold pb-8`}
+                className={`text-${titleColor} text-center uppercase text-lg lg:text-xl 2xl:text-2xl font-bold pb-0 lg:pb-8`}
             >
                 {title}
             </p>
@@ -84,7 +85,7 @@ const Card = ({
           {price}
         </p>
       </div> */}
-            <div className="flex flex-col justify-between items-center mb-10">
+            <div className="flex flex-col justify-between items-center mb-2">
                 <p
                     className={`font-bold text-lg 2xl:text-xl`}
                     style={{ color: titleColor2 }}
@@ -95,7 +96,7 @@ const Card = ({
                     <span className="text-xs">FREE ENTRIES</span>
                 </p>
             </div>
-            <div className="flex flex-col space-y-2  border-2 border-black bg-white px-2 py-4 rounded-xl mb-10">
+            <div className="flex flex-col space-y-2  border-2 border-black bg-white px-2 py-4 rounded-xl mb-5 h-full relative">
                 <div className="flex flex-row items-start gap-2">
                     <img src={Correct} alt="" />
                     <p className={`text-${descColor} text-xs 2xl:text-[16px] leading-6`}>
@@ -161,7 +162,7 @@ const Card = ({
                     </div>
                 )}
                 {desc4 && (
-                    <div className="">
+                    <div className="absolute bottom-5 right-5">
                         <p
                             className="capitalize flex justify-end text-xs cursor-pointer"
                             style={{ color: buttonColor }}

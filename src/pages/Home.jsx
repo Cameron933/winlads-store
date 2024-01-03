@@ -10,6 +10,7 @@ import BgImg from "../assets/bgCar.png"
 import Sec2 from "../components/Sec2"
 import NewGallery from "../components/NewGallery"
 import Partners from "../components/Partners"
+// import InstagramGalleryViewer from "../components/InstagramGallery"
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
     <Level />
     <Shared />
     <NewGallery />
+    {/* <InstagramGalleryViewer/> */}
     {/* <Winlads /> */}
     {/* <WinladsNew/> */}
     <Footer3/>
