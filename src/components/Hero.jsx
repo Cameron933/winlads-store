@@ -20,41 +20,43 @@ const Hero = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    window.location.href = 'https://www.winlads.com/login';
+    window.location.href = "https://www.winlads.com/login";
   };
 
   return (
-    <motion.div
-      initial={"offscreen"}
-      whileInView={"onscreen"}
-      viewport={{ once: true, amount: 0.5 }}
-      transition={{ staggerChildren: 0.5 }}
-      // className="grid grid-cols-1 gap-2 lg:grid-cols-2"
-      // style={{
-      //   minHeight: "100vh",
-      //   position: "relative",
-      //   background: "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
-      // }}
-    >
+    <>
       <div className="flex flex-col relative">
         <div className="absolute top-10 right-4 xl:right-10 md:right-10 xl:left-20 left-4 bottom-0 z-10">
           <Header />
         </div>
-        <div className="flex flex-col xl:flex-row items-center gap-2 space-y-6 pointer-events-none">
+        <div className="flex flex-col xl:flex-row items-center gap-2 space-y-6">
           <div className="relative">
             <img src={HeroGroup} className="" />
             <div className="absolute xl:top-64 top-40 md:top-80 xl:scale-110 xl:left-10">
-              <motion.img
-                variants={imageAnimate}
-                className=""
-                src={Jeep5}
+              <motion.div
+                initial={"offscreen"}
+                whileInView={"onscreen"}
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ staggerChildren: 0.5 }}
+                // className="grid grid-cols-1 gap-2 lg:grid-cols-2"
                 // style={{
-                //   position: "absolute",
-                //   top: "300px",
-                //   left: "40px",
-                //   zIndex: "2",
+                //   minHeight: "100vh",
+                //   position: "relative",
+                //   background: "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
                 // }}
-              />
+              >
+                <motion.img
+                  variants={imageAnimate}
+                  className=""
+                  src={Jeep5}
+                  // style={{
+                  //   position: "absolute",
+                  //   top: "300px",
+                  //   left: "40px",
+                  //   zIndex: "2",
+                  // }}
+                />
+              </motion.div>
               {/* <img src={Jeep} alt="" className="" /> */}
             </div>
           </div>
@@ -70,19 +72,20 @@ const Hero = () => {
               With over 200+ businesses across 200+ stores where you can
               accessexclusive discounts.
             </p>
-            <div className="flex xl:justify-end justify-center">
-              <div
-                className="bgColor hover:bg-red-300 px-4 py-2 rounded-md text-center w-48 flex justify-center items-center" onClick={handleClick}
-              >
-                <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm cursor-pointer">
-                  Sign up for free
-                </button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
-    </motion.div>
+      {/* <div className="flex xl:justify-end justify-center">
+        <div
+          className="bgColor hover:bg-red-300 px-4 py-2 rounded-md text-center w-48 flex justify-center items-center"
+          onClick={handleClick}
+        >
+          <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm cursor-pointer">
+            Sign up for free
+          </button>
+        </div>
+      </div> */}
+    </>
   );
 };
 
