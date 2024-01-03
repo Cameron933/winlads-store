@@ -6,6 +6,7 @@ import NewLogo from "../assets/newLogo.png"
 import { FaInstagram } from "react-icons/fa";
 import { LuTwitter } from "react-icons/lu";
 import { PiTelegramLogo } from "react-icons/pi";
+import { HashLink } from 'react-router-hash-link';
 
 function Footer() {
   return (
@@ -43,13 +44,13 @@ function Footer() {
                 </p>
                 <ul className="text-xs 2xl:text-sm flex flex-col gap-1">
                   <li className="cursor-pointer">
-                    <Link
+                    <HashLink
                       to="/privacypolicy"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       Privacy Policy
-                    </Link>
+                    </HashLink>
                   </li>
                   <li className="cursor-pointer">
                     {/* <a href="#" target="_blank" rel="noopener noreferrer">
@@ -57,13 +58,13 @@ function Footer() {
                     </a> */}
                   </li>
                   <li className="cursor-pointer">
-                    <Link
+                    <HashLink
                       to="/termsconditions"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       Terms and Conditions
-                    </Link>
+                    </HashLink>
                   </li>
                 </ul>
               </div>
