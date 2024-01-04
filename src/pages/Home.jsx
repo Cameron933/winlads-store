@@ -11,6 +11,8 @@ import Sec2 from "../components/Sec2"
 import NewGallery from "../components/NewGallery"
 import Partners from "../components/Partners"
 import Packages from "../components/Packages"
+import Faq from "../components/Faq"
+
 // import InstagramGalleryViewer from "../components/InstagramGallery"
 
 const Home = () => {
@@ -22,10 +24,10 @@ const Home = () => {
     </div> */}
     <Packages />
     <Sec2 />
-  
+    <Faq />
     <SecondSection />
-    {/* <Partners /> */}
 
+    {/* <Partners /> */}
     <Level />
     <Shared />
     <NewGallery />

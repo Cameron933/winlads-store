@@ -7,6 +7,7 @@ import { carAnimation } from "../animations/animation";
 import Line from "../assets/line.png";
 import Vehicel from "../assets/new-jeep-half.png";
 
+
 const SecondSection = () => {
   return (
     <div className="relative">
