@@ -24,10 +24,11 @@ const Home = () => {
     </div> */}
     <Packages />
     <Sec2 />
-    <Faq />
+   
     <SecondSection />
 
     {/* <Partners /> */}
+    <Faq />
     <Level />
     <Shared />
     <NewGallery />

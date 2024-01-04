@@ -33,7 +33,7 @@ const SecondSection = () => {
 
       <div className="relative overflow-hidden">
         <div className="flex justify-end">
-          <div className="absolute right-0  md:top-40 xl:top-40 top-20">
+          <div className="absolute right-0 top-20 xl:top-0">
           <motion.img
                 initial={{x:100,opacity:0}}
                 whileInView={{x:0,opacity:1}}
@@ -80,7 +80,7 @@ const SecondSection = () => {
         </div>
       </div>
 
-      <div className="absolute left-0 right-0 xl:bottom-80 md:bottom-80 -bottom-0 xs:bottom-20 ">
+      <div className="absolute left-0 right-0 xl:bottom-40 md:bottom-80 -bottom-0 xs:bottom-20 ">
         <Partners />
       </div>
     </div>
