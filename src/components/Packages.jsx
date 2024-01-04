@@ -1,57 +1,15 @@
 import React from "react";
-import Jeep3 from "../assets/jeep3.png";
-import Jeep4 from "../assets/jeep4.png";
-import cabBack from "../assets/cab-back.png";
 import Card from "./Card";
-import { motion } from "framer-motion";
-import Correct from "../assets/correct.png";
 
-const textAnimate = {
-  offscreen: { y: -100, opacity: 0 },
-  onscreen: {
-    y: 0,
-    opacity: 1,
-    rotate: [0, 10, 0],
-    transition: { type: "spring", bounce: 0.4, duration: 3 },
-  },
-};
-
-const Level = () => {
+const Packages = () => {
   return (
-    <motion.div
-      initial={"offscreen"}
-      whileInView={"onscreen"}
-      viewport={{ once: true, amount: 0.5 }}
-      transition={{ staggerChildren: 0 }}
-      // style={{
-      //   paddingBottom: "50px",
-      //   height: "auto",
-      //   position: "relative",
-      //   background: "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
-      // }}
-    >
-      <div className="flex flex-col xl:px-8 px-4 justify-between xl:items-center md:pt-4 pt-24 2xl-pt-0 xl:pt-0 mb-20 md:-translate-y-32">
-        <div className="flex flex-col gap-2 items-center">
-          <div className="block 2xl:hidden">
-            <p className="xl:text-6xl md:text-4xl text-3xl font-semibold special:text-10xl md:text-center text-center xl:text-start">
-              CHOOSE A<br /> SUBSCRIPTION <br />
-              PLAN
-            </p>
-          </div>
-          <div className="hidden 2xl:block">
-            <p className="text-6xl font-bold">CHOOSE YOUR LEVEL</p>
-          </div>
-          <motion.img
-                initial={{opacity:0, scale:0.9}}
-                whileInView={{opacity:1, scale:1}}
-                viewport={{once:true}}
-                transition={{duration:1.5}}
-                src={cabBack}
-                alt="main"
-              />
-          {/* <img src={cabBack} className="" /> */}
-        </div>
-        {/* <motion.div variants={textAnimate}> */}
+    <div className="flex flex-col space-y-2 xl:space-y-4 pt-4">
+      <div className="bg-[#0094FF] text-center py-2">
+        <p className="font-bold text-white xl:text-2xl md:text-xl text-lg">
+          Select your package
+        </p>
+      </div>
+      <div className="px-4">
         <div className="grid xl:grid-cols-5 grid-cols-2 md:grid-cols-3 gap-4 px-3 xs:px-0 md:px-0">
           <Card
             title="Starter Tier"
@@ -176,10 +134,9 @@ const Level = () => {
         <Card />
         <Card /> */}
         </div>
-        {/* </motion.div> */}
       </div>
-    </motion.div>
+    </div>
   );
 };
 
-export default Level;
+export default Packages;

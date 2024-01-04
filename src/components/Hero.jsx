@@ -61,16 +61,13 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex flex-col gap-4 xl:px-8">
-            <p className="text-6xl xl:text-8xl 2xl:text-10xl capitalize font-semibold text-black text-center">
-              Elevating
-              <br />
-              Your
-              <br />
-              Lifestyle
+            <p className="text-6xl xl:text-4xl 2xl:text-10xl uppercase font-bold text-black text-center">
+              win a brand new mazda bt-50 or $60k cash
             </p>
-            <p className="text-black text-sm xl:text-end 2xl:text-xl capitalize text-center">
-              With over 200+ businesses across 200+ stores where you can
-              accessexclusive discounts.
+            <p className="text-black text-sm xl:text-center 2xl:text-xl capitalize text-center font-semibold">
+              by purchasing any winlads package below, you will automatically go
+              into the draw to win your choice of a brand new mazda bt-50 or
+              $60k cash
             </p>
           </div>
         </div>

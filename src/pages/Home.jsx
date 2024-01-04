@@ -10,6 +10,7 @@ import BgImg from "../assets/bgCar.png"
 import Sec2 from "../components/Sec2"
 import NewGallery from "../components/NewGallery"
 import Partners from "../components/Partners"
+import Packages from "../components/Packages"
 // import InstagramGalleryViewer from "../components/InstagramGallery"
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
     {/* <div className="absolute left-0 right-0 xl:pt-24">
     <Reviews />
     </div> */}
+    <Packages />
     <Sec2 />
   
     <SecondSection />
