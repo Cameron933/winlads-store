@@ -61,8 +61,8 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex flex-col gap-4 xl:px-8">
-            <p className="text-6xl xl:text-4xl 2xl:text-10xl uppercase font-bold text-black text-center">
-              win a brand new mazda bt-50 or $60k cash
+            <p className="text-6xl xl:text-6xl 2xl:text-10xl uppercase font-bold text-black text-center">
+              win a brand new mazda<br /> bt-50 or $60k cash
             </p>
             <p className="text-black text-sm xl:text-center 2xl:text-xl capitalize text-center font-semibold">
               by purchasing any winlads package below, you will automatically go

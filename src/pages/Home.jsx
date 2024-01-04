@@ -32,7 +32,7 @@ const Home = () => {
     {/* <Partners /> */}
     <Faq />
     <Level />
-    <Shared />
+    {/* <Shared /> */}
     <NewGallery />
     {/* <InstagramGalleryViewer/> */}
     {/* <Winlads /> */}
