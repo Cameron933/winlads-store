@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 
 const Partners = () => {
   return (
-    <div className="mt-4 flex flex-col space-y-8">
+    <div className="flex flex-col space-y-8 py-4">
       <p className="text-center text-black font-semibold text-4xl xl:text-6xl uppercase mb-5">
         Partners
       </p>

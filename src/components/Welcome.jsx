@@ -7,7 +7,7 @@ const Welcome = () => {
   return (
     <div className="flex flex-col space-y-4 py-8 xl:py-16 px-10 xl:px-20">
          <div className="flex flex-col xl:space-y-2 md:space-y-4 space-y-2 xl:items-center">
-            <p className="text-black xl:text-4xl md:text-3xl 2xl:text-5xl font-semibold">
+            <p className="text-center text-black font-semibold text-4xl xl:text-6xl uppercase">
               WELCOME TO WINLADS
             </p>
             <img src={Line} alt="" className="xl:py-4 md:py-4 py-2 w-48" />
