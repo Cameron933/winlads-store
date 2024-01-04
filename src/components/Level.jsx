@@ -34,8 +34,7 @@ const Level = () => {
         <div className="flex flex-col gap-2 items-center">
           <div className="block 2xl:hidden">
             <p className="xl:text-6xl md:text-4xl text-3xl font-semibold special:text-10xl md:text-center text-center xl:text-start">
-              CHOOSE A<br /> SUBSCRIPTION <br />
-              PLAN
+              CHOOSE A SUBSCRIPTION PLAN
             </p>
           </div>
           <div className="hidden 2xl:block">

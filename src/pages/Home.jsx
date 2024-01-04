@@ -12,6 +12,7 @@ import NewGallery from "../components/NewGallery"
 import Partners from "../components/Partners"
 import Packages from "../components/Packages"
 import Faq from "../components/Faq"
+import Prize from "../components/Prize"
 
 // import InstagramGalleryViewer from "../components/InstagramGallery"
 
@@ -24,6 +25,7 @@ const Home = () => {
     </div> */}
     <Packages />
     <Sec2 />
+    <Prize />
    
     <SecondSection />
 

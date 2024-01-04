@@ -7,7 +7,6 @@ import { carAnimation } from "../animations/animation";
 import Line from "../assets/line.png";
 import Vehicel from "../assets/new-jeep-half.png";
 
-
 const SecondSection = () => {
   return (
     <div className="relative">
@@ -22,27 +21,37 @@ const SecondSection = () => {
             </p>
             <img src={Line} alt="" className="xl:py-4 md:py-4 py-2 w-48" />
             <p className="text-gray-700 sm:text-md text-sm 2xl:text-lg w-36 md:w-72 xl:w-72">
-            Picture this: you're kicking back, chilling, and earning easy cash—yeah, it's possible! We've got a stash of unreal deals waiting for ya. Plus, sling our program to your mates, and you'll be raking in dosh on the side. No worries, it's that easy!
+              Picture this: you're kicking back, chilling, and earning easy
+              cash—yeah, it's possible! We've got a stash of unreal deals
+              waiting for ya. Plus, sling our program to your mates, and you'll
+              be raking in dosh on the side. No worries, it's that easy!
             </p>
+           
             {/* <p className="text-black text-xs 2xl:text-lg w-48 md:w-72 xl:w-72 capitalize">
               AUSTRALIA WIDEFROM ONLY $9.99 PER MONTH, OPT-OUT ANYTIME
             </p> */}
           </div>
+          
         </div>
+        {/* <div className="bg-white p-4 text-end">
+              With over 200+ businesses across 200+ stores where <br /> you can
+              accessexclusive discount Australia Widefrom
+              <br /> only $9.99 per month, opt-out anytme
+            </div> */}
       </div>
 
       <div className="relative overflow-hidden">
         <div className="flex justify-end">
           <div className="absolute right-0 top-20 xl:top-0">
-          <motion.img
-                initial={{x:100,opacity:0}}
-                whileInView={{x:0,opacity:1}}
-                viewport={{once:true}}
-                transition={{duration:1.5, delay:0.8}}
-                className="w-64 xl:w-[600px] lg:w-[400px]"
-                src={Vehicel}
-                alt="main"
-              />
+            <motion.img
+              initial={{ x: 100, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1.5, delay: 0.8 }}
+              className="w-64 xl:w-[600px] lg:w-[400px]"
+              src={Vehicel}
+              alt="main"
+            />
             {/* <img src={Vehicel} alt="" className="w-64 xl:w-[600px] lg:w-[400px]" /> */}
 
             {/* <motion.img

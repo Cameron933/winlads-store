@@ -5,7 +5,7 @@ const Packages = () => {
   return (
     <div className="flex flex-col space-y-2 xl:space-y-4 pt-4">
       <div className="bg-[#0094FF] text-center py-2">
-        <p className="font-bold text-white xl:text-2xl md:text-xl text-lg">
+        <p className="font-bold text-white xl:text-2xl md:text-xl text-lg capitalize">
           Select your package
         </p>
       </div>
