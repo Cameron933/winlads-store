@@ -13,31 +13,31 @@ const Faq = () => {
         <div className="flex flex-col space-y-2 pb-12">
             <div className="flex flex-row items-center gap-1">
                 <IoIosArrowRoundForward />
-                <p className="text-xs text-gray-600">
+                <p className="text-xs ">
                     Valid to VIC, NSW, QLD, WA, TAS & NT residents
                 </p>
             </div>
             <div className="flex flex-row items-center gap-1">
                 <IoIosArrowRoundForward />
-                <p className="text-xs 2xl:text-sm text-gray-600">
-                Winner announced 29/2/2024  <span className="text-black">via Facebook live</span> 
+                <p className="text-xs 2xl:text-sm ">
+                Winner announced 29/2/2024  <span className="font-bold">via Facebook live</span> 
                 </p>
             </div>
             <div className="flex flex-row items-center gap-1">
                 <IoIosArrowRoundForward />
-                <p className="text-xs 2xl:text-sm text-black">
+                <p className="text-xs 2xl:text-sm font-bold">
                 The prizes will be drawn using our Digital Draw System
                 </p>
             </div>
             <div className="flex flex-row items-center gap-1">
                 <IoIosArrowRoundForward />
-                <p className="text-xs 2xl:text-sm text-black">
+                <p className="text-xs 2xl:text-sm font-bold">
                 The winner will be contacted immediately via phone
                 </p>
             </div>
             <div className="flex flex-row items-center gap-1">
                 <IoIosArrowRoundForward />
-                <p className="text-xs 2xl:text-sm text-gray-600">
+                <p className="text-xs 2xl:text-sm">
                 Vehicle delivered to you free of charge Australia wide. Or Cash prize deposited into your bank account.
                 </p>
             </div>
