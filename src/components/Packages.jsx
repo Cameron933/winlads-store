@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import Card from "./Card2";
 
 const Packages = () => {
   return (
@@ -17,15 +17,16 @@ const Packages = () => {
             title2="01 FREE ENTRY"
             titleColor2="black"
             // price="$9.99"
-            desc1="$9.99 per month"
+            desc1="$9.99"
             // desc2="Referral Commission: 2.5%"
             desc2="Partner Store Discounts: 10%"
             //   desc3="Virtual access to Winlads Club Day"
             // descColor="white"
             buttonColor="#0082E1"
+            buttonColor2="#0082E1"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
-            btnword="SIGN UP FOR FREE"
+            btnword="TRY SINGLE ENTRIES"
             bgColorFrom="#0094FF"
             bgColorTo="#00347C"
             titleColor="black"
@@ -41,7 +42,7 @@ const Packages = () => {
             title2="03 FREE ENTRIES"
             titleColor2="black"
             // price="$19.99"
-            desc1="$19.99 per month"
+            desc1="$19.99"
             // desc2="Referral Commission: 5%"
             desc2="Referral Commission: 15%"
             desc3="Partner Store Discounts: 10%"
@@ -49,9 +50,10 @@ const Packages = () => {
             desc5="Access to Winlad Store Cash Back program"
             // descColor="white"
             buttonColor="#CF3A00"
+            buttonColor2="#CF3A00"
             arrowColor="white"
             buttonTextColor="white"
-            btnword="SIGN UP FOR FREE"
+            btnword="TRY SINGLE ENTRIES"
             yValue={-40}
           />
           <Card
@@ -63,7 +65,7 @@ const Packages = () => {
             title2="10 FREE ENTRIES"
             titleColor2="black"
             // price="$49.99"
-            desc1="$49.99 per month"
+            desc1="$49.99"
             desc2="Referral Commission: 20%"
             desc3="Partner Store Discounts: 10%-15%"
             desc4="Be Eligible to Apply for Winlad PLATINUM Card"
@@ -72,9 +74,10 @@ const Packages = () => {
             desc7="Access to Upcoming Winlad Apps"
             // descColor="[#01819D]"
             buttonColor="#007D87"
+            buttonColor2="#007D87"
             arrowColor="white"
             buttonTextColor="white"
-            btnword="SIGN UP FOR FREE"
+            btnword="TRY SINGLE ENTRIES"
             // point4={Correct}
             // point5={Correct}
             yValue={-60}
@@ -89,7 +92,7 @@ const Packages = () => {
             title2="25 FREE ENTRIES"
             titleColor2="black"
             // price="$100"
-            desc1="$100 per month"
+            desc1="$100"
             // desc2="Premium Tier"
             desc2="Referral Commission: 25% Partner Store Discounts: 15%-20%"
             desc3="Be Eligible to Apply for Winlad GOLD Card"
@@ -99,9 +102,10 @@ const Packages = () => {
             desc7="Access to upcoming Winlad Apps & Tools"
             // descColor="white"
             buttonColor="#000000"
+            buttonColor2="#000000"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
-            btnword="SIGN UP FOR FREE"
+            btnword="TRY SINGLE ENTRIES"
             yValue={-80}
           />
           <Card
@@ -113,7 +117,7 @@ const Packages = () => {
             title2="150 FREE ENTRIES"
             titleColor2="#FFF"
             // price="$500"
-            desc1="$500 per month"
+            desc1="$500"
             desc2="Referral Commission: 50%"
             desc3="Customized Partner Store discount rates ranging upto 20%"
             desc4="Be Eligible to Apply for Winlad BLACK Card"
@@ -124,9 +128,10 @@ const Packages = () => {
             desc9="Access to Winlads limited and Public Events - Access to Winlads apps and tools"
             // descColor="white"
             buttonColor="#475A79"
+            buttonColor2="#475A79"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
-            btnword="SIGN UP FOR FREE"
+            btnword="TRY SINGLE ENTRIES"
             yValue={-100}
             classNames={"col-span-2 md:col-span-1"}
           />

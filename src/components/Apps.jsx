@@ -1,8 +1,8 @@
 import React from "react";
 import video from "../assets/video.mp4";
 import BgImg from "../assets/bgCar.png";
-import AppStore from "../assets/appstore.png"
-import PlayStore from "../assets/googleplay.png"
+import AppStore from "../assets/apple.png"
+import PlayStore from "../assets/google.png"
 import { motion } from 'framer-motion';
 
 const Apps = () => {
