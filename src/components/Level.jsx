@@ -31,7 +31,7 @@ const Level = () => {
       //   background: "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
       // }}
     >
-      <div className="flex flex-col xl:px-8 px-4 justify-between xl:items-center md:pt-4 pt-24 2xl-pt-0 xl:pt-0 mb-20 md:-translate-y-32">
+      <div className="flex flex-col xl:px-8 px-4 justify-between xl:items-center md:pt-4 pt-24 2xl-pt-0 xl:pt-0 py-8">
         <div className="flex flex-col gap-2 items-center">
           <div className="block 2xl:hidden">
             <p className="xl:text-6xl md:text-4xl text-3xl font-semibold special:text-10xl md:text-center text-center xl:text-start">

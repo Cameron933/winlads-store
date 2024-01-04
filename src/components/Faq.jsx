@@ -5,7 +5,7 @@ import FaqImg from "../assets/faq.png"
 
 const Faq = () => {
   return (
-    <div className="special:px-24 xl:px-12 px-8 flex flex-col xl:flex-row gap-8 xl:pb-48 md:pb-36 pt-12 md:pt-0 items-center">
+    <div className="special:px-24 xl:px-12 px-8 flex flex-col xl:flex-row gap-8 xl:pb-48 md:pb-36 pt-12 md:pt-0 xl:items-center">
       <div className="flex flex-col flex-1">
         <p className="text-black font-semibold text-xl xl:text-2xl pb-8 2xl:text-3xl">
           Draw Details

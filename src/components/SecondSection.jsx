@@ -22,7 +22,7 @@ const SecondSection = () => {
             </p>
             <img src={Line} alt="" className="xl:py-4 md:py-4 py-2 w-48" />
             <p className="text-xs md:text-sm font-semibold">Eligibility Criteria and Decision-Making Framework</p>
-            <p className="text-gray-700 text-[6px] md:text-xs 2xl:text-sm w-36 md:w-[300px] xl:w-[500px]">
+            <p className="text-gray-700 text-[6px] md:text-xs 2xl:text-sm w-36 md:w-[300px] xl:w-[500px] text-justify">
               Members in both the $100 and $500 tiers can propose within the
               Winlads Urgency Program. However, the authority for
               decision-making lies solely with the $500 Ultimate Tier.
@@ -37,7 +37,7 @@ const SecondSection = () => {
               aid, it must obtain a majority vote exceeding 51% .
             </p>
             <p className="text-xs md:text-sm font-semibold pt-4">Community Consensus and Proposal Approval:</p>
-            <p className="text-gray-700 text-[6px] md:text-xs 2xl:text-sm w-48 md:w-[400px] xl:w-[500px]">
+            <p className="text-gray-700 text-[6px] md:text-xs 2xl:text-sm w-48 md:w-[400px] xl:w-[500px] text-justify">
               Proposals within the Winlads Urgency Program undergo collective
               evaluation by qualified members. A proposal must attain a majority
               vote of over 51% to receive approval, reflecting the collective
@@ -45,7 +45,6 @@ const SecondSection = () => {
               ensures transparency, fairness, and accountability in extending
               support to members during financial challenges.
             </p>
-
           </div>
         </div>
    
@@ -59,7 +58,7 @@ const SecondSection = () => {
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 1.5, delay: 0.8 }}
-              className="w-48 md:w-[400px] xl:w-[700px]"
+              className="w-48 md:w-[400px] xl:w-[700px] pro:w-[600px] specialTab:w-[700px]"
               src={NewJeep2}
               alt="main"
             />

@@ -5,6 +5,7 @@ import Jeep5 from "../assets/new-jeep.png";
 import Header from "./Header";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
+import HeroJeep from "../assets/heroJeep.png"
 
 const imageAnimate = {
   offscreen: { x: -100, opacity: 0 },
@@ -47,8 +48,8 @@ const Hero = () => {
               >
                 <motion.img
                   variants={imageAnimate}
-                  className=""
-                  src={Jeep5}
+                  className="w-3/4"
+                  src={HeroJeep}
                   // style={{
                   //   position: "absolute",
                   //   top: "300px",
