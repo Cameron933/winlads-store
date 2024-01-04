@@ -91,7 +91,7 @@ const Card = ({
           <span className="text-xs">FREE ENTRIES</span>
         </p>
       </div>
-      <div className="flex flex-col space-y-2  border-2 border-black bg-white px-2 py-4 rounded-xl mb-5 h-full relative">
+      <div className="flex flex-col space-y-2  border-2 border-black bg-white px-2 py-4  rounded-xl mb-5 h-full relative">
         <div className="flex flex-row items-start gap-2">
           <img src={Correct} alt="" />
           <p className={`text-${descColor} text-xs 2xl:text-[16px] leading-6`}>
@@ -105,7 +105,7 @@ const Card = ({
           </p>
         </div>
         {desc3 && (
-          <div className="flex flex-row items-start gap-2">
+          <div className="flex flex-row items-start gap-2 pb-4">
             <img src={Correct} alt="" />
             <p
               className={`text-${descColor} text-xs 2xl:text-[16px] leading-6`}
@@ -177,9 +177,9 @@ const Card = ({
           </div>
         )}
         {desc4 && (
-          <div className="absolute bottom-5 right-5">
+          <div className="absolute bottom-2 right-5">
             <p
-              className="capitalize flex justify-end text-xs cursor-pointer"
+              className="capitalize flex justify-end text-xs cursor-pointer pt-4"
               style={{ color: buttonColor }}
               onClick={handleClick}
             >
