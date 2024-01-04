@@ -26,7 +26,8 @@ const Packages = () => {
             buttonColor2="#0082E1"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
-            btnword="TRY SINGLE ENTRIES"
+            btnword="SIGN UP FOR FREE"
+            btnword2="TRY SINGLE ENTRIES"
             bgColorFrom="#0094FF"
             bgColorTo="#00347C"
             titleColor="black"
@@ -53,7 +54,8 @@ const Packages = () => {
             buttonColor2="#CF3A00"
             arrowColor="white"
             buttonTextColor="white"
-            btnword="TRY SINGLE ENTRIES"
+            btnword="SIGN UP FOR FREE"
+            btnword2="TRY SINGLE ENTRIES"
             yValue={-40}
           />
           <Card
@@ -77,7 +79,8 @@ const Packages = () => {
             buttonColor2="#007D87"
             arrowColor="white"
             buttonTextColor="white"
-            btnword="TRY SINGLE ENTRIES"
+            btnword="SIGN UP FOR FREE"
+            btnword2="TRY SINGLE ENTRIES"
             // point4={Correct}
             // point5={Correct}
             yValue={-60}
@@ -105,7 +108,8 @@ const Packages = () => {
             buttonColor2="#000000"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
-            btnword="TRY SINGLE ENTRIES"
+            btnword="SIGN UP FOR FREE"
+            btnword2="TRY SINGLE ENTRIES"
             yValue={-80}
           />
           <Card
@@ -131,7 +135,8 @@ const Packages = () => {
             buttonColor2="#475A79"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
-            btnword="TRY SINGLE ENTRIES"
+            btnword="SIGN UP FOR FREE"
+            btnword2="TRY SINGLE ENTRIES"
             yValue={-100}
             classNames={"col-span-2 md:col-span-1"}
           />

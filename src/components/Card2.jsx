@@ -28,6 +28,7 @@ const Card = ({
   buttonColor2,
   arrowColor,
   btnword,
+  btnword2,
   mostPopular = false,
   yValue,
   classNames,
@@ -100,7 +101,7 @@ const Card = ({
         style={{ backgroundColor: buttonColor2 }}
       >
         <button className="flex flex-row items-center gap-2">
-          <p className={`text-xs 2xl:text-lg`}>{btnword}</p>
+          <p className={`text-xs 2xl:text-lg`}>{btnword2}</p>
           {/* <MdKeyboardArrowRight className={`text-${arrowColor}`} /> */}
         </button>
       </div>
