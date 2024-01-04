@@ -9,18 +9,22 @@ const Prize = () => {
           first prize - mazda BT-50
         </p>
       </div>
-      <div className="flex items-center xl:px-40 px-10 pt-12">
-        {/* <ReactPlayer
-        url="https://player.vimeo.com/video/899812267?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-        width="100%"
-        height="100%"
-        controls={true}
-      /> */}
+      <div className="flex items-center xl:px-40 px-10 2xl:pt-12 pt-8 md:hidden">
+        <iframe
+          src="https://player.vimeo.com/video/899812267?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          width="1920"
+          height="200"
+          //   frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          title="Winlads"
+        ></iframe>
+      </div>
+      <div className="hidden items-center xl:px-40 px-10 2xl:pt-12 pt-8 md:flex">
         <iframe
           src="https://player.vimeo.com/video/899812267?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
           width="1920"
           height="400"
-        //   frameborder="0"
+          //   frameborder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           title="Winlads"
         ></iframe>
