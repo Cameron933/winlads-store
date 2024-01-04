@@ -31,6 +31,7 @@ const Packages = () => {
             bgColorFrom="#0094FF"
             bgColorTo="#00347C"
             titleColor="black"
+            
             // btnword="Get started now"\
             yValue={-20}
           />

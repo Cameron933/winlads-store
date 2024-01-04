@@ -35,6 +35,7 @@ const Card = ({
 }) => {
   const [showmore, setShowmore] = useState(false);
   const [btnBgColor, setBtnBgColor] = useState(buttonColor);
+  const [btnBgColor1, setBtnBgColor1] = useState(buttonColor2);
 
   const switchBtnColor = () => {
     if (btnBgColor == buttonColor) {
@@ -43,6 +44,17 @@ const Card = ({
       setBtnBgColor(buttonColor);
     }
   };
+
+  const switchBtnColor1 = () => {
+    if (btnBgColor1 == buttonColor2) {
+      setBtnBgColor1("#FFF");
+    } else {
+      setBtnBgColor1(buttonColor2);
+    }
+  };
+
+
+
   const handleClick = () => {
     setShowmore(!showmore);
   };
@@ -97,8 +109,10 @@ const Card = ({
       
       <p className="text-center"><span className="text-3xl xl:text-4xl font-semibold">{desc1}</span>&nbsp;per month</p>
       <div
-        className={`rounded-md border-2 cursor-pointer border-white flex flex-row justify-center py-2 hover:scale-105 hover:transition-transform ease-out duration-300 mt-auto text-${buttonTextColor}`}
-        style={{ backgroundColor: buttonColor2 }}
+        className={`rounded-md border-2 hover:border-black hover:bg-white hover:text-black cursor-pointer border-white flex flex-row justify-center py-2 hover:scale-105 hover:transition-transform ease-out duration-300 mt-auto text-${buttonTextColor}`}
+        style={{ backgroundColor: btnBgColor1 }}
+        onMouseEnter={() => switchBtnColor1()}
+        onMouseLeave={() => switchBtnColor1()}
       >
         <button className="flex flex-row items-center gap-2">
           <p className={`text-xs 2xl:text-lg`}>{btnword2}</p>
