@@ -10,7 +10,8 @@ export default {
         'xs':'480px',
         'special':'2150px',
         'pro': '1024px',
-        'specialTab': '1200px'
+        'specialTab': '1200px',
+        'specialTab2': '540px'
       }
     },
   },

@@ -58,7 +58,7 @@ const SecondSection = () => {
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 1.5, delay: 0.8 }}
-              className="w-48 md:w-[400px] xl:w-[700px] pro:w-[600px] specialTab:w-[700px]"
+              className="w-48 md:w-[400px] xl:w-[700px] pro:w-[600px] specialTab:w-[700px] specialTab2:w-[300px]"
               src={NewJeep2}
               alt="main"
             />

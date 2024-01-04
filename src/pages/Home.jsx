@@ -14,6 +14,7 @@ import Packages from "../components/Packages"
 import Faq from "../components/Faq"
 import Prize from "../components/Prize"
 import Apps from "../components/Apps"
+import Map from "../components/Map"
 
 // import InstagramGalleryViewer from "../components/InstagramGallery"
 
@@ -26,6 +27,7 @@ const Home = () => {
     </div> */}
     <Packages />
     <Sec2 />
+    <Map />
     <Prize />
     <SecondSection />
 
