@@ -145,7 +145,7 @@ const Card = ({
               </div>
             )}
             {desc7 && (
-              <div className="flex flex-row items-start gap-2">
+              <div className="flex flex-row items-start gap-2 pb-6">
                 <img src={Correct} alt="" />
                 <p
                   className={`text-${descColor} text-xs 2xl:text-[16px] leading-6`}
