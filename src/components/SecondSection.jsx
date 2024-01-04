@@ -12,32 +12,42 @@ const SecondSection = () => {
     <div className="relative">
       <div className="absolute xl:left-20 md:-left-20 -left-52 right-0 bottom-0 top-20 md:top-40 z-10">
         <div className="flex flex-row xl:space-x-8 md:space-x-4 2xl:space-x-16 space-x-4">
-          <p className="rotate-90 text-[#E83F3F] xl:text-2xl md:text-3xl text-4xl 2xl:text-4xl font-semibold">
+          {/* <p className="rotate-90 text-[#E83F3F] xl:text-2xl md:text-3xl text-4xl 2xl:text-4xl font-semibold">
             winladsgiveaway
-          </p>
+          </p> */}
           <div className="flex flex-col xl:space-y-2 md:space-y-4 space-y-2">
             <p className="text-black xl:text-3xl md:text-3xl 2xl:text-4xl font-semibold">
               WELCOME TO WINLADS
             </p>
             <img src={Line} alt="" className="xl:py-4 md:py-4 py-2 w-48" />
-            <p className="text-gray-700 sm:text-md text-sm 2xl:text-lg w-36 md:w-72 xl:w-72">
-              Picture this: you're kicking back, chilling, and earning easy
-              cash—yeah, it's possible! We've got a stash of unreal deals
-              waiting for ya. Plus, sling our program to your mates, and you'll
-              be raking in dosh on the side. No worries, it's that easy!
+            <p>Eligibility Criteria and Decision-Making Framework</p>
+            <p className="text-gray-700 sm:text-xs text-xs 2xl:text-sm w-36 md:w-72 xl:w-[500px]">
+              Members in both the $100 and $500 tiers can propose within the
+              Winlads Urgency Program. However, the authority for
+              decision-making lies solely with the $500 Ultimate Tier.
+              Specifically, individuals in this tier, with at least six months
+              of active participation and verification through the referral
+              program (a minimum of 5 direct referrals), possess voting
+              privileges. Operational functionality within the Winlads Urgency
+              Program operates under a Decentralized Autonomous Organization
+              (DAO) framework. Voting power is equally distributed between the
+              Winlads Core Team and OG (Original Gangster) members, each holding
+              50% voting power. For a proposal to secure approval and financial
+              aid, it must obtain a majority vote exceeding 51% .
             </p>
-           
-            {/* <p className="text-black text-xs 2xl:text-lg w-48 md:w-72 xl:w-72 capitalize">
-              AUSTRALIA WIDEFROM ONLY $9.99 PER MONTH, OPT-OUT ANYTIME
-            </p> */}
+            <p>Community Consensus and Proposal Approval:</p>
+            <p className="text-gray-700 sm:text-xs text-xs 2xl:text-sm w-36 md:w-72 xl:w-[500px]">
+              Proposals within the Winlads Urgency Program undergo collective
+              evaluation by qualified members. A proposal must attain a majority
+              vote of over 51% to receive approval, reflecting the collective
+              decision-making power of the Winlads community. This approach
+              ensures transparency, fairness, and accountability in extending
+              support to members during financial challenges.
+            </p>
+
           </div>
-          
         </div>
-        {/* <div className="bg-white p-4 text-end">
-              With over 200+ businesses across 200+ stores where <br /> you can
-              accessexclusive discount Australia Widefrom
-              <br /> only $9.99 per month, opt-out anytme
-            </div> */}
+   
       </div>
 
       <div className="relative overflow-hidden">
@@ -52,40 +62,8 @@ const SecondSection = () => {
               src={Vehicel}
               alt="main"
             />
-            {/* <img src={Vehicel} alt="" className="w-64 xl:w-[600px] lg:w-[400px]" /> */}
-
-            {/* <motion.img
-                initial={carAnimation.initialMobile}
-                animate={carAnimation.animate}
-                transition={carAnimation.transition}
-                className="absolute right-0 top-40 w-1/2"
-                src={Jeep2}
-                alt="main"
-              /> */}
-            {/* <div className="hidden md:block xl:block">
-              <motion.img
-                initial={{ x: -180, opacity: 0 }} // Initial position and opacity (hidden)
-                animate={{ x: 0, opacity: 1 }} // Move and fade in when in view
-                transition={{ type: "tween", duration: 1, delay: 1 }}
-                className="absolute right-0 top-40 md:top-80 xl:w-1/2 md:w-3/4"
-                src={Jeep2}
-                alt="main"
-              />
-            </div> */}
-            {/* <div className="block md:hidden xl:hidden">
-              <motion.img
-                initial={{ x: -180, opacity: 0 }} // Initial position and opacity (hidden)
-                animate={{ x: 0, opacity: 1 }} // Move and fade in when in view
-                transition={{ type: "tween", duration: 1, delay: 1 }}
-                className="absolute right-0 top-60 w-3/4"
-                src={Jeep2}
-                alt="main"
-              />
-            </div> */}
-
-            {/* <img src={Jeep2} alt="" className="w-1/2"/> */}
           </div>
-          <img src={BG2} alt="" className="" />
+          <img src={BG2} alt="" className="w-[600px]" />
         </div>
       </div>
 

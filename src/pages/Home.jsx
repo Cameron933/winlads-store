@@ -13,6 +13,7 @@ import Partners from "../components/Partners"
 import Packages from "../components/Packages"
 import Faq from "../components/Faq"
 import Prize from "../components/Prize"
+import Apps from "../components/Apps"
 
 // import InstagramGalleryViewer from "../components/InstagramGallery"
 
@@ -26,10 +27,10 @@ const Home = () => {
     <Packages />
     <Sec2 />
     <Prize />
-   
     <SecondSection />
 
     {/* <Partners /> */}
+    <Apps />
     <Faq />
     <Level />
     {/* <Shared /> */}
