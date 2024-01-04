@@ -48,13 +48,14 @@ const Level = () => {
             transition={{ duration: 1.5 }}
             src={NewJeep}
             alt="main"
-            className="w-1/2 py-4"
+            className="xl:w-1/2 py-4 w-full"
           />
           {/* <img src={cabBack} className="" /> */}
         </div>
         {/* <motion.div variants={textAnimate}> */}
-        <div className="grid xl:grid-cols-5 grid-cols-2 md:grid-cols-3 gap-4 px-3 xs:px-0 md:px-0">
+        <div className="grid xl:grid-cols-5 grid-cols-1 md:grid-cols-3 gap-4 px-3 xs:px-0 md:px-0">
           <Card
+            classNames={"col-span-1"}
             title="Starter Tier"
             // titleColor="white"
             title2="01 FREE ENTRY"
@@ -76,6 +77,7 @@ const Level = () => {
             yValue={-20}
           />
           <Card
+            classNames={"col-span-1"}
             bgColorFrom="#FF4700"
             bgColorTo="#611C00"
             title="Boomer Tier"
@@ -98,6 +100,7 @@ const Level = () => {
             yValue={-40}
           />
           <Card
+            classNames={"col-span-1"}
             bgColorFrom="#00ECFF"
             bgColorTo="#006168"
             title="Platinum Tier"
@@ -123,6 +126,7 @@ const Level = () => {
             yValue={-60}
           />
           <Card
+            classNames={"col-span-1"}
             bgColorFrom="#FFBE00"
             bgColorTo="#766000"
             mostPopular={true}
@@ -171,7 +175,7 @@ const Level = () => {
             buttonTextColor={"white"}
             btnword="SIGN UP FOR FREE"
             yValue={-100}
-            classNames={"col-span-2 md:col-span-1"}
+            classNames={"col-span-1"}
           />
           {/* <Card />
         <Card />

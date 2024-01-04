@@ -10,8 +10,9 @@ const Packages = () => {
         </p>
       </div>
       <div className="px-4">
-        <div className="grid xl:grid-cols-5 grid-cols-2 md:grid-cols-3 gap-4 px-3 xs:px-0 md:px-0">
+        <div className="grid xl:grid-cols-5 md:grid-cols-2 grid-cols-1 gap-4 px-3 xs:px-0 md:px-0">
           <Card
+         classNames={"col-span-1"}
             title="Starter Tier"
             // titleColor="white"
             title2="01 FREE ENTRY"
@@ -36,6 +37,7 @@ const Packages = () => {
             yValue={-20}
           />
           <Card
+            classNames={"col-span-1"}
             bgColorFrom="#FF4700"
             bgColorTo="#611C00"
             title="Boomer Tier"
@@ -60,6 +62,7 @@ const Packages = () => {
             yValue={-40}
           />
           <Card
+            classNames={"col-span-1"}
             bgColorFrom="#00ECFF"
             bgColorTo="#006168"
             title="Platinum Tier"
@@ -87,6 +90,7 @@ const Packages = () => {
             yValue={-60}
           />
           <Card
+            classNames={"col-span-1"}
             bgColorFrom="#FFBE00"
             bgColorTo="#766000"
             mostPopular={true}
@@ -139,7 +143,7 @@ const Packages = () => {
             btnword="SIGN UP FOR FREE"
             btnword2="TRY SINGLE ENTRIES"
             yValue={-100}
-            classNames={"col-span-2 md:col-span-1"}
+            classNames={"col-span-1"}
           />
           {/* <Card />
         <Card />
