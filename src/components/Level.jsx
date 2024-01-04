@@ -5,6 +5,7 @@ import cabBack from "../assets/cab-back.png";
 import Card from "./Card";
 import { motion } from "framer-motion";
 import Correct from "../assets/correct.png";
+import NewJeep from "../assets/newJeep.png";
 
 const textAnimate = {
   offscreen: { y: -100, opacity: 0 },
@@ -41,13 +42,14 @@ const Level = () => {
             <p className="text-6xl font-bold">CHOOSE YOUR LEVEL</p>
           </div>
           <motion.img
-                initial={{opacity:0, scale:0.9}}
-                whileInView={{opacity:1, scale:1}}
-                viewport={{once:true}}
-                transition={{duration:1.5}}
-                src={cabBack}
-                alt="main"
-              />
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1.5 }}
+            src={NewJeep}
+            alt="main"
+            className="w-1/2 py-4"
+          />
           {/* <img src={cabBack} className="" /> */}
         </div>
         {/* <motion.div variants={textAnimate}> */}

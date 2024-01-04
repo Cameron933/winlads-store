@@ -6,6 +6,7 @@ import { animate, motion } from "framer-motion";
 import { carAnimation } from "../animations/animation";
 import Line from "../assets/line.png";
 import Vehicel from "../assets/new-jeep-half.png";
+import NewJeep2 from "../assets/newJeep2.png"
 
 const SecondSection = () => {
   return (
@@ -52,14 +53,14 @@ const SecondSection = () => {
 
       <div className="relative overflow-hidden">
         <div className="flex justify-end">
-          <div className="absolute right-0 top-20 xl:top-0">
+          <div className="absolute right-0 top-40 xl:top-40 md:top-80">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 1.5, delay: 0.8 }}
-              className="w-64 md:w-[500px] xl:w-[600px]"
-              src={Vehicel}
+              className="w-48 md:w-[400px] xl:w-[700px]"
+              src={NewJeep2}
               alt="main"
             />
           </div>
