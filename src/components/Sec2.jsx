@@ -44,8 +44,8 @@ const Sec2 = () => {
       <video src={video} className="w-full h-full object-cover" autoPlay loop playsInline muted></video>
       <div className="bg-gradient-to-t from-black/75 to-black/50 absolute top-0 left-0 w-full h-full"/>
       <div className="text-center flex justify-center flex-col absolute top-1/2 -translate-y-1/2 left-0 w-full">
-        <p className="text-xl lg:text-4xl 2xl:text-5xl text-white font-semibold pb-12">
-          Giveaway ends in
+        <p className="text-xl lg:text-4xl 2xl:text-5xl capitalize text-white font-semibold pb-12">
+        The grand giveaway ends in
         </p>
 
         <div className="flex flex-row justify-center text-white gap-4">

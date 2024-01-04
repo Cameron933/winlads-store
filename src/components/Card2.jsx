@@ -107,7 +107,7 @@ const Card = ({
       </div>
       <div className="flex flex-col  border-2 space-y-4 border-black bg-white px-2 py-4  rounded-xl mb-5 h-full relative">
       
-      <p className="text-center"><span className="text-3xl xl:text-4xl font-semibold">{desc1}</span>&nbsp;per month</p>
+      <p className="text-center text-xs md:text-sm"><span className="text-2xl xl:text-4xl font-semibold">{desc1}</span>&nbsp;per month</p>
       <div
         className={`rounded-md border-2 hover:border-black hover:bg-white hover:text-black cursor-pointer border-white flex flex-row justify-center py-2 hover:scale-105 hover:transition-transform ease-out duration-300 mt-auto text-${buttonTextColor}`}
         style={{ backgroundColor: btnBgColor1 }}
