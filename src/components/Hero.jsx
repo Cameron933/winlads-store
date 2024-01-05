@@ -26,7 +26,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="flex flex-col relative">
+      <div className="flex flex-col relative xl:mb-16">
         <div className="absolute top-10 right-4 xl:right-10 md:right-10 xl:left-20 left-4 bottom-0 z-10">
           <Header />
         </div>
@@ -48,7 +48,7 @@ const Hero = () => {
               >
                 <motion.img
                   variants={imageAnimate}
-                  className="w-3/4"
+                  className="w-4/5 xl:w-full"
                   src={HeroJeep}
                   // style={{
                   //   position: "absolute",

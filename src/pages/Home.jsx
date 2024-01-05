@@ -16,6 +16,7 @@ import Prize from "../components/Prize"
 import Apps from "../components/Apps"
 import Map from "../components/Map"
 import Welcome from "../components/Welcome"
+import Gallery from "../components/Gallery"
 
 // import InstagramGalleryViewer from "../components/InstagramGallery"
 
@@ -29,9 +30,10 @@ const Home = () => {
     <Packages />
     <Sec2 />
     <Map />
-    <Prize />
+    {/* <Prize /> */}
     <Welcome />
     {/* <SecondSection /> */}
+    <Gallery />
 
     <Partners />
     <Apps />

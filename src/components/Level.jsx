@@ -31,14 +31,14 @@ const Level = () => {
       //   background: "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
       // }}
     >
-      <div className="flex flex-col xl:px-8 px-4 justify-between xl:items-center md:pt-4 pt-24 2xl-pt-0 xl:pt-0 py-8">
+      <div className="flex flex-col xl:px-8 px-4 justify-between xl:items-center 2xl-pt-0 xl:pt-0 py-8">
         <div className="flex flex-col gap-2 items-center">
           <div className="block 2xl:hidden">
             <p className="xl:text-6xl md:text-4xl text-3xl font-semibold special:text-10xl md:text-center text-center xl:text-start">
               CHOOSE A SUBSCRIPTION PLAN
             </p>
           </div>
-          <div className="hidden 2xl:block">
+          <div className="hidden 2xl:block pb-8">
             <p className="text-6xl font-bold">CHOOSE YOUR LEVEL</p>
           </div>
           <motion.img
@@ -48,7 +48,7 @@ const Level = () => {
             transition={{ duration: 1.5 }}
             src={NewJeep}
             alt="main"
-            className="xl:w-1/2 py-4 w-full"
+            className="xl:w-1/2 py-16 w-full"
           />
           {/* <img src={cabBack} className="" /> */}
         </div>

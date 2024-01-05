@@ -60,6 +60,24 @@ const Partners = () => {
               <p className="text-white text-lg">|</p>
               <p className="text-white font-bold text-lg">Stripe</p>
               <p className="text-white text-lg">|</p>
+              <p className="text-white font-bold text-lg">Stripe</p>
+              <p className="text-white text-lg">|</p>
+              <p className="text-white font-bold text-lg">Stripe</p>
+              <p className="text-white text-lg">|</p>
+              <p className="text-white font-bold text-lg">Stripe</p>
+              <p className="text-white text-lg">|</p>
+              <p className="text-white font-bold text-lg">Stripe</p>
+              <p className="text-white text-lg">|</p>
+              <p className="text-white font-bold text-lg">Stripe</p>
+              <p className="text-white text-lg">|</p>
+              <p className="text-white font-bold text-lg">Stripe</p>
+              <p className="text-white text-lg">|</p>
+              <p className="text-white font-bold text-lg">Stripe</p>
+              <p className="text-white text-lg">|</p>
+              <p className="text-white font-bold text-lg">Stripe</p>
+              <p className="text-white text-lg">|</p>
+              <p className="text-white font-bold text-lg">Stripe</p>
+              <p className="text-white text-lg">|</p>
             </div>
             
           </Marquee>
@@ -69,6 +87,42 @@ const Partners = () => {
         <div className="flex flex-row items-center bg-white border-2 border-[#01819D] py-2 w-full h-[70px]">
           <Marquee direction="right">
             <div className="flex flex-row space-x-8">
+              <p className="text-[#01819D] font-bold text-xl uppercase">
+                Nontera
+              </p>
+              <p className="text-[#01819D] text-lg">|</p>
+              <p className="text-[#01819D] font-bold text-xl uppercase">
+                Nontera
+              </p>
+              <p className="text-[#01819D] text-lg">|</p>
+              <p className="text-[#01819D] font-bold text-xl uppercase">
+                Nontera
+              </p>
+              <p className="text-[#01819D] text-lg">|</p>
+              <p className="text-[#01819D] font-bold text-xl uppercase">
+                Nontera
+              </p>
+              <p className="text-[#01819D] text-lg">|</p>
+              <p className="text-[#01819D] font-bold text-xl uppercase">
+                Nontera
+              </p>
+              <p className="text-[#01819D] text-lg">|</p>
+              <p className="text-[#01819D] font-bold text-xl uppercase">
+                Nontera
+              </p>
+              <p className="text-[#01819D] text-lg">|</p>
+              <p className="text-[#01819D] font-bold text-xl uppercase">
+                Nontera
+              </p>
+              <p className="text-[#01819D] text-lg">|</p>
+              <p className="text-[#01819D] font-bold text-xl uppercase">
+                Nontera
+              </p>
+              <p className="text-[#01819D] text-lg">|</p>
+              <p className="text-[#01819D] font-bold text-xl uppercase">
+                Nontera
+              </p>
+              <p className="text-[#01819D] text-lg">|</p>
               <p className="text-[#01819D] font-bold text-xl uppercase">
                 Nontera
               </p>
