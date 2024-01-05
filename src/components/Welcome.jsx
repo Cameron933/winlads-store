@@ -52,17 +52,27 @@ const Welcome = () => {
         <div className="flex md:hidden">
           <iframe
             src="https://player.vimeo.com/video/899812267?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-            width="300"
+            width="310"
             height="200"
             //   frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             title="Winlads"
           ></iframe>
         </div>
-        <div className="hidden items-center md:flex">
+        <div className="hidden md:flex xl:hidden pt-2">
           <iframe
             src="https://player.vimeo.com/video/899812267?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-            width="600"
+            width="690"
+            height="400"
+            //   frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            title="Winlads"
+          ></iframe>
+        </div>
+        <div className="hidden items-center xl:flex">
+          <iframe
+            src="https://player.vimeo.com/video/899812267?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            width="680"
             height="400"
             //   frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
