@@ -69,7 +69,7 @@ const Welcome = () => {
             title="Winlads"
           ></iframe>
         </div>
-        <div className="hidden pro:flex">
+        <div className="hidden pro:flex xl:hidden">
           <iframe
             src="https://player.vimeo.com/video/899812267?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
             width="940"
