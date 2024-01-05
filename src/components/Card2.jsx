@@ -76,10 +76,10 @@ const Card = ({
     >
       {mostPopular && (
         <div
-          className="flex items-center justify-center gap-2 text-center absolute rounded-t-xl top-0 left-0 w-full py-2 bg-black font-semibold"
+          className="flex items-center justify-center gap-2 text-center absolute rounded-t-xl top-0 left-0 w-full py-2 bg-white font-semibold"
           style={{ color: bgColorFrom }}
         >
-          <FaStar /> Most Popular
+          <FaStar className="text-yellow-400" /> <span className="text-black">Most Popular</span>
         </div>
       )}
       <p

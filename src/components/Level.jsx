@@ -129,7 +129,7 @@ const Level = () => {
             classNames={"col-span-1"}
             bgColorFrom="#FFBE00"
             bgColorTo="#766000"
-            mostPopular={true}
+       
             title="Gold Tier"
             titleColor="black"
             // titleColor="white"
@@ -156,6 +156,7 @@ const Level = () => {
             bgColorTo="#000"
             title="Black Tier"
             titleColor="white"
+            mostPopular={true}
             // titleColor="white"
             title2="150 FREE ENTRIES"
             titleColor2="#FFF"
