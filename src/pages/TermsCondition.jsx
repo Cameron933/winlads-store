@@ -1,127 +1,240 @@
-const MyTable = ({ data }) => {
+import { HashLink } from "react-router-hash-link";
+
+const MyTable = () => {
   return (
-    <table className="border-collapse border ">
+    <table className="border-collapse border  table-auto w-full ">
       <thead>
         <tr></tr>
       </thead>
       <tbody>
-        {data.map((item) => (
-          <tr key={item.id}>
-            <td className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl border border-black	   p-4 lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-              {item.name}
-            </td>
-            <td className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	border border-black    p-4 lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-              {item.description}
-            </td>
-          </tr>
-        ))}
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>Promotion</p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>WINLADS Giveaway </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>Promoter</p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>Winlads Pty Ltd ABN 87 671 535 149</p>
+            <p>2009/15 Everage Street, Moonee Ponds, Victoria 3039, AU</p>
+            <p>0420363993</p>
+            <p>shehan.thenabadu@gmail.com</p>
+            <p>
+              <HashLink
+                to="/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#1e595e]"
+              >
+                winladsgiveaway.com
+              </HashLink>
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left ">
+            <p>Promotion period</p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>Start Date: 9:00am AEDT 1 January 2024 </p>
+            <p>End Date: 5:00pm AEDT 28 February 2024 </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p> Prize</p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>Mazda BT50 Ute or $60,000 Cash </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p> Total Prize Pool</p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>$128,750 </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p> Permits </p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>NSW Authority Number: [xxx] </p>
+            <p>ACT Permit Number: [xxx] </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p> Relevant States </p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>All Australian states and territories except South Australia</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p> Entrants </p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>
+              Entry is open to residents of the Relevant States aged eighteen
+              (18) years or over{" "}
+              <span className="font-semibold">(Entrants)</span>. Employees (as
+              well as their immediate family members) of the Promoter,
+              retailers, suppliers and associated companies and agencies are not
+              eligible to enter in the Promotion.
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p> Entry Procedure </p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>
+              Visit the promotions page at{" "}
+              <span>
+                <HashLink
+                  to="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#1e595e]"
+                >
+                  winladsgiveaway.com
+                </HashLink>
+              </span>{" "}
+              (Site), sign up to one of our membership options, complete the
+              entry form, agree to the Terms & Conditions and click submit.
+              Entrants must enter the Promotion in their own name and will be
+              required to provide all mandatory information, including the
+              Entrant’s full name, residential address, age, date of birth,
+              email address and contact telephone number.
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p> Maximum Number of Entries </p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>Limit of one entry per person</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p> Draw Details </p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>
+              <span className="font-semibold">Draw Date:</span> 29 February 2024{" "}
+            </p>
+            <p>
+              <span className="font-semibold">Draw Time:</span> 9:00 am AEDT{" "}
+            </p>
+            <p>
+              <span className="font-semibold">Draw Location:</span> 2009/15
+              Everage Street, Moonee Ponds, Victoria 3039, AU{" "}
+            </p>
+            <p>
+              <span className="font-semibold">Draw Method:</span> Electronic
+              random draw{" "}
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p> Notification of Winners </p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>
+              Winners will be notified via email & phone no later than 29
+              February 2024{" "}
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p> Redemption Date </p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>29 May 2024 </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p> Unclaimed Prize Redraw </p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>
+              <span className="font-semibold">Redraw Date:</span> 1 august 2024{" "}
+            </p>
+            <p>
+              <span className="font-semibold">Redraw Time:</span> 12pm Melbourne
+              time zone{" "}
+            </p>
+            <p>
+              <span className="font-semibold">Redraw Location:</span> 15 everage
+              street Moonee Ponds{" "}
+            </p>
+            <p>
+              <span className="font-semibold">Redraw Method:</span> electronic{" "}
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p> Notification of Unclaimed Prize Redraw Winners </p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>
+              Unclaimed prize winners will be notified via email & phone no
+              later than [insert date].{" "}
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p> Privacy Policy </p>
+          </td>
+          <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
+            <p>
+              <HashLink
+                to="/privacypolicy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#1e595e]"
+              >
+                winladsgiveaway.com/privacypolicy
+              </HashLink>{" "}
+            </p>
+          </td>
+        </tr>
       </tbody>
     </table>
   );
 };
-
-// Sample data
-const sampleData = [
-  { id: 1, name: "Promotion name", description: "WINLADS" },
-  { id: 2, name: "Eligible States/Territories", description: "National" },
-  {
-    id: 3,
-    name: "Promotion period",
-    description:
-      "26 Dec 2023 09:00 End: 25 Feb 2024 17:30 No entries will be accepted outside this time.",
-  },
-  {
-    id: 4,
-    name: "Website address",
-    description: <a href="/" target="_blank">www.winlads.com</a>,
-  },
-  {
-    id: 5,
-    name: "Promoter",
-    description:
-      " WINLADS ABN: 87671535149 2009/15 everage street Moonee Ponds VIC 3039",
-  },
-  {
-    id: 6,
-    name: "Eligible entrants",
-    description:
-      "	Entry to the Promotion is open to Australian residents in all eligible states/territories who fulfil the method of entry requirements.",
-  },
-  {
-    id: 7,
-    name: "Details of prizes ",
-    description:
-      "Mazda BT50 Ute Driveaway.  5 year warranty.Registration will be paid and transfer will be done by winlads. All costs included.75000$ RRP Or ElseIf Winner don’t want the UTE , entrant can claim 65,000$ cash price.It is either Ute or Cash price",
-  },
-  { id: 8, name: "Total number of prizes", description: "1" },
-  {
-    id: 9,
-    name: "Total prize value",
-    description: "Total prize pool (inc GST): $75,000.00",
-  },
-  {
-    id: 10,
-    name: "Method of entry",
-    description:
-      "To enter, an entrant must, during the promotional period Each subscription package comes with a pre-defined number of entries. To enter the competition, please visit the competition website and fill out the necessary information on the online entry form as per the instructions provided on the website. Entrants have the option to subscribe to a monthly package or purchase entries for the specified drawing. It is mandatory to sign up through the website and submit the required information to validate the entry.",
-  },
-  {
-    id: 11,
-    name: "Maximum number of entries",
-    description: "Unlimited",
-  },
-  {
-    id: 12,
-    name: "Prize draw ",
-    description:
-      "A random prize draw, in the presence of an independent scrutineer, will occur 23: 59 on 27 Feb 2024 Location of draw: Trade Promotions and Lotteries Pty Ltd Level 2 11 York Street Sydney NSW 2000 ",
-  },
-  {
-    id: 13,
-    name: "Notification of winners ",
-    description:
-      "Notification of winners 	Winners will be notified via Email & phone no later than 27 Feb 2024. ",
-  },
-  {
-    id: 14,
-    name: "Public announcement of winners",
-    description:
-      "The winners of all prizes will be published here:www.winlads.com on 29 Feb 2024",
-  },
-
-  {
-    id: 15,
-    name: "Unclaimed prize draw",
-    description:
-      "A random unclaimed prize draw, in the presence of an independent scrutineer, will occur 14:00 on 27 May 2024 Location of draw:Trade Promotions and Lotteries Pty Ltd Level 2 11 York Street Sydney NSW 2000",
-  },
-  {
-    id: 16,
-    name: "Notification of unclaimed prize winners",
-    description:
-      "Unclaimed prize winners will be notified via Email & phone no later than 27 May 2024",
-  },
-  {
-    id: 17,
-    name: "Public announcement of winners from unclaimed prize draw",
-    description:
-      "The winners of all unclaimed prizes will be published here:www.winlads.com on 29 May 2024",
-  },
-  {
-    id: 18,
-    name: " Permit reference",
-    description:
-      "Authorised under NSW Authority No. TP/03199  Permit No. ACT TP 23/02687",
-  },
-  // {
-  //   id: 19,
-  //   name: "Privacy Policy",
-  //   description:
-  //     <a href="/privacy" target="_blank">Click here</a>
-  // },
-];
-
-
 
 function TermsCondition() {
   return (
@@ -132,335 +245,385 @@ function TermsCondition() {
     >
       <div className="">
         <div className="">
-          <p className="text-3xl 4xl:text-8xl xl:text-6xl special:text-8xl md:text-4xl font-bold uppercase tracking-widest p-4 text-center lg:text-4xl lg:text-center 4xl:text:center xl:text-center">
+          <p className="text-3xl 4xl:text-8xl xl:text-6xl special:text-8xl md:text-4xl font-bold uppercase tracking-widest sm:p-4 p-3 text-center lg:text-4xl lg:text-center 4xl:text:center xl:text-center">
             TERMS & CONDITIONS
           </p>
         </div>
         <div className="">
-          <p className="text-xl 4xl:text-6xl xl:text-4xl special:text-8xl md:text-4xl font-bold	 mx-20  p-4 text-center lg:text-4xl lg:text-left 4xl:text:left xl:text-left">
+          <p className="text-xl 4xl:text-6xl xl:text-4xl special:text-8xl md:text-4xl font-bold	 mx-20  sm:p-4 p-3 text-center lg:text-4xl lg:text-left 4xl:text:left xl:text-left">
             Schedule to Terms & Conditions of Entry
           </p>
         </div>
-        <div className="lg:mx-20  mx-5">
-          <MyTable data={sampleData} />
+        <div className="lg:mx-20 sm:mx-5 mx-3">
+          <MyTable />
         </div>
 
-        <p className="text-2xl 4xl:text-6xl xl:text-4xl special:text-8xl md:text-4xl font-bold	mx-20   p-4 text-center lg:text-4xl lg:text-left 4xl:text:left xl:text-left mt-5">
+        <p className="text-2xl 4xl:text-6xl xl:text-4xl special:text-8xl md:text-4xl font-bold	mx-20   sm:p-4 p-3 text-center lg:text-4xl lg:text-left 4xl:text:left xl:text-left mt-5">
           Terms & Conditions of Entry
         </p>
-        <div className="lg:mx-20 mx-5 ">
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4 lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            1. Information on how to enter and prize details form part of these
-            terms & conditions (Terms of entry). The Terms must be read in
-            conjunction with the Schedule. The Schedule defines the terminology
-            used in these Terms of entry. Where there is any inconsistency
-            between these Terms and the Schedule, the Schedule prevails.
-            Participation in this Promotion is deemed acceptance of these Terms
-            of entry.
-          </p>
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            2. Entry is open only to legal residents of the Eligible
-            States/Territories who satisfy the Method of entry. Directors,
-            officers, management, employees, suppliers (including prize
-            suppliers) and contractors (and the immediate families of directors,
-            officers, management, employees, suppliers and contractors) of the
-            Promoter and of its related bodies corporate, and of the agencies
-            and companies associated with this Promotion, including the
-            competition permit providers TPAL (Trade Promotions and Lotteries
-            Pty Ltd) are ineligible to enter. Immediate family means any of the
-            following: spouse, ex-spouse, child or step-child (whether natural
-            or by adoption), parent, step-parent, grandparent, step-grandparent,
-            uncle, aunt, niece, nephew, brother, sister, step-brother,
-            step-sister or first cousin
-          </p>
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            3. The Promotion will be conducted during the Promotion period.
+        <div className="lg:mx-20 sm:mx-5 mx-3 ">
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            1. The Schedule and these Terms and Conditions govern the Entrant’s
+            participation in the Promotion. Participation in the Promotion is
+            deemed acceptance of these Terms & Conditions.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4 lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            4. The time zone applicable to any time stated, relates to the state
-            or territory where the Promoter is located, unless expressly stated
-            to the contrary.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            2. To enter the Promotion, Entrants must complete the Entry
+            Procedure during the Promotional Period.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            5. The Prize/s are specified in the Details of prizes section of the
-            Schedule.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            3. Entrants may enter the Promotion up to the Maximum Number of
+            Entries.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            6. The total prize pool is specified in the Total prize value
-            section of the Schedule.
-          </p>
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            7. Any prize is valued in Australian dollars unless expressly stated
-            to the contrary.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            4. The use of automated entry software or other mechanical,
+            electronic or other means that allow an Entrant to automatically
+            enter the Promotion repeatedly is prohibited and will render all
+            entries submitted by the Entrant invalid.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4 lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            8. Any Cash prize will be distributed via EFT
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            5. Incomplete and ineligible entries will be deemed invalid. Entries
+            will also be deemed invalid if they breach these Terms & Conditions
+            or any other content guidelines notified by the Promoter.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            9. Unless otherwise stated, the winner is responsible for all
-            expenses in getting to and from the nominated dealership to collect
-            the Motor vehicle prize. Any costs associated with the transport of
-            the Motor vehicle to an alternate pick up location will be the
-            responsibility of the winner.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            6. The Promoter reserves the right, at any time, to verify the
+            validity of entries and Entrants (including an Entrant’s identity,
+            age and place of residence) and to disqualify any Entrant.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            10. Please allow up to 5 months from date of the winner notification
-            for delivery of the Motor vehicle prize.
+          <p className="font-semibold text-lg md:text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl  special:text-5xl  sm:p-4 p-3  sm:text-left text-center xl:mt-5 sm:mt-4 mt-3 ">
+            Prize Draw
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            11. Unless otherwise stated, the Motor vehicle prize does not
-            include petrol, comprehensive insurance, compulsory third party
-            insurance, any mechanical, body or other repairs made from the date
-            of redemption, optional extras and any ancillary costs associated
-            with redeeming the Motor vehicle prize.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            7. The draw to determine the winner{" "}
+            <span className="font-semibold">(Winner)</span> for the Promotion
+            will be conducted in accordance with the Draw Details. Where more
+            than one Prize is available, each Winner may only win one Prize.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            12. Entrants are advised that tax implications may arise from their
-            prize winnings and they should seek independent financial advice
-            prior to acceptance of their prize(s). The Promoter accepts no
-            responsibility for any tax implications that may arise from
-            accepting a prize. Entrants are responsible for any and all expenses
-            that they incur in entering the competition and they will not be
-            reimbursed regardless of whether or not they win the competition.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            8. Where the Prize (as described in the Schedule) consists of
+            multiple items or Prizes which are each separately redeemable by a
+            Winner, the first such item or Prize will be drawn on the Draw Date
+            and each subsequent item or Prize will be drawn on the Subsequent
+            Draw Dates in accordance with the Draw Details.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4 lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            13. The entrants must follow the Method of entry during the
-            Promotion period to enter the Promotion. Failure to do so will
-            result in an invalid entry. The Promoter will not advise an Entrant
-            if their entry is deemed invalid.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            9. The Winner will be notified as specified in the Schedule.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4 lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            14. The time of entry will be deemed to be the time the entry is
-            received by the Promoter.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            10. The Winner’s full name and city of origin will be published in a
+            national newspaper, and/or on the Site, or on the Promoter’s social
+            media accounts, including but not limited to, Facebook, Twitter and
+            Instagram, within 30 days of the Draw Date. It is a condition of
+            entry into the Promotion that the Winner consents to the publication
+            of such information and participates in any media releases which may
+            include photographs of the Winner by the Promoter. By entering into
+            this Promotion, Entrants consent to the use of their names and
+            likenesses in this manner.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4   lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            15. Entrants may submit up to the Maximum number of entries (if
-            applicable).
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            11. Entrants are responsible for all expenses incurred when entering
+            the Promotion and accessing, claiming and/or using the Prize (unless
+            otherwise stated on the Site).
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            16. The Promoter accepts no responsibility for any late, lost,
-            delayed, incomplete, incorrectly submitted, corrupted, illegible or
-            misdirected entries, claims or correspondence whether due to
-            omission, error, alteration, tampering, deletion, theft,
-            destruction, disruption to any communication network or medium, or
-            otherwise including those entries not received by the Promoter for
-            any reason. The Promoter is not liable for any consequences of user
-            error including (without limitation) costs incurred. No
-            correspondence will be entered into.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            12. As the Promotion is a game of chance, and subject otherwise to
+            these Terms & Conditions, skill plays no part in determining the
+            Winner and each valid entry will NOT be individually judged. Each
+            entry has an equal chance of winning. The Winner will be confirmed
+            by the Promoter.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4   lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            17. The prize(s) will be awarded to the valid entrant(s) drawn
-            randomly in accordance with the Prize draw details. The Promoter may
-            draw additional reserve entries (and record them in order). In the
-            event of an invalid entry or an ineligible entrant, or if the
-            entrant is ineligible to accept the prize, the prize will be awarded
-            to the first reserve entry drawn. If the prize can’t be awarded to
-            the entrant drawn, the promoter will then continue this process
-            until the prize is awarded.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            13. The Promoter’s decision is final and no correspondence will be
+            entered into with Entrants regarding the decision.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            18. The winner does not need to be present at the draw unless
-            expressly stated to the contrary.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            14. If a Winner’s entry is deemed or found to be invalid, the
+            Promoter may redraw or decide on another winning entry.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4   lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            19. The winner(s) will be notified in accordance with the
-            Notification of winners and Notification of unclaimed prize winners
-            (if applicable) sections of the Schedule. Notification to winners
-            will be deemed to have occurred on the later of the time the winner
-            receives actual notification from the Promoter or two business days
-            thereafter. The notification will include details about how the
-            prize(s) can be claimed.
+          <p className="font-semibold text-lg md:text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl  special:text-5xl  sm:p-4 p-3  sm:text-left text-center xl:mt-5 sm:mt-4 mt-3 ">
+            Prizes
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            20. The Promoter takes no responsibility where it is unable to
-            contact prize winners who have not provided correct or complete
-            contact details. If an entrant’s contact details change during the
-            promotional period, it is the entrant's responsibility to notify the
-            Promoter. A request to modify any entry information should be
-            directed to Promoter.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            15. The Prize(s) are specified in the Schedule.
+            <span className="font-semibold">
+              {" "}
+              Subject to clause 5, THE PRIZE IS NOT TRANSFERRABLE AND NOT
+              REDEEMABLE FOR CASH.
+            </span>
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            21. It is a condition of accepting any prize that the winner must
-            comply with all the conditions of use of the prize and prize
-            supplier’s requirements. Each prize must be taken as stated and no
-            compensation will be payable if a winner is unable to use the prize
-            as stated.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            16. If any Prize is unavailable and the Promoter has used all
+            reasonable efforts to arrange the Prize, the Promoter reserves the
+            right to substitute the Prize with a prize of equal value and/or
+            specification, subject to any written directions from a regulatory
+            authority.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            22. The winner(s) name and state/territory of residence will be
-            published in accordance with the Public announcement of winners
-            section of the Schedule (if applicable).
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            17. The Promoter and/or any supplier of the Prize or any part of the
+            Prize may in their absolute discretion: <br />{" "}
+            <div className="sm:ml-5 ml-3 mt-2 sm:mt-3">
+              (a) reserve the right to refuse to allow the Winner or their
+              companion(s) (if any) to take part in any or all aspects of the
+              Prize if they reasonably believe the Winner or their companion(s)
+              (if any) represent a safety risk or for any other reason; and
+            </div>{" "}
+            
+            <div className="sm:ml-5 ml-3 mt-2 sm:mt-3">
+              (b) may cancel the relevant component of the Prize if the
+              conditions are deemed dangerous.
+            </div>
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4   lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            23. If the prize(s) has not been claimed by the Unclaimed prize draw
-            time and date and subject to any written directions from a State
-            lottery agency, the Promoter may conduct an Unclaimed prize draw in
-            accordance with the Unclaimed prize draw section of the Schedule (if
-            applicable). In the event the Unclaimed prize draw takes place, the
-            Promoter will attempt to contact the winner(s) of the Unclaimed
-            prize draw in accordance with the Notification of unclaimed prize
-            draw section of the Schedule, and if applicable, the name and
-            State/Territory of residency of any winner(s) of the Unclaimed prize
-            draw will be published in accordance with the section of the
-            Schedule entitled Public announcement of winners from unclaimed
-            prize draw. If a prize is no longer available the promoter may
-            substitute with a prize of higher or equal value subject to any
-            written directions from a regulatory authority.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            18. <span className="font-semibold">(Motor vehicle)</span> Where a
+            motor vehicle is awarded as a Prize, the Winner must be capable of
+            obtaining the necessary motor vehicle registration for the Prize in
+            its name, in accordance with the applicable State or Territory
+            legislation in which the Prize is collected. If the Winner is unable
+            to register the Prize in their own name, then the Winner may assign
+            the Prize to another person (who consents to such assignment) with
+            legal capacity for the purpose of registration. The Promoter takes
+            no responsibility for any such arrangement between the Winner and
+            the assignee.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4   lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            24. To the greatest extent permitted by law, the Promoter excludes
-            all warranties, representations or guarantees (Warranties) regarding
-            the Promotion and any prizes, including any Warranties which may
-            have been made in the course of advertising or promoting the
-            Promotion. The conduct of the Promotion or the supply of prizes may
-            involve third parties, and the Promoter makes no Warranties and
-            disclaims all liability in connection with any such third parties,
-            their acts or omissions. By entering the Promotion, an entrant
-            releases and indemnifies the Promoter and its related bodies
-            corporate (including the officers, employees and agents of each)
-            from and against all actions, penalties, liabilities, claims or
-            demands the entrant may have against the Promoter or that the
-            Promoter may incur for any loss or damage which is or may be
-            suffered or sustained as a direct or indirect result of an entrant
-            entering or participating in the Promotion or winning or failing to
-            win a prize, or using or permitting any other person to use the
-            prize, except for any liability which cannot be excluded by law or
-            which would cause any part of this clause to be void or
-            unenforceable.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            19. <span className="font-semibold">(Cash)</span> Where cash is
+            awarded as a Prize, the Prize will be awarded in the form of a bank
+            cheque, via PayPal transfer (fees may apply and are the
+            responsibility of the Winner) or electronic funds transfer to the
+            Winner’s nominated bank account, at the Promoter’s election.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4   lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            25. If despite the foregoing clause, the Promoter incurs a liability
-            to an entrant under any law which implies a Warranty into these
-            Terms of entry which cannot legally be excluded, the Promoter’s
-            liability in respect of the Promotion is limited, in the Promoter’s
-            discretion, to either resupplying such goods or services as form
-            part of the Promotion, or paying the cost of resupplying those goods
-            or services.
+          <p className="font-semibold text-lg md:text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl  special:text-5xl  sm:p-4 p-3  sm:text-left text-center xl:mt-5 sm:mt-4 mt-3 ">
+            Claiming Prizes
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4 lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            26. Without limiting any of the foregoing, in no circumstances will
-            an entrant or the Promoter have any liability to the other for any
-            loss or damage suffered which is indirect or consequential in
-            nature, including without limitation any loss of profit, loss of
-            reputation, loss of goodwill, or loss of business opportunity
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            20. The Prize(s) must be claimed by the Redemption Date in
+            accordance with any claim instructions set out in the Schedule, or
+            it will be deemed forfeited by the Entrant. The Promoter may require
+            the Winner(s) to provide relevant evidence in order to claim the
+            Prize, such as proof of identity, age, and any relevant proof of
+            purchase.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            27. The Promoter and its associated agencies and companies will not
-            be liable for any delay, damage, or loss in transit of prizes.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            21. If any Prize remains unclaimed, a second draw or selection for
+            the Prize will take place in accordance with the Schedule,
+            specifically the Unclaimed Prize Redraw, subject to any directions
+            from a regulatory authority. The alternative Winner, if any, will be
+            notified in accordance with the Schedule, specifically Notification
+            of Unclaimed Prize Redraw Winners.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4   lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            28. The Promoter may in its absolute discretion not accept a
-            particular entry, may disqualify an entry, or cancel the entire
-            Promotion at any time without giving reasons and without liability
-            to any entrants. Without limiting this the Promoter reserves the
-            right to verify the validity of entries, prize claims and entrants
-            and to disqualify any entrant who submits an entry or prize claim
-            that is misleading or not in accordance with these Terms of entry or
-            who manipulates or tampers with the entry process. In the event that
-            a winner breaches these Terms of entry, the winner will forfeit the
-            prize in whole and no substitute will be offered. Verification is at
-            the discretion of the Promoter, whose decision is final. Failure by
-            the Promoter to enforce any of its rights at any stage does not
-            constitute a waiver of those rights.
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            22. The Promoter will deliver the Prize in accordance with the
+            Schedule. Should circumstances outside the Promoter’s control occur,
+            which cause a delay in delivery of the Prize, the Promoter will not
+            be liable.
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            29. Prizes, or any unused portion of a prize, are not transferable
-            or exchangeable and cannot be taken as cash, subject to any written
-            directions from a regulatory authority. Where a prize is unavailable
-            for any reason, the Promoter may substitute the prize for another
-            item of equal or higher value. The Promoter accepts no
-            responsibility for any variation in prize value (including between
-            advertising of the Promotion and receipt of the prize).
+          <p className="font-semibold text-lg md:text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl  special:text-5xl  sm:p-4 p-3  sm:text-left text-center xl:mt-5 sm:mt-4 mt-3 ">
+            General
           </p>
 
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            30. In the case of the intervention of any outside act, agent or
-            event which prevents or significantly hinders the Promoter’s ability
-            (or that of a third party involved with the Promotion) to proceed
-            with the Promotion on the dates and in the manner described in these
-            Terms of entry, including but not limited to vandalism, natural
-            disasters, acts of God, civil unrest, strike, war, act of terrorism,
-            the Promoter’s obligations in respect of the Promotion will be
-            suspended for the duration of the event and, in addition, the
-            Promoter may in its absolute discretion cancel the promotion and
-            recommence it from the start on the same conditions, subject to
-            approval of the relevant authorities
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            23. <span className="font-semibold">Personal information:</span> The
+            Promoter collects personal information from all Entrants in order to
+            conduct the Promotion and may, for this purpose, collect, use and
+            disclose such information to third parties, including but not
+            limited to agents, contractors, service providers, Prize suppliers
+            and as required, to regulatory authorities. Please see the
+            Promoter’s Privacy Policy (linked in the Schedule) and any privacy
+            collection notice provided, for more information about how the
+            Promoter handles your personal information. By providing personal
+            information to the Promoter, the Entrant agrees to the collection,
+            use, storage and disclosure of that information as described in this
+            clause 28 and the Promoter’s Privacy Policy.
           </p>
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4 lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            31. All entries become the property of the Promoter. As a condition
-            of entering into this Promotion, entrants agree to assign all their
-            rights in and to their entry and any related content to the
-            Promoter, including any copyright or other intellectual property
-            rights in the entry and related content. Without limiting this, the
-            Promoter may use entry content for any and all purposes including
-            commercial purposes. You warrant that entry content is original,
-            lawful and not misleading and that the Promoter’s use of such
-            content will not infringe the rights of any third parties. The
-            Promoter has no obligation to credit you as the author of any
-            content submitted and may otherwise do any acts or omissions which
-            would otherwise constitute an infringement of any moral rights you
-            may have as an author of content.
+
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            24.{" "}
+            <span className="font-semibold">Non-Excludable Guarantees:</span>{" "}
+            Nothing in these Terms and Conditions limits, excludes or modifies
+            or purports to limit, exclude or modify any legislation which cannot
+            lawfully be excluded or limited, including the statutory consumer
+            guarantees as provided under the Competition and Consumer Act 2010
+            (Cth) or any other applicable State or Territory legislation{" "}
+            <span className="font-semibold">(Non-Excludable Guarantees).</span>
           </p>
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4 lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            32. Entrants consent to the Promoter using the personal information
-            provided in connection with this promotion for the purposes of
-            facilitating the conduct of the promotion and awarding any prizes,
-            including to third parties involved in the promotion and any
-            relevant authorities. In addition to any use that may be outlined in
-            the Promoter’s Privacy Policy, the Promoter including third parties
-            may, for an indefinite period, unless otherwise advised, use the
-            private information for promotional, marketing, publicity, research
-            and profiling purposes, including sending electronic messages or
-            telephoning the entrant.
+
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            25. <span className="font-semibold">Consequential Loss:</span>{" "}
+            Despite anything to the contrary, but subject to the Non-Excludable
+            Guarantees, neither party will be liable under these Terms &
+            Conditions for any consequential, special or indirect loss including
+            but not limited to loss of profit (including anticipated profit),
+            loss of benefit (including anticipated benefit), loss of revenue,
+            loss of business, loss of goodwill, loss of opportunity, loss of
+            savings (including anticipated savings), loss of reputation, loss of
+            use (including both real and anticipatory) and/ or loss or
+            corruption of data, whether under statute, contract, equity, tort
+            (including negligence), indemnity or otherwise.
           </p>
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            33. The collection and disclosure of personal information provided
-            in connection with this promotion will be handled in accordance with
-            the Promoter's Privacy statement which adheres to the Privacy Act
-            1988 (cth) and Australian Privacy Principles.
+
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            26. <span className="font-semibold">Liability:</span> A party’s
+            liability for any liability in relation to these Terms and
+            Conditions will be reduced proportionately to the extent the
+            relevant liability was caused or contributed to by the acts or
+            omissions of the other party, including any failure by that other
+            party to take reasonable steps to mitigate its loss.
           </p>
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4  lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            34. The Promotion and these Terms of entry will be governed by the
-            law of the State or Territory in which the Promoter ordinarily
-            resides. Entrants accept the non-exclusive jurisdiction of courts
-            and tribunals of that State or Territory in connection with disputes
-            concerning the Promotion.
+
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            27. <span className="font-semibold">Force Majeure:</span> Neither
+            party will be liable for any delay or failure to perform their
+            respective obligations under these Terms and Conditions if such
+            delay or failure is caused or contributed to by a Force Majeure
+            Event. <span className="font-semibold">Force Majeure Event</span>{" "}
+            means any event or circumstance which is beyond a Party’s reasonable
+            control including but not limited to, acts of God including fire,
+            hurricane, typhoon, earthquake, landslide, tsunami, mudslide or
+            other catastrophic natural disaster, civil riot, civil rebellion,
+            revolution, terrorism, insurrection, militarily usurped power, act
+            of sabotage, act of a public enemy, war (whether declared or not) or
+            other like hostilities, ionising radiation, contamination by
+            radioactivity, nuclear, chemical or biological contamination, any
+            widespread illness, quarantine or government sanctioned ordinance or
+            shutdown, pandemic (including COVID-19 and any variations or
+            mutations to this disease or illness) or epidemic.
           </p>
-          <p className="text-md 2xl:text-xl xl:text-md special:text-4xl md:text-2xl 	   p-4   lg:text-xl lg:text-left 4xl:text:left xl:text-left mt-5">
-            35. Facebook, YouTube, Instagram, TikTok, or Snapchat may be used to
-            advertise or promote the Promotion. By entering the Promotion,
-            entrants agree that the Promotion is in no way sponsored, endorsed
-            or administered by, or associated with Facebook, YouTube, Instagram,
-            TikTok or Snapchat; and to release Facebook, YouTube, Instagram,
-            TikTok, or Snapchat from all liability in relation to this
-            Promotion. Any questions, comments or complaints regarding the
-            Promotion should be directed to the Promoter and not Facebook,
-            YouTube, Instagram, TikTok, or Snapchat.
+
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            28. <span className="font-semibold">Online entries:</span> If a
+            dispute arises as to the identity of an online Entrant, the entry
+            will be deemed to have been submitted by the authorised account
+            holder of the email address. The Promoter may ask any Entrant to
+            provide the Promoter with proof that they are the authorised account
+            holder of the email address associated with the entry.
+          </p>
+
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            29. <span className="font-semibold">Legal Warning:</span> Any
+            attempt to cause malicious damage or interference with the normal
+            functioning of the Site or to otherwise undermine the legitimate
+            operations of the Promotion may be a violation of criminal and civil
+            laws and the Promoter reserves the right to seek damages to the
+            fullest extent permitted by law.
+          </p>
+
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            30. <span className="font-semibold">Social Media:</span> The use of
+            social media is subject to the prevailing terms and conditions of
+            use of the social media platform. Unless otherwise indicated in
+            these Terms and Conditions, the Promotion is in no way sponsored,
+            endorsed or administered by, or associated with any social media
+            platform. If an Entrant uses social media to participate in the
+            Promotion, the Entrant understands that they are providing their
+            information to the Promoter and not to any social media platform.
+            Entrants are solely responsible and liable for the content of their
+            entries and any other information they transmit to other Internet
+            users. By participating in the Promotion, the Entrant releases the
+            applicable social media site from all claims, liabilities, suits,
+            actions and expenses, including costs of litigation and reasonable
+            legal costs associate with the Promotion.
+          </p>
+
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            31. <span className="font-semibold">Currency:</span> Unless
+            expressly stated otherwise, a reference in these terms or in any
+            advertisement relating to the Promotion, to Australian dollars,
+            dollars, AUD$ or $ is a reference to the lawful currency of
+            Australia.
+          </p>
+
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            32. <span className="font-semibold">Amendments:</span> If for any
+            reason any aspect of this Promotion is not capable of running as
+            planned, the Promoter may in its sole discretion cancel, terminate,
+            modify or suspend the Promotion and invalidate any affected entries,
+            or suspend or modify a prize, subject to State or Territory
+            regulation
+          </p>
+
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            33. <span className="font-semibold">Jurisdiction:</span> These Terms
+            and Conditions are governed by the laws of the States and
+            Territories in which the Promotion is conducted and the Commonwealth
+            of Australia. Entrants submit to the jurisdiction of the courts of
+            their State or Territory.
+          </p>
+
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            34. Dispute Resolution: In the event of a dispute, Entrants must
+            contact the Promoter and attempt to resolve the dispute in good
+            faith. If the matter cannot be resolved, either party may refer the
+            matter to a mediator. The costs of the mediation will be shared
+            equally between the parties.
+          </p>
+
+          <p className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl  special:text-4xl  sm:p-4 p-3  sm:text-left text-justify xl:mt-5 sm:mt-4 mt-3 ">
+            35.{" "}
+            <span className="font-semibold">Intellectual property rights:</span>{" "}
+            All intellectual property rights in the entries vest in the Promoter
+            upon submission of the relevant entry. Where the Promotion involves
+            submission of any materials including but not limited to answers to
+            questions, a statement, idea or opinion, video or voice recordings,
+            images, works of art, designs or photographs{" "}
+            <span className="font-semibold">(Content)</span>, all Entrants
+            represent, warrant and agree that:
+            <br />{" "}
+            <div className="sm:ml-5 ml-3 mt-2 sm:mt-3">
+              (a) the Content must not contain any viruses or cause or be likely
+              to cause any injury or harm to any person or entity;{" "}
+            </div>
+
+            <div className="sm:ml-5 ml-3 mt-2 sm:mt-3">
+            (b) the Content must be the work of the individual submitting
+            it;
+            </div>
+
+            <div className="sm:ml-5 ml-3 mt-2 sm:mt-3">
+            (c)	the Content must not have been published elsewhere or have won a prize in any other competition or promotion; 
+            </div>
+
+            <div className="sm:ml-5 ml-3 mt-2 sm:mt-3">
+            (d)	Entrants have obtained all appropriate consents and/or permission relating to a person who appears in, or whose property appears in, the Content;
+            </div>
+
+            <div className="sm:ml-5 ml-3 mt-2 sm:mt-3">
+            (e)	the submission of the Content does not infringe the intellectual property rights of any third party and that the Content they are submitting is their own work and that they own the copyright for it; 
+            </div>
+
+            <div className="sm:ml-5 ml-3 mt-2 sm:mt-3">
+            (f)	the Promoter may remove or decline to publish any Content without notice to the relevant Entrant; 
+            </div>
+
+            <div className="sm:ml-5 ml-3 mt-2 sm:mt-3">
+            (g)	the Promoter may use their likeness, image and/or voice in the event that the Entrant is the Winner (including photograph, film or recording) in any media whatsoever throughout the world for the purpose of promoting this Promotion or other similar promotions and promoting any products manufactured, distributed and or supplied by the Promoter. The Entrant will not be entitled to any remuneration for such use.
+            </div>
+             
           </p>
         </div>
       </div>
