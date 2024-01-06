@@ -71,8 +71,8 @@ const MyTable = () => {
             <p> Permits </p>
           </td>
           <td className="text-sm sm:text-base md:text-lg lg:text-xl  xl:text-xl 2xl:text-2xl  special:text-4xl  border border-black sm:p-4 p-3  lg:text-left 4xl:text:left xl:text-left">
-            <p>NSW Authority Number: [xxx] </p>
-            <p>ACT Permit Number: [xxx] </p>
+            <p>NSW Authority Number: TP/03199 </p>
+            <p>ACT Permit Number: ACT TP 23/02687 </p>
           </td>
         </tr>
 
