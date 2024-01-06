@@ -43,7 +43,7 @@ const MyTable = ({ data }) => {
       description: "Winlads Pty Ltd ABN 87 671 535 149",
       description2: "2009/15 Everage Street, Moonee Ponds, Victoria 3039, AU",
       description3: "0420363993",
-      description4: "shehan.thenabadu@gmail.com",
+      description4: "admin@winlads.com",
       description5: "https://winladsgiveaway.com"  ,
       
     },

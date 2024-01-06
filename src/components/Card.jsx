@@ -111,7 +111,7 @@ const Card = ({
             <p
               className={`text-${descColor} text-xs 2xl:text-[16px] leading-6`}
             >
-              {desc10}&nbsp;<span className="font-bold">Accumulating</span>&nbsp;Entries
+              <span className="font-bold">{desc10}&nbsp;Accumulating</span>&nbsp;Entries
             </p>
           </div>
         )}
