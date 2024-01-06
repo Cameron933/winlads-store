@@ -27,7 +27,7 @@ const Packages = () => {
             buttonColor2="#0082E1"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
-            btnword="SIGN UP FOR FREE"
+            btnword="SIGN UP NOW"
             btnword2="TRY SINGLE ENTRIES"
             bgColorFrom="#0094FF"
             bgColorTo="#00347C"
@@ -57,7 +57,7 @@ const Packages = () => {
             buttonColor2="#CF3A00"
             arrowColor="white"
             buttonTextColor="white"
-            btnword="SIGN UP FOR FREE"
+            btnword="SIGN UP NOW"
             btnword2="TRY SINGLE ENTRIES"
             yValue={-40}
           />
@@ -65,6 +65,7 @@ const Packages = () => {
             classNames={"col-span-1"}
             bgColorFrom="#00ECFF"
             bgColorTo="#006168"
+            mostPopular={true}
             title="Platinum Tier"
             titleColor="black"
             // titleColor="[#01819D]"
@@ -83,7 +84,7 @@ const Packages = () => {
             buttonColor2="#007D87"
             arrowColor="white"
             buttonTextColor="white"
-            btnword="SIGN UP FOR FREE"
+            btnword="SIGN UP NOW"
             btnword2="TRY SINGLE ENTRIES"
             // point4={Correct}
             // point5={Correct}
@@ -93,7 +94,7 @@ const Packages = () => {
             classNames={"col-span-1"}
             bgColorFrom="#FFBE00"
             bgColorTo="#766000"
-          
+           
             title="Gold Tier"
             titleColor="black"
             // titleColor="white"
@@ -113,7 +114,7 @@ const Packages = () => {
             buttonColor2="#000000"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
-            btnword="SIGN UP FOR FREE"
+            btnword="SIGN UP NOW"
             btnword2="TRY SINGLE ENTRIES"
             yValue={-80}
           />
@@ -121,7 +122,7 @@ const Packages = () => {
             bgColorFrom="#23282E"
             bgColorTo="#000"
             title="Black Tier"
-            mostPopular={true}
+           
             titleColor="white"
             // titleColor="white"
             title2="150 FREE ENTRIES"
@@ -141,7 +142,7 @@ const Packages = () => {
             buttonColor2="#475A79"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
-            btnword="SIGN UP FOR FREE"
+            btnword="SIGN UP NOW"
             btnword2="TRY SINGLE ENTRIES"
             yValue={-100}
             classNames={"col-span-1"}

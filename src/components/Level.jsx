@@ -64,12 +64,12 @@ const Level = () => {
             desc1="$9.99 per month"
             // desc2="Referral Commission: 2.5%"
             desc2="Partner Store Discounts: 10%"
-            //   desc3="Virtual access to Winlads Club Day"
+            desc10="1"
             // descColor="white"
             buttonColor="#0082E1"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
-            btnword="SIGN UP FOR FREE"
+            btnword="SIGN UP NOW"
             bgColorFrom="#0094FF"
             bgColorTo="#00347C"
             titleColor="black"
@@ -92,17 +92,19 @@ const Level = () => {
             desc3="Partner Store Discounts: 10%"
             desc4="Be Eligible to Apply Winlad Referral Cards"
             desc5="Access to Winlad Store Cash Back program"
+            desc10="3"
             // descColor="white"
             buttonColor="#CF3A00"
             arrowColor="white"
             buttonTextColor="white"
-            btnword="SIGN UP FOR FREE"
+            btnword="SIGN UP NOW"
             yValue={-40}
           />
           <Card
             classNames={"col-span-1"}
             bgColorFrom="#00ECFF"
             bgColorTo="#006168"
+            mostPopular={true}
             title="Platinum Tier"
             titleColor="black"
             // titleColor="[#01819D]"
@@ -116,11 +118,12 @@ const Level = () => {
             desc5="Access to Winlad Store Cash Back program"
             desc6="Access to Winlads Public Events"
             desc7="Access to Upcoming Winlad Apps"
+            desc10="10"
             // descColor="[#01819D]"
             buttonColor="#007D87"
             arrowColor="white"
             buttonTextColor="white"
-            btnword="SIGN UP FOR FREE"
+            btnword="SIGN UP NOW"
             // point4={Correct}
             // point5={Correct}
             yValue={-60}
@@ -129,7 +132,7 @@ const Level = () => {
             classNames={"col-span-1"}
             bgColorFrom="#FFBE00"
             bgColorTo="#766000"
-       
+        
             title="Gold Tier"
             titleColor="black"
             // titleColor="white"
@@ -144,11 +147,12 @@ const Level = () => {
             desc5="Access to Winlads Urgency Program"
             desc6="Access to Winlads Public Events"
             desc7="Access to upcoming Winlad Apps & Tools"
+            desc10="25"
             // descColor="white"
             buttonColor="#000000"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
-            btnword="SIGN UP FOR FREE"
+            btnword="SIGN UP NOW"
             yValue={-80}
           />
           <Card
@@ -156,7 +160,7 @@ const Level = () => {
             bgColorTo="#000"
             title="Black Tier"
             titleColor="white"
-            mostPopular={true}
+        
             // titleColor="white"
             title2="150 FREE ENTRIES"
             titleColor2="#FFF"
@@ -170,11 +174,12 @@ const Level = () => {
             desc7="Winlads OG member Eligibility after 6 months ( Which Gives an opportunity to make decisions with Voting Power in Winlads DAO system)"
             desc8="Access to Winlads Urgency Program"
             desc9="Access to Winlads limited and Public Events - Access to Winlads apps and tools"
+            desc10="150"
             // descColor="white"
             buttonColor="#475A79"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
-            btnword="SIGN UP FOR FREE"
+            btnword="SIGN UP NOW"
             yValue={-100}
             classNames={"col-span-1"}
           />

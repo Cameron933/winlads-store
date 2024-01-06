@@ -76,10 +76,10 @@ const Card = ({
     >
       {mostPopular && (
         <div
-          className="flex items-center justify-center gap-2 text-center absolute rounded-t-xl top-0 left-0 w-full py-2 bg-white font-semibold"
+          className="flex items-center justify-center gap-2 text-center absolute rounded-t-xl top-0 left-0 w-full py-2 bg-black font-semibold"
           style={{ color: bgColorFrom }}
         >
-          <FaStar className="text-yellow-400" /> <span className="text-black">Most Popular</span>
+          <FaStar className="text-yellow-400" /> <span className="text-white">Most Popular</span>
         </div>
       )}
       <p
@@ -102,7 +102,7 @@ const Card = ({
           <span className="text-6xl lg:text-7xl">
             {title2.slice(0, 3).trim()}
           </span>{" "}
-          <span className="text-xs">FREE ENTRIES</span>
+          <span className="text-xs">ENTRIES</span>
         </p>
       </div>
       <div className="flex flex-col  border-2 space-y-4 border-black bg-white px-2 py-4  rounded-xl mb-5 h-full relative">
