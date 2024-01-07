@@ -97,13 +97,13 @@ function Footer() {
           <Link to={'https://www.facebook.com/winlads'} target="_blank">
             <FaFacebook className="hover:text-gray-500" />
           </Link>
-          <Link to={'https://www.instagram.com/winladsau/'} target="_blank">
+          <Link to={'https://www.instagram.com/winladsau'} target="_blank">
             <FaInstagram className="hover:text-gray-500" />
           </Link>
           <Link to={'#'} target="_blank">
             <FaXTwitter className="hover:text-gray-500" />
           </Link>
-          <Link to={'https://www.tiktok.com/@winlads'} target="_blank">
+          <Link to={'https://www.tiktok.com/@winladsau'} target="_blank">
             <FaTiktok className="hover:text-gray-500" />
           </Link>
         </div>
