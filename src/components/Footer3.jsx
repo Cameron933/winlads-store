@@ -2,10 +2,6 @@ import logo2 from "../assets/logo2.png";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { MdOutlineEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
-import NewLogo from "../assets/newLogo.png"
-import { LuTwitter } from "react-icons/lu";
-import { PiTelegramLogo } from "react-icons/pi";
-import { HashLink } from 'react-router-hash-link';
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6"
 
@@ -63,13 +59,13 @@ function Footer() {
                 Contact Us
               </p>
               <ul className="text-xs 2xl:text-lg flex flex-col gap-1 ">
-                <li className=" cursor-pointer flex items-center gap-2 2xl:gap-5">
+                {/* <li className=" cursor-pointer flex items-center gap-2 2xl:gap-5">
                   <MdOutlineLocalPhone className="text-white text-sm 2xl:text-lg" />
 
                   <a href="#" target="_blank" rel="noopener noreferrer">
                     +61 420 363 993
                   </a>
-                </li>
+                </li> */}
                 <li className="cursor-pointer flex items-center gap-2 2xl:gap-5">
                   <MdOutlineEmail className="text-white text-sm 2xl:text-lg" />
 
@@ -79,26 +75,6 @@ function Footer() {
                 </li>
               </ul>
             </div>
-
-            {/* <div className="m-2 sm:m-4 text-[#fff] flex-1 ">
-              <p className="font-bold text-sm mb-3 2xl:text-xl special:text-2xl">
-                News Letter
-              </p>
-              <ul className="text-xs 2xl:text-lg flex flex-col gap-1">
-
-                <li className="cursor-pointer">2009/15 Everage St</li>
-                <li className="cursor-pointer">Moonee Ponds</li>
-                <li className="cursor-pointer">Victoria</li>
-                <li className="cursor-pointer">3039</li>
-
-              </ul>
-            </div> */}
-            {/* <div className="m-2 sm:m-4 text-[#fff] flex-1 ">
-              <p className="font-bold text-sm mb-3 2xl:text-xl special:text-2xl">
-                Registration
-              </p>
-              
-            </div> */}
           </div>
         </div>
       </div>
