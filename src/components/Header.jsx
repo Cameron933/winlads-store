@@ -36,11 +36,11 @@ const Header = () => {
       </div> */}
        <div className="flex xl:justify-end justify-center">
         <div
-          className="bg-red-500 hover:bg-red-700 px-2 py-2 rounded-md text-center w-40 flex justify-center items-center"
+          className="bg-red-500 hover:bg-red-700 px-2 py-2 rounded-md text-center w-full flex justify-center items-center"
           onClick={handleClick}
         >
           <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm cursor-pointer">
-            Sign up for free
+            Sign up now
           </button>
         </div>
       </div>
