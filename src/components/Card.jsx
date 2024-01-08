@@ -111,8 +111,7 @@ const Card = ({
             <p
               className={`text-${descColor} text-xs 2xl:text-[16px] leading-6`}
             >
-              <span className="font-bold">{desc10}&nbsp;Accumulating</span>&nbsp;Entries
-            </p>
+<span className="text-xs uppercase">Accumulating {title2.slice(0, 3).trim() == "01" ? "Entry" : "Entries"}</span>            </p>
           </div>
         )}
         {showmore && (
