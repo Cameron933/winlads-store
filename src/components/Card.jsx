@@ -66,7 +66,7 @@ const Card = ({
           className="flex items-center justify-center gap-2 text-center absolute rounded-t-xl top-0 left-0 w-full py-2 bg-black font-semibold"
           style={{ color: bgColorFrom }}
         >
-         <FaStar className="text-yellow-400" /> <span className="text-white">Most Popular</span>
+          <FaStar className="text-yellow-400" /> <span className="text-white">Most Popular</span>
         </div>
       )}
       <p
@@ -89,7 +89,7 @@ const Card = ({
           <span className="text-5xl lg:text-6xl">
             {title2.slice(0, 3).trim()}
           </span>{" "}
-          <span className="text-xs capitalize">Accumulating&nbsp;{title2 === "01" ? "Entrie" : "Entries"}</span>
+          <span className="text-xs capitalize">Accumulating&nbsp;{title2 === "01" ? "Entry" : "Entries"}</span>
         </p>
       </div>
       <div className="flex flex-col space-y-2  border-2 border-black bg-white px-2 py-4  rounded-xl mb-5 h-full relative">
@@ -105,13 +105,15 @@ const Card = ({
             {desc2}
           </p>
         </div>
-        {desc10 && (
+        {desc3 && (
           <div className="flex flex-row items-start gap-2 pb-4">
             <img src={Correct} alt="" />
             <p
               className={`text-${descColor} text-xs 2xl:text-[16px] leading-6`}
             >
-<span className="text-xs uppercase">Accumulating {title2.slice(0, 3).trim() == "01" ? "Entry" : "Entries"}</span>            </p>
+              {/* <span className="text-xs uppercase">Accumulating {title2.slice(0, 3).trim() == "01" ? "Entry" : "Entries"}</span> */}
+              {desc3}
+            </p>
           </div>
         )}
         {showmore && (
