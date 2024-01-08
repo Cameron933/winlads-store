@@ -6,6 +6,7 @@ import Card from "./Card";
 import { motion } from "framer-motion";
 import Correct from "../assets/correct.png";
 import NewJeep from "../assets/newJeep.png";
+import FreeEntryCard from "./FreeEntryCard";
 
 const textAnimate = {
   offscreen: { y: -100, opacity: 0 },
@@ -132,7 +133,6 @@ const Level = () => {
             classNames={"col-span-1"}
             bgColorFrom="#FFBE00"
             bgColorTo="#766000"
-        
             title="Gold Tier"
             titleColor="black"
             // titleColor="white"
@@ -160,7 +160,6 @@ const Level = () => {
             bgColorTo="#000"
             title="Black Tier"
             titleColor="white"
-        
             // titleColor="white"
             title2="150"
             titleColor2="#FFF"
@@ -186,6 +185,9 @@ const Level = () => {
           {/* <Card />
         <Card />
         <Card /> */}
+        </div>
+        <div className="px-3 xs:px-32 md:px-0 flex justify-center mt-4">
+          <FreeEntryCard />
         </div>
         {/* </motion.div> */}
       </div>
