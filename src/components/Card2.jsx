@@ -101,7 +101,7 @@ const Card = ({
           <span className="text-5xl lg:text-6xl">
             {title2.slice(0, 3).trim()}
           </span>{" "}
-          <span className="text-xs capitalize">Accumulating Entries</span>
+          <span className="text-xs uppercase">Accumulating {title2.slice(0, 3).trim() == "01" ? "Entry" : "Entries"}</span>        </p>
         </p>
       </div>
       <div className="flex flex-col  border-2 space-y-4 border-black bg-white px-2 py-4  rounded-xl mb-5 h-full relative">
