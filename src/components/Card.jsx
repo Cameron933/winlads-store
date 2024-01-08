@@ -86,10 +86,10 @@ const Card = ({
           className={`font-bold text-lg 2xl:text-xl`}
           style={{ color: titleColor2 }}
         >
-          <span className="text-6xl lg:text-7xl">
+          <span className="text-5xl lg:text-6xl">
             {title2.slice(0, 3).trim()}
           </span>{" "}
-          <span className="text-xs">ENTRIES</span>
+          <span className="text-xs capitalize">Accumulating&nbsp;{title2 === "01" ? "Entrie" : "Entries"}</span>
         </p>
       </div>
       <div className="flex flex-col space-y-2  border-2 border-black bg-white px-2 py-4  rounded-xl mb-5 h-full relative">

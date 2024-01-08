@@ -101,7 +101,7 @@ const Card = ({
           <span className="text-5xl lg:text-6xl">
             {title2.slice(0, 3).trim()}
           </span>{" "}
-          <span className="text-xs uppercase">Accumulating {title2.slice(0, 3).trim() == "01" ? "Entry" : "Entries"}</span>        </p>
+          <span className="text-xs capitalize">Accumulating&nbsp;{title2 === "01" ? "Entrie" : "Entries"}</span>
         </p>
       </div>
       <div className="flex flex-col  border-2 space-y-4 border-black bg-white px-2 py-4  rounded-xl mb-5 h-full relative">
@@ -116,6 +116,7 @@ const Card = ({
         <div
           className={`rounded-md border-2 hover:border-black hover:bg-white hover:text-black cursor-pointer border-white flex flex-row justify-center py-2 hover:scale-105 hover:transition-transform ease-out duration-300 mt-auto text-${buttonTextColor}`}
           style={{ backgroundColor: btnBgColor1 }}
+          onClick={handleClickButton}
           onMouseEnter={() => switchBtnColor1()}
           onMouseLeave={() => switchBtnColor1()}
         >
