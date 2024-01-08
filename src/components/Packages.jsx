@@ -12,7 +12,8 @@ const Packages = () => {
       <div className="px-4">
         <div className="grid xl:grid-cols-5 md:grid-cols-2 grid-cols-1 gap-4 px-3 xs:px-0 md:px-0">
           <Card
-         classNames={"col-span-1"}
+            packageId={'657c40018406aeb95f876ca2'}
+            classNames={"col-span-1"}
             title="Starter Tier"
             // titleColor="white"
             title2="01"
@@ -32,11 +33,12 @@ const Packages = () => {
             bgColorFrom="#0094FF"
             bgColorTo="#00347C"
             titleColor="black"
-            
+
             // btnword="Get started now"\
             yValue={-20}
           />
           <Card
+            packageId={'657c757b8406aeb95f876ca7'}
             classNames={"col-span-1"}
             bgColorFrom="#FF4700"
             bgColorTo="#611C00"
@@ -62,6 +64,7 @@ const Packages = () => {
             yValue={-40}
           />
           <Card
+            packageId={'657c766e8406aeb95f876cac'}
             classNames={"col-span-1"}
             bgColorFrom="#00ECFF"
             bgColorTo="#006168"
@@ -91,10 +94,11 @@ const Packages = () => {
             yValue={-60}
           />
           <Card
+            packageId={'657c775f8406aeb95f876cb1'}
             classNames={"col-span-1"}
             bgColorFrom="#FFBE00"
             bgColorTo="#766000"
-           
+
             title="Gold Tier"
             titleColor="black"
             // titleColor="white"
@@ -119,10 +123,11 @@ const Packages = () => {
             yValue={-80}
           />
           <Card
+            packageId={'657c77b68406aeb95f876cb6'}
             bgColorFrom="#23282E"
             bgColorTo="#000"
             title="Black Tier"
-           
+
             titleColor="white"
             // titleColor="white"
             title2="150"

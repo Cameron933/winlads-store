@@ -4,6 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaStar } from "react-icons/fa6";
 import Correct from "../assets/greenCorrect.png";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const Card = ({
   bgColorFrom = "#D9E9FF",
@@ -32,10 +33,13 @@ const Card = ({
   mostPopular = false,
   yValue,
   classNames,
+  packageId
 }) => {
   const [showmore, setShowmore] = useState(false);
   const [btnBgColor, setBtnBgColor] = useState(buttonColor);
   const [btnBgColor1, setBtnBgColor1] = useState(buttonColor2);
+  const [selectedPackage, setSelectedPackage] = useState(packageId);
+  const navigate = useNavigate();
 
   const switchBtnColor = () => {
     if (btnBgColor == buttonColor) {
@@ -58,7 +62,7 @@ const Card = ({
   };
 
   const handleClickButton = () => {
-    window.location.href = "https://www.winlads.com/login";
+    window.location.href = `https://www.winlads.com/register/${selectedPackage}`;
   };
 
   return (
@@ -109,7 +113,7 @@ const Card = ({
           <span className="text-2xl xl:text-4xl font-semibold">
             <span className="text-xs">AUD</span>&nbsp;{desc1}
           </span>
-   
+
           &nbsp;per month
         </p>
         {/* <p className="text-xs text-center"><span className="font-bold">{title2}</span>&nbsp;Accumulating entry</p> */}
