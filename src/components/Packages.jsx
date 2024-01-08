@@ -15,10 +15,10 @@ const Packages = () => {
          classNames={"col-span-1"}
             title="Starter Tier"
             // titleColor="white"
-            title2="01 FREE ENTRY"
+            title2="01"
             titleColor2="black"
             // price="$9.99"
-            desc1="$9.99"
+            desc1="9.99"
             // desc2="Referral Commission: 2.5%"
             desc2="Partner Store Discounts: 10%"
             //   desc3="Virtual access to Winlads Club Day"
@@ -28,7 +28,7 @@ const Packages = () => {
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
             btnword="SIGN UP NOW"
-            btnword2="TRY SINGLE ENTRIES"
+            btnword2="ONE OFF PACKAGES"
             bgColorFrom="#0094FF"
             bgColorTo="#00347C"
             titleColor="black"
@@ -43,10 +43,10 @@ const Packages = () => {
             title="Boomer Tier"
             titleColor="black"
             // titleColor="white"
-            title2="03 FREE ENTRIES"
+            title2="03"
             titleColor2="black"
             // price="$19.99"
-            desc1="$19.99"
+            desc1="19.99"
             // desc2="Referral Commission: 5%"
             desc2="Referral Commission: 15%"
             desc3="Partner Store Discounts: 10%"
@@ -58,7 +58,7 @@ const Packages = () => {
             arrowColor="white"
             buttonTextColor="white"
             btnword="SIGN UP NOW"
-            btnword2="TRY SINGLE ENTRIES"
+            btnword2="ONE OFF PACKAGES"
             yValue={-40}
           />
           <Card
@@ -69,10 +69,10 @@ const Packages = () => {
             title="Platinum Tier"
             titleColor="black"
             // titleColor="[#01819D]"
-            title2="10 FREE ENTRIES"
+            title2="10"
             titleColor2="black"
             // price="$49.99"
-            desc1="$49.99"
+            desc1="49.99"
             desc2="Referral Commission: 20%"
             desc3="Partner Store Discounts: 10%-15%"
             desc4="Be Eligible to Apply for Winlad PLATINUM Card"
@@ -85,7 +85,7 @@ const Packages = () => {
             arrowColor="white"
             buttonTextColor="white"
             btnword="SIGN UP NOW"
-            btnword2="TRY SINGLE ENTRIES"
+            btnword2="ONE OFF PACKAGES"
             // point4={Correct}
             // point5={Correct}
             yValue={-60}
@@ -98,10 +98,10 @@ const Packages = () => {
             title="Gold Tier"
             titleColor="black"
             // titleColor="white"
-            title2="25 FREE ENTRIES"
+            title2="25"
             titleColor2="black"
             // price="$100"
-            desc1="$100"
+            desc1="100"
             // desc2="Premium Tier"
             desc2="Referral Commission: 25% Partner Store Discounts: 15%-20%"
             desc3="Be Eligible to Apply for Winlad GOLD Card"
@@ -115,7 +115,7 @@ const Packages = () => {
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
             btnword="SIGN UP NOW"
-            btnword2="TRY SINGLE ENTRIES"
+            btnword2="ONE OFF PACKAGES"
             yValue={-80}
           />
           <Card
@@ -125,10 +125,10 @@ const Packages = () => {
            
             titleColor="white"
             // titleColor="white"
-            title2="150 FREE ENTRIES"
+            title2="150"
             titleColor2="#FFF"
             // price="$500"
-            desc1="$500"
+            desc1="500"
             desc2="Referral Commission: 50%"
             desc3="Customized Partner Store discount rates ranging upto 20%"
             desc4="Be Eligible to Apply for Winlad BLACK Card"
@@ -143,7 +143,7 @@ const Packages = () => {
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
             btnword="SIGN UP NOW"
-            btnword2="TRY SINGLE ENTRIES"
+            btnword2="ONE OFF PACKAGES"
             yValue={-100}
             classNames={"col-span-1"}
           />

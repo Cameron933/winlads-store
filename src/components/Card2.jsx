@@ -53,8 +53,6 @@ const Card = ({
     }
   };
 
-
-
   const handleClick = () => {
     setShowmore(!showmore);
   };
@@ -79,7 +77,8 @@ const Card = ({
           className="flex items-center justify-center gap-2 text-center absolute rounded-t-xl top-0 left-0 w-full py-2 bg-black font-semibold"
           style={{ color: bgColorFrom }}
         >
-          <FaStar className="text-yellow-400" /> <span className="text-white">Most Popular</span>
+          <FaStar className="text-yellow-400" />{" "}
+          <span className="text-white">Most Popular</span>
         </div>
       )}
       <p
@@ -106,19 +105,25 @@ const Card = ({
         </p>
       </div>
       <div className="flex flex-col  border-2 space-y-4 border-black bg-white px-2 py-4  rounded-xl mb-5 h-full relative">
-      
-      <p className="text-center text-xs md:text-sm"><span className="text-2xl xl:text-4xl font-semibold">{desc1}</span>&nbsp;per month</p>
-      <div
-        className={`rounded-md border-2 hover:border-black hover:bg-white hover:text-black cursor-pointer border-white flex flex-row justify-center py-2 hover:scale-105 hover:transition-transform ease-out duration-300 mt-auto text-${buttonTextColor}`}
-        style={{ backgroundColor: btnBgColor1 }}
-        onMouseEnter={() => switchBtnColor1()}
-        onMouseLeave={() => switchBtnColor1()}
-      >
-        <button className="flex flex-row items-center gap-2">
-          <p className={`text-xs 2xl:text-lg`}>{btnword2}</p>
-          {/* <MdKeyboardArrowRight className={`text-${arrowColor}`} /> */}
-        </button>
-      </div>
+        <p className="text-center text-xs md:text-sm">
+          <span className="text-2xl xl:text-4xl font-semibold">
+            <span className="text-xs">AUD</span>&nbsp;{desc1}
+          </span>
+   
+          &nbsp;per month
+        </p>
+        <p className="text-xs text-center"><span className="font-bold">{title2}</span>&nbsp;Accumulating entry</p>
+        <div
+          className={`rounded-md border-2 hover:border-black hover:bg-white hover:text-black cursor-pointer border-white flex flex-row justify-center py-2 hover:scale-105 hover:transition-transform ease-out duration-300 mt-auto text-${buttonTextColor}`}
+          style={{ backgroundColor: btnBgColor1 }}
+          onMouseEnter={() => switchBtnColor1()}
+          onMouseLeave={() => switchBtnColor1()}
+        >
+          <button className="flex flex-row items-center gap-2">
+            <p className={`text-xs 2xl:text-lg`}>{btnword2}</p>
+            {/* <MdKeyboardArrowRight className={`text-${arrowColor}`} /> */}
+          </button>
+        </div>
       </div>
       <div
         className={`rounded-md border-2 hover:bg-white hover:text-black cursor-pointer border-white flex flex-row justify-center py-2 hover:scale-105 hover:transition-transform ease-out duration-300 mt-auto text-${buttonTextColor}`}
