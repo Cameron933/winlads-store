@@ -38,7 +38,7 @@ const Card = ({
   const [showmore, setShowmore] = useState(false);
   const [btnBgColor, setBtnBgColor] = useState(buttonColor);
   const [btnBgColor1, setBtnBgColor1] = useState(buttonColor2);
-  const [selectedPackage, setSelectedPackage] = useState(packageId);
+  const [selectedPackage, setSelectedPackage] = useState(packageId || '');
   const navigate = useNavigate();
 
   const switchBtnColor = () => {
