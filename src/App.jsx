@@ -3,8 +3,15 @@ import Home from "./pages/Home";
 import Privacy from "./pages/Privacy";
 import TermsCondition from "./pages/TermsCondition";
 import GoogleAnalytics from "./utils/GoogleAnalytics";
+import TagManager from 'react-gtm-module'
 
 function App() {
+  const tagManagerArgs = {
+    gtmId: 'GTM-MMG9VWGX'
+}
+
+  TagManager.initialize(tagManagerArgs)
+
   const router = createHashRouter([
     {
       path: "/",
