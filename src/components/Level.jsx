@@ -186,9 +186,12 @@ const Level = () => {
         <Card />
         <Card /> */}
         </div>
-        <div className="px-3 xs:px-32 md:px-0 flex justify-center mt-4">
+
+        {/* <div className="px-3 xs:px-32 md:px-0 flex justify-center mt-4">
           <FreeEntryCard />
-        </div>
+        </div> */}
+
+        
         {/* </motion.div> */}
       </div>
     </motion.div>
