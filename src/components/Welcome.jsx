@@ -116,7 +116,7 @@ const Welcome = () => {
       <div className="flex xl:flex-row md:flex-row flex-col items-center gap-4 justify-between">
         <div className="flex flex-col space-y-2 xl:flex-1 w-full">
           <div className="bg-[#0094FF] text-center font-bold text-white py-2 xl:text-sm text-xs">
-            Second Prize - AUD 2000
+            Second Prize - $ 2000
           </div>
           <div
             className="flex flex-row justify-between pr-2 pt-2"
@@ -135,7 +135,7 @@ const Welcome = () => {
                 Cash Prize
               </div>
               <p className="font-semibold uppercase text-lg text-white">
-              AUD 2000
+              $ 2000
               </p>
               <p className="text-[10px] text-white">
               2024-FEB-28 WEDNESDAY
@@ -145,7 +145,7 @@ const Welcome = () => {
         </div>
         <div className="flex flex-col space-y-2 xl:flex-1 w-full">
           <div className="bg-[#0094FF] text-center text-white font-bold  py-2 xl:text-sm text-xs">
-          Third Prize - AUD 1000
+          Third Prize - $ 1000
           </div>
           <div
             className="flex flex-row justify-between pr-2 pt-2 "
@@ -164,7 +164,7 @@ const Welcome = () => {
                 Cash Prize
               </div>
               <p className="font-semibold uppercase text-lg text-white">
-              AUD 1000
+              $ 1000
               </p>
               <p className="text-[10px] text-white">
               2024-FEB-28 WEDNESDAY
