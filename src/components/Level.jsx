@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import Correct from "../assets/correct.png";
 import NewJeep from "../assets/newJeep.png";
 import FreeEntryCard from "./FreeEntryCard";
+import CardPlus from "./CardPlus";
 
 const textAnimate = {
   offscreen: { y: -100, opacity: 0 },
@@ -55,18 +56,20 @@ const Level = () => {
         </div>
         {/* <motion.div variants={textAnimate}> */}
         <div className="grid xl:grid-cols-5 grid-cols-1 md:grid-cols-3 gap-4 px-3 xs:px-0 md:px-0">
-          <Card
+          <CardPlus
             classNames={"col-span-1"}
             title="Starter Tier"
             // titleColor="white"
             title2="01"
             titleColor2="black"
-            // price="$9.99"
+            price="9.99"
             desc1="$9.99 per month"
             // desc2="Referral Commission: 2.5%"
             desc2="Partner Store Discounts: 10%"
             desc10="01"
             // descColor="white"
+            buttonColor2="#0082E1"
+
             buttonColor="#0082E1"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
@@ -75,9 +78,10 @@ const Level = () => {
             bgColorTo="#00347C"
             titleColor="black"
             // btnword="Get started now"\
+            btnBgColor1atr="#0082E1"
             yValue={-20}
           />
-          <Card
+          <CardPlus
             classNames={"col-span-1"}
             bgColorFrom="#FF4700"
             bgColorTo="#611C00"
@@ -86,7 +90,9 @@ const Level = () => {
             // titleColor="white"
             title2="03"
             titleColor2="black"
-            // price="$19.99"
+            buttonColor2="#CF3A00"
+
+            price="19.99"
             desc1="$19.99 per month"
             // desc2="Referral Commission: 5%"
             desc2="Referral Commission: 15%"
@@ -100,8 +106,9 @@ const Level = () => {
             buttonTextColor="white"
             btnword="SIGN UP NOW"
             yValue={-40}
+            btnBgColor1atr="#CF3A00"
           />
-          <Card
+          <CardPlus
             classNames={"col-span-1"}
             bgColorFrom="#00ECFF"
             bgColorTo="#006168"
@@ -110,8 +117,10 @@ const Level = () => {
             titleColor="black"
             // titleColor="[#01819D]"
             title2="10 FREE ENTRIES"
+            buttonColor2="#007D87"
+
             titleColor2="black"
-            // price="$49.99"
+            price="49.99"
             desc1="$49.99 per month"
             desc2="Referral Commission: 20%"
             desc3="Partner Store Discounts: 10%-15%"
@@ -128,8 +137,9 @@ const Level = () => {
             // point4={Correct}
             // point5={Correct}
             yValue={-60}
+            btnBgColor1atr="#007D87"
           />
-          <Card
+          <CardPlus
             classNames={"col-span-1"}
             bgColorFrom="#FFBE00"
             bgColorTo="#766000"
@@ -138,7 +148,9 @@ const Level = () => {
             // titleColor="white"
             title2="25"
             titleColor2="black"
-            // price="$100"
+            buttonColor2="#000000"
+
+            price="100"
             desc1="$100 per month"
             // desc2="Premium Tier"
             desc2="Referral Commission: 25% Partner Store Discounts: 15%-20%"
@@ -154,8 +166,9 @@ const Level = () => {
             buttonTextColor={"white"}
             btnword="SIGN UP NOW"
             yValue={-80}
+            btnBgColor1atr="#000000"
           />
-          <Card
+          <CardPlus
             bgColorFrom="#23282E"
             bgColorTo="#000"
             title="Black Tier"
@@ -163,7 +176,9 @@ const Level = () => {
             // titleColor="white"
             title2="150"
             titleColor2="#FFF"
-            // price="$500"
+            price="500"
+            buttonColor2="#475A79"
+
             desc1="$500 per month"
             desc2="Referral Commission: 50%"
             desc3="Customized Partner Store discount rates ranging upto 20%"
@@ -181,6 +196,7 @@ const Level = () => {
             btnword="SIGN UP NOW"
             yValue={-100}
             classNames={"col-span-1"}
+            btnBgColor1atr="#475A79"
           />
           {/* <Card />
         <Card />
