@@ -1,9 +1,9 @@
 import React from "react";
 import NewLogo from "../assets/winLogo.png";
-import Img1 from "../assets/gallery/img1.png";
+import Img1 from "../assets/gallery/DSC_6409.jpg";
 import Img2 from "../assets/gallery/img2.png";
-import Img3 from "../assets/gallery/img3.png";
-import Img4 from "../assets/gallery/img4.png";
+import Img3 from "../assets/gallery/DSC_6380.jpg";
+import Img4 from "../assets/gallery/DSC_6442.jpg";
 import Img5 from "../assets/gallery/img5.png";
 import { motion } from "framer-motion";
 
