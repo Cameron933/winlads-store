@@ -17,35 +17,37 @@ import Apps from "../components/Apps"
 import Map from "../components/Map"
 import Welcome from "../components/Welcome"
 import Gallery from "../components/Gallery"
+import Partners2 from "../components/Partners2"
 
 // import InstagramGalleryViewer from "../components/InstagramGallery"
 
 const Home = () => {
   return (
     <div className="relative pageBgColor">
-    <Hero />
-    {/* <div className="absolute left-0 right-0 xl:pt-24">
+      <Hero />
+      {/* <div className="absolute left-0 right-0 xl:pt-24">
     <Reviews />
     </div> */}
-    <Packages />
-    <Sec2 />
-    <Map />
-    {/* <Prize /> */}
-    <Welcome />
-    {/* <SecondSection /> */}
-    <Gallery />
+      <Packages />
+      <Sec2 />
+      <Partners />
+      <Map />
+      {/* <Prize /> */}
+      <Welcome />
+      {/* <SecondSection /> */}
+      <Gallery />
 
-    <Partners />
-    <Apps />
-    <Faq />
-    <Level />
-    {/* <Shared /> */}
-    <NewGallery />
-    {/* <InstagramGalleryViewer/> */}
-    {/* <Winlads /> */}
-    {/* <WinladsNew/> */}
-    <Footer3/>
-  </div>
+      <Partners2 />
+      <Apps />
+      <Faq />
+      <Level />
+      {/* <Shared /> */}
+      <NewGallery />
+      {/* <InstagramGalleryViewer/> */}
+      {/* <Winlads /> */}
+      {/* <WinladsNew/> */}
+      <Footer3 />
+    </div>
   )
 }
 

@@ -6,9 +6,9 @@ import Marquee from "react-fast-marquee";
 const Partners = () => {
   return (
     <div className="flex flex-col space-y-8 py-4">
-      <p className="text-center text-black font-semibold text-4xl xl:text-6xl uppercase mb-5">
+      {/* <p className="text-center text-black font-semibold text-4xl xl:text-6xl uppercase mb-5">
         Partners
-      </p>
+      </p> */}
 
       <div className="flex-col space-y-2">
         <div className="flex flex-row items-center py-2 w-full bgColor h-[70px]">
