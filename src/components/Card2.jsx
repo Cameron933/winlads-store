@@ -113,7 +113,7 @@ const Card = ({
       <div className="flex flex-col  border-2 space-y-4 border-black bg-white px-2 py-4  rounded-xl mb-5 h-full relative">
         <p className="text-center text-xs md:text-sm">
           <span className="text-2xl xl:text-4xl font-semibold">
-            <span className="text-xs">AUD</span>&nbsp;{desc1}
+            <span className="text-xl">$</span>&nbsp;{desc1}
           </span>
 
           &nbsp;per month
