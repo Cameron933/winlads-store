@@ -23,6 +23,7 @@ const Level = () => {
   return (
     <motion.div
       initial={"offscreen"}
+   
       whileInView={"onscreen"}
       viewport={{ once: true, amount: 0.5 }}
       transition={{ staggerChildren: 0 }}
@@ -33,27 +34,9 @@ const Level = () => {
       //   background: "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
       // }}
     >
+    <br /><br />
       <div className="flex flex-col xl:px-8 px-4 justify-between xl:items-center 2xl-pt-0 xl:pt-0 py-8">
-        <div className="flex flex-col gap-2 items-center">
-          <div className="block 2xl:hidden">
-            <p className="xl:text-6xl md:text-4xl text-3xl font-semibold special:text-10xl md:text-center text-center xl:text-start">
-              CHOOSE A SUBSCRIPTION PLAN
-            </p>
-          </div>
-          <div className="hidden 2xl:block pb-8">
-            <p className="text-6xl font-bold">CHOOSE YOUR LEVEL</p>
-          </div>
-          <motion.img
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 1.5 }}
-            src={NewJeep}
-            alt="main"
-            className="xl:w-1/2 py-16 w-full"
-          />
-          {/* <img src={cabBack} className="" /> */}
-        </div>
+        
         {/* <motion.div variants={textAnimate}> */}
         <div className="grid xl:grid-cols-5 grid-cols-1 md:grid-cols-3 gap-4 px-3 xs:px-0 md:px-0">
           <CardPlus

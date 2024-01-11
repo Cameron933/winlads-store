@@ -43,7 +43,7 @@ const GiveawayDT = () => {
       {/* <Apps /> */}
       {/* <Faq /> */}
       {/* <Shared /> */}
-      <NewGallery />
+      {/* <NewGallery /> */}
       {/* <InstagramGalleryViewer/> */}
       {/* <Winlads /> */}
       {/* <WinladsNew/> */}
