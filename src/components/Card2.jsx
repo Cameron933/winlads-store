@@ -60,7 +60,9 @@ const Card = ({
   const handleClick = () => {
     setShowmore(!showmore);
   };
-
+  const handleClickButton2 = () => {
+    window.location.href = `https://www.winlads.com/register?mem=true`;
+  };
   const handleClickButton = () => {
     window.location.href = `https://www.winlads.com/register/${selectedPackage}`;
   };
@@ -120,7 +122,7 @@ const Card = ({
         <div
           className={`rounded-md border-2 hover:border-black hover:bg-white hover:text-black cursor-pointer border-white flex flex-row justify-center py-2 hover:scale-105 hover:transition-transform ease-out duration-300 mt-auto text-${buttonTextColor}`}
           style={{ backgroundColor: btnBgColor1 }}
-          onClick={handleClickButton}
+          onClick={handleClickButton2}
           onMouseEnter={() => switchBtnColor1()}
           onMouseLeave={() => switchBtnColor1()}
         >
