@@ -63,6 +63,7 @@ const Level = () => {
             // btnword="Get started now"\
             btnBgColor1atr="#0082E1"
             yValue={-20}
+            packageId={'657c40018406aeb95f876ca2'}
           />
           <CardPlus
             classNames={"col-span-1"}
@@ -90,6 +91,7 @@ const Level = () => {
             btnword="SIGN UP NOW"
             yValue={-40}
             btnBgColor1atr="#CF3A00"
+            packageId={'657c757b8406aeb95f876ca7'}
           />
           <CardPlus
             classNames={"col-span-1"}
@@ -121,6 +123,7 @@ const Level = () => {
             // point5={Correct}
             yValue={-60}
             btnBgColor1atr="#007D87"
+            packageId={'657c766e8406aeb95f876cac'}
           />
           <CardPlus
             classNames={"col-span-1"}
@@ -150,6 +153,7 @@ const Level = () => {
             btnword="SIGN UP NOW"
             yValue={-80}
             btnBgColor1atr="#000000"
+            packageId={'657c775f8406aeb95f876cb1'}
           />
           <CardPlus
             bgColorFrom="#23282E"
@@ -180,6 +184,7 @@ const Level = () => {
             yValue={-100}
             classNames={"col-span-1"}
             btnBgColor1atr="#475A79"
+            packageId={'657c77b68406aeb95f876cb6'}
           />
           {/* <Card />
         <Card />

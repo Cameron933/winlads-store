@@ -32,11 +32,14 @@ const CardPlus = ({
   yValue,
   classNames,
   desc10,
-  btnBgColor1atr
+  btnBgColor1atr,
+  packageId
+
 }) => {
   const [showmore, setShowmore] = useState(false);
   const [btnBgColor, setBtnBgColor] = useState(buttonColor);
   const [btnBgColor1, setBtnBgColor1] = useState(btnBgColor1atr);
+  const [selectedPackage, setSelectedPackage] = useState(packageId || '');
 
 
 
@@ -62,7 +65,11 @@ const CardPlus = ({
   };
 
   const handleClickButton = () => {
-    window.location.href = "https://www.winlads.com/login";
+    window.location.href = `https://www.winlads.com/register/${selectedPackage}`;
+  };
+
+  const handleClickButton2 = () => {
+    window.location.href = `https://www.winlads.com/register?mem=true`;
   };
 
   return (
@@ -123,7 +130,7 @@ const CardPlus = ({
           onMouseEnter={() => switchBtnColor1()}
           onMouseLeave={() => switchBtnColor1()}
         >
-          <button className="flex flex-row items-center gap-2">
+          <button className="flex flex-row items-center gap-2" onClick={handleClickButton2}>
             <p className={`text-xs 2xl:text-lg`}>ONE OFF PACKAGES</p>
             {/* <MdKeyboardArrowRight className={`text-${arrowColor}`} /> */}
           </button>
