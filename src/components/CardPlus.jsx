@@ -65,10 +65,15 @@ const CardPlus = ({
   };
 
   const handleClickButton = () => {
+    window.dataLayer.push({
+      event: 'signup_button_click',
+      data: selectedPackage})
     window.location.href = `https://www.winlads.com/register/${selectedPackage}`;
   };
 
   const handleClickButton2 = () => {
+    window.dataLayer.push({
+      event: 'signup_button_click'})
     window.location.href = `https://www.winlads.com/register?mem=true`;
   };
 

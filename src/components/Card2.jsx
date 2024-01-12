@@ -61,9 +61,16 @@ const Card = ({
     setShowmore(!showmore);
   };
   const handleClickButton2 = () => {
+    window.dataLayer.push({
+      event: 'signup_button_click'})
+      console.log(window.dataLayer)
     window.location.href = `https://www.winlads.com/register?mem=true`;
   };
   const handleClickButton = () => {
+    window.dataLayer.push({
+      event: 'signup_button_click',
+      data: selectedPackage})
+      console.log(window.dataLayer)
     window.location.href = `https://www.winlads.com/register/${selectedPackage}`;
   };
 

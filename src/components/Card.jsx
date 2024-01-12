@@ -47,6 +47,9 @@ const Card = ({
   };
 
   const handleClickButton = () => {
+    window.dataLayer.push({
+      event: 'signup_button_click'})
+      console.log(window.dataLayer)
     window.location.href = "https://www.winlads.com/login";
   };
 
