@@ -15,7 +15,7 @@ const GalleryPlus = () => {
         <img className="w-[1500px]" src={Img6} alt="" /><br />
         <img className="w-[1500px]" src={Img2} alt="" />
       </div>
-      <a href="https://winladsclient-dev.onrender.com/register?ability=WINACCESSEN?">
+      <a href="https://www.winlads.com/register?ability=WINACCESSEN?">
          <div>
         <img src={ImgPoster} alt="" />
       </div>
