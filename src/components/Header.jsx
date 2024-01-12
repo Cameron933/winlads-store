@@ -5,7 +5,7 @@ const Header = () => {
   const handleClick = () => {
     window.dataLayer.push({
       event: 'signup_button_click'})
-    window.location.href = "https://www.winlads.com/login";
+    window.location.href = "https://www.winlads.com/register";
   };
 
   return (

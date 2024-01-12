@@ -21,7 +21,7 @@ const Hero = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    window.location.href = "https://www.winlads.com/login";
+    window.location.href = "https://www.winlads.com/register";
   };
 
   return (
