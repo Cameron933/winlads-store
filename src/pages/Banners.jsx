@@ -202,13 +202,24 @@ const Banners = () => {
           </div>
         </div>
         <div className="cols-span-1 flex justify-center">
-          <iframe
-            src="https://player.vimeo.com/video/899812267?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-            width="400"
-            height="180"
-            allow="autoplay; fullscreen; picture-in-picture"
-            title="Winlads"
-          ></iframe>
+          <div className="block md:hidden">
+            <iframe
+              src="https://player.vimeo.com/video/899812267?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              width="400"
+              height="200"
+              allow="autoplay; fullscreen; picture-in-picture"
+              title="Winlads"
+            ></iframe>
+          </div>
+          <div className="hidden md:block">
+            <iframe
+              src="https://player.vimeo.com/video/899812267?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              width="500"
+              height="280"
+              allow="autoplay; fullscreen; picture-in-picture"
+              title="Winlads"
+            ></iframe>
+          </div>
         </div>
         <div
           style={{
@@ -287,61 +298,61 @@ const Banners = () => {
           </div>
         </div>
         <div
-            style={{
-              backgroundImage: `url(${BG2})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
-            className="flex flex-col space-y-4 p-4 rounded-tl-xl"
-          >
-            <p className="text-end text-white text-2xl">
-              Enabling Transformation:
-            </p>
-            <p className="text-start text-white  text-xs flex justify-end">
-              Our philanthropic journey is rooted in a profound commitment to
-              social responsibility. We strive to empower those in need,
-              amplifying the possibilities for a brighter, more promising
-              future. From supporting underprivileged communities to extending a
-              helping hand during critical times, Winlads is dedicated to making
-              a tangible difference where it matters most.
-            </p>
+          style={{
+            backgroundImage: `url(${BG2})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+          className="flex flex-col space-y-4 p-4 rounded-tl-xl"
+        >
+          <p className="text-end text-white text-2xl">
+            Enabling Transformation:
+          </p>
+          <p className="text-start text-white  text-xs flex justify-end">
+            Our philanthropic journey is rooted in a profound commitment to
+            social responsibility. We strive to empower those in need,
+            amplifying the possibilities for a brighter, more promising future.
+            From supporting underprivileged communities to extending a helping
+            hand during critical times, Winlads is dedicated to making a
+            tangible difference where it matters most.
+          </p>
+        </div>
+        <div className="col-span-1 flex flex-col bg-[#F59E0B]">
+          <div className="mt-2 bg-white text-black pl-4 text-3xl ml-8 mb-4 text-start">
+            Winlads Referral
+            <br /> System:
           </div>
-          <div className="col-span-1 flex flex-col bg-[#F59E0B]">
-            <div className="mt-2 bg-white text-black pl-4 text-3xl ml-8 mb-4 text-start">
-              Winlads Referral
-              <br /> System:
+          <div className="flex flex-row items-center gap-1">
+            <div>
+              <img src={IMG2} alt="" />
             </div>
-            <div className="flex flex-row items-center gap-1">
-              <div>
-                <img src={IMG2} alt="" />
-              </div>
-              <p className="text-xs text-center">
-                "Unlock rewards and passive income through Winlads Referral
-                System. Refer friends and family, earn commissions, and watch
-                your network grow organically. "
-              </p>
-            </div>
-          </div>
-          <div
-            style={{
-              backgroundImage: `url(${BG4})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
-            className="flex flex-col space-y-4 p-4 rounded-tr-xl"
-          >
-            <p className="text-end text-white text-2xl">
-              Join Us on the Journey:
-            </p>
-            <p className="text-start text-white  text-xs flex justify-end">
-              We invite you to join us on this meaningful journey of giving
-              back. Together, we can forge a future where individuals thrive,
-              communities flourish, and hope prevails. Your support and
-              participation in our charitable initiatives empower us to create a
-              world where compassion and kindness reign supreme, ensuring that
-              no one is left behind.
+            <p className="text-xs text-center">
+              "Unlock rewards and passive income through Winlads Referral
+              System. Refer friends and family, earn commissions, and watch your
+              network grow organically. "
             </p>
           </div>
+        </div>
+        <div
+          style={{
+            backgroundImage: `url(${BG4})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+          className="flex flex-col space-y-4 p-4 rounded-tr-xl"
+        >
+          <p className="text-end text-white text-2xl">
+            Join Us on the Journey:
+          </p>
+          <p className="text-start text-white  text-xs flex justify-end">
+            We invite you to join us on this meaningful journey of giving back.
+            Together, we can forge a future where individuals thrive,
+            communities flourish, and hope prevails. Your support and
+            participation in our charitable initiatives empower us to create a
+            world where compassion and kindness reign supreme, ensuring that no
+            one is left behind.
+          </p>
+        </div>
       </div>
     </div>
   );
