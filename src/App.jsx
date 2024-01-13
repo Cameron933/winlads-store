@@ -5,6 +5,7 @@ import TermsCondition from "./pages/TermsCondition";
 import GoogleAnalytics from "./utils/GoogleAnalytics";
 import TagManager from 'react-gtm-module'
 import GiveawayDT from "./pages/GiveawayDT";
+import Banners from "./pages/Banners"
 
 
 function App() {
@@ -31,6 +32,10 @@ function App() {
     {
       path: "/",
       element: <Home />,
+    },
+    {
+      path: "/banner",
+      element: <Banners />,
     },
   ]);
   return (
