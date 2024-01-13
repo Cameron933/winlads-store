@@ -113,10 +113,10 @@ const CardPlus = ({
           className={`font-bold text-lg 2xl:text-xl`}
           style={{ color: titleColor2 }}
         >
-          <span className="text-5xl lg:text-6xl">
+          <span className="text-5xl lg:text-6xl text-center">
             {title2.slice(0, 3).trim()}
           </span>{" "}
-          <span className="text-xs capitalize">Accumulating&nbsp;{title2 === "01" ? "Entry" : "Entries"}</span>
+          <span className="text-xs capitalize">Free<br /> Accumulating&nbsp;{title2 === "01" ? "Entry" : "Entries"}</span>
         </p>
       </div>
       <div className="flex flex-col  border-2 space-y-4 border-black bg-white px-2 py-4  rounded-xl mb-5 h-full relative">
