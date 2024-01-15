@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import React from "react";
-import nontera from "../assets/partners/partner5.png";
-import stripe from "../assets/partners/partner6.png";
+import nontera from "../assets/partners/partner-1.png";
+import stripe from "../assets/partners/partner-2.png";
+import NewPartner from "../assets/partners/partners7.png";
 
 const Partners2 = () => {
   return (
@@ -16,6 +17,9 @@ const Partners2 = () => {
         PARTNERS
       </motion.p>
       <div className="flex items-center justify-center gap-2 md:flex-row flex-col md:px-20 px-10">
+      <div className="md:w-1/2 w-full">
+          <img src={NewPartner} className="w-full h-full object-contain" />
+        </div>
         <div className="md:w-1/2 w-full">
           <img src={nontera} className="w-full h-full object-contain" />
         </div>
