@@ -5,7 +5,7 @@ import TermsCondition from "./pages/TermsCondition";
 import GoogleAnalytics from "./utils/GoogleAnalytics";
 import TagManager from 'react-gtm-module'
 import GiveawayDT from "./pages/GiveawayDT";
-import Banners from "./pages/Banners"
+import Banners from "./pages/NewBanner";
 
 
 function App() {
