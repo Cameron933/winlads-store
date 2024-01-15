@@ -4,14 +4,15 @@ import BG1 from "../assets/banner/DSC_6409.jpg";
 import BG2 from "../assets/banner/DSC_6442.jpg";
 import BG3 from "../assets/banner/SAR00091.jpg";
 import BG4 from "../assets/banner/portrait.jpg";
+import BG5 from "../assets/banner/DSC_6368.jpg";
 
 const Banners = () => {
     return (
-        <div className="grid xl:grid-cols-3 grid-cols-1 items-center xl:h-screen gap-2 ">
-            <div className="xl:rounded-xl overflow-hidden col-span-1 h-80">
+        <div className="grid xl:grid-cols-3 grid-cols-1 items-center xl:min-h-screen gap-1 ">
+            <div className="xl:rounded-xl overflow-hidden col-span-1 h-80 special:h-full">
                 <img src={BG1} className="w-full h-full object-cover" />
             </div>
-            <div className="flex flex-col space-y-4 items-center justify-center px-4 col-span-1 h-80">
+            <div className="flex flex-col space-y-4 items-center justify-center px-4 col-span-1 h-80 special:h-full">
                 <div className="flex flex-row space-x-2 items-center justify-center pb-4">
                     <img src={Logo} alt="" className="xl:w-16 w-12" />
                     <p className="text-black xl:text-4xl text-3xl">Winlads</p>
@@ -38,22 +39,25 @@ const Banners = () => {
 
             {/* SECOND ROW */}
 
-            <div className="col-span-1 xl:rounded-xl h-64 overflow-hidden">
+            <div className="col-span-1 xl:rounded-xl h-80 special:h-full overflow-hidden">
                 <img src={BG2} className="w-full h-full object-cover" />
             </div>
-            <div className="cols-span-1 flex justify-center xl:row-span-2 xl:rounded-xl overflow-hidden xl:h-full">
+            <div className=" cols-span-1 xl:rounded-xl overflow-hidden xl:h-full">
                 <iframe
                     src="https://player.vimeo.com/video/899812267?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                     allow="autoplay; fullscreen; picture-in-picture"
                     title="Winlads"
-
-                    className="w-96 xl:w-full h-52 xl:h-full object-cover"
+                    width="100%"
+                    className="w-full h-full mx-auto md:min-h-52 xl:h-full"
                 ></iframe>
             </div>
 
             {/* THIRD ROW */}
-            <div className=" xl:rounded-xl col-span-1 h-80 overflow-hidden">
+            <div className=" xl:rounded-xl col-span-1 h-80 special:h-full overflow-hidden">
                 <img src={BG3} className="w-full h-full object-cover" />
+            </div>
+            <div className=" xl:rounded-xl col-span-1 h-80 special:h-full overflow-hidden">
+                <img src={BG5} className="w-full h-full object-cover" />
             </div>
         </div>
     );
