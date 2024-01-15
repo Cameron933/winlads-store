@@ -28,7 +28,7 @@ const Packages = () => {
             buttonColor2="#0082E1"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
-            btnword="SIGN UP NOW"
+            btnword="SIGN UP / $9.99 PER MONTH"
             btnword2="ONE OFF PACKAGES"
             bgColorFrom="#0094FF"
             bgColorTo="#00347C"
@@ -59,7 +59,7 @@ const Packages = () => {
             buttonColor2="#CF3A00"
             arrowColor="white"
             buttonTextColor="white"
-            btnword="SIGN UP NOW"
+            btnword="SIGN UP / $19.99 PER MONTH"
             btnword2="ONE OFF PACKAGES"
             yValue={-40}
           />
@@ -87,7 +87,7 @@ const Packages = () => {
             buttonColor2="#007D87"
             arrowColor="white"
             buttonTextColor="white"
-            btnword="SIGN UP NOW"
+            btnword="SIGN UP / $49.99 PER MONTH"
             btnword2="ONE OFF PACKAGES"
             // point4={Correct}
             // point5={Correct}
@@ -118,7 +118,7 @@ const Packages = () => {
             buttonColor2="#000000"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
-            btnword="SIGN UP NOW"
+            btnword="SIGN UP / $100 PER MONTH"
             btnword2="ONE OFF PACKAGES"
             yValue={-80}
           />
@@ -147,7 +147,7 @@ const Packages = () => {
             buttonColor2="#475A79"
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
-            btnword="SIGN UP NOW"
+            btnword="SIGN UP / $500 PER MONTH"
             btnword2="ONE OFF PACKAGES"
             yValue={-100}
             classNames={"col-span-1"}

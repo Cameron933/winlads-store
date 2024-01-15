@@ -38,7 +38,7 @@ const Apps = () => {
             viewport={{ once: true }}
             className="text-[#00F0FF] font-bold text-2xl lg:text3xl xl:text-4xl 2xl:text-6xl"
           >
-            200 <span className="text-white">+</span>
+            104 <span className="text-white">+</span>
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: "40%" }}
@@ -47,7 +47,7 @@ const Apps = () => {
             viewport={{ once: true }}
             className="text-white text-center text-sm md:text-base 2xl:text-lg"
           >
-            Australian business partners
+            Total Members
           </motion.p>
         </div>
 
@@ -59,7 +59,7 @@ const Apps = () => {
             viewport={{ once: true }}
             className="text-[#00F0FF] font-bold text-2xl lg:text3xl xl:text-4xl 2xl:text-6xl"
           >
-            350 <span className="text-white">+</span>
+            50 <span className="text-white">%</span>
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: "40%" }}
@@ -68,7 +68,7 @@ const Apps = () => {
             viewport={{ once: true }}
             className="text-white text-center text-sm md:text-base 2xl:text-lg"
           >
-            In savings through our mates rates <br /> discounts
+           Up to 50% discounts on partners stores
           </motion.p>
         </div>
 
@@ -80,7 +80,8 @@ const Apps = () => {
             viewport={{ once: true }}
             className="text-[#00F0FF] font-bold text-2xl lg:text3xl xl:text-4xl 2xl:text-6xl"
           >
-            200 <span className="text-white">+</span>
+            $1500
+             {/* <span className="text-white">+</span> */}
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: "-40%" }}
@@ -89,7 +90,7 @@ const Apps = () => {
             viewport={{ once: true }}
             className="text-white text-center text-sm md:text-base 2xl:text-lg"
           >
-            stores you can redeem offers In <br /> person or online
+           Cashouts
           </motion.p>
         </div>
       </div>
