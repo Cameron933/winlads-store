@@ -18,10 +18,25 @@ import Map from "../components/Map"
 import Welcome from "../components/Welcome"
 import Gallery from "../components/Gallery"
 import Partners2 from "../components/Partners2"
+import { useParams } from "react-router-dom"
 
 // import InstagramGalleryViewer from "../components/InstagramGallery"
 
 const Home = () => {
+  const { id } = useParams();
+  
+  const scrollTo = (target) => {
+    const otherComponentElement = document.getElementById(target);
+
+    if (otherComponentElement) {
+      otherComponentElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  useEffect(() => {
+    if (id) {
+      scrollTo(id)
+    }
+  })
   return (
     <div className="relative pageBgColor">
       <Hero />

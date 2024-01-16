@@ -30,7 +30,7 @@ function App() {
       element: <GiveawayDT />,
     },
     {
-      path: "/",
+      path: "/:id?",
       element: <Home />,
     },
     {
