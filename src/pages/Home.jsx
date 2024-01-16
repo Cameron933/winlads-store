@@ -28,7 +28,6 @@ import { useParams } from "react-router";
 const Home = () => {
   const { id } = useParams();
   const scrollTo = (target) => {
-
   
     const otherComponentElement = document.getElementById(target);
   
@@ -38,11 +37,13 @@ const Home = () => {
   };
   
   useEffect(() => {
-    console.log(id);
-    if (id) {
-      scrollTo(id);
-    }
-  }, []);
+    console.log('ID IS : ' + id);
+  if (id !== undefined) {
+    scrollTo(id);
+  } else {
+    console.log('No ID in the URL');
+  }
+  },[id])
 
   return (
     <div className="relative pageBgColor">
