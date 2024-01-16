@@ -19,12 +19,12 @@ import Welcome from "../components/Welcome"
 import Gallery from "../components/Gallery"
 import Partners2 from "../components/Partners2"
 import { useParams } from "react-router-dom"
+import { useEffect } from "react"
 
 // import InstagramGalleryViewer from "../components/InstagramGallery"
 
 const Home = () => {
   const { id } = useParams();
-  
   const scrollTo = (target) => {
     const otherComponentElement = document.getElementById(target);
 
@@ -33,10 +33,11 @@ const Home = () => {
     }
   };
   useEffect(() => {
+    console.log(id);
     if (id) {
       scrollTo(id)
     }
-  })
+  },[])
   return (
     <div className="relative pageBgColor">
       <Hero />
