@@ -136,7 +136,7 @@ const CardPlus = ({
           onMouseLeave={() => switchBtnColor1()}
         >
           <button className="flex flex-row items-center gap-2" onClick={handleClickButton2}>
-            <p className={`text-xs 2xl:text-lg`}>ONE OFF PACKAGES</p>
+            <p className={`text-xs 2xl:text-lg`}>ONE OFF PACKAGE</p>
             {/* <MdKeyboardArrowRight className={`text-${arrowColor}`} /> */}
           </button>
         </div>

@@ -29,7 +29,7 @@ const Packages = () => {
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
             btnword="SIGN UP / $9.99 PER MONTH"
-            btnword2="ONE OFF PACKAGES"
+            btnword2="ONE OFF PACKAGE"
             bgColorFrom="#0094FF"
             bgColorTo="#00347C"
             titleColor="black"
@@ -60,7 +60,7 @@ const Packages = () => {
             arrowColor="white"
             buttonTextColor="white"
             btnword="SIGN UP / $19.99 PER MONTH"
-            btnword2="ONE OFF PACKAGES"
+            btnword2="ONE OFF PACKAGE"
             yValue={-40}
           />
           <Card
@@ -88,7 +88,7 @@ const Packages = () => {
             arrowColor="white"
             buttonTextColor="white"
             btnword="SIGN UP / $49.99 PER MONTH"
-            btnword2="ONE OFF PACKAGES"
+            btnword2="ONE OFF PACKAGE"
             // point4={Correct}
             // point5={Correct}
             yValue={-60}
@@ -119,7 +119,7 @@ const Packages = () => {
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
             btnword="SIGN UP / $100 PER MONTH"
-            btnword2="ONE OFF PACKAGES"
+            btnword2="ONE OFF PACKAGE"
             yValue={-80}
           />
           <Card
@@ -148,7 +148,7 @@ const Packages = () => {
             arrowColor="[#01819D]"
             buttonTextColor={"white"}
             btnword="SIGN UP / $500 PER MONTH"
-            btnword2="ONE OFF PACKAGES"
+            btnword2="ONE OFF PACKAGE"
             yValue={-100}
             classNames={"col-span-1"}
           />
