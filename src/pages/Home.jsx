@@ -1,25 +1,45 @@
-import Hero from "../components/Hero"
-import Level from "../components/Level"
-import Reviews from "../components/Reviews"
-import SecondSection from "../components/SecondSection"
-import Shared from "../components/Shared"
+import Hero from "../components/Hero";
+import Level from "../components/Level";
+import Reviews from "../components/Reviews";
+import SecondSection from "../components/SecondSection";
+import Shared from "../components/Shared";
 //import Winlads from "../components/Winlads"
 import Footer3 from "../components/Footer3";
-import WinladsNew from "../components/WinladsNew"
-import BgImg from "../assets/bgCar.png"
-import Sec2 from "../components/Sec2"
-import NewGallery from "../components/NewGallery"
-import Partners from "../components/Partners"
-import Packages from "../components/Packages"
-import Faq from "../components/Faq"
-import Prize from "../components/Prize"
-import Apps from "../components/Apps"
-import Map from "../components/Map"
-import Welcome from "../components/Welcome"
-import Gallery from "../components/Gallery"
-import Partners2 from "../components/Partners2"
+import WinladsNew from "../components/WinladsNew";
+import BgImg from "../assets/bgCar.png";
+import Sec2 from "../components/Sec2";
+import NewGallery from "../components/NewGallery";
+import Partners from "../components/Partners";
+import Packages from "../components/Packages";
+import Faq from "../components/Faq";
+import Prize from "../components/Prize";
+import Apps from "../components/Apps";
+import Map from "../components/Map";
+import Welcome from "../components/Welcome";
+import Gallery from "../components/Gallery";
+import Partners2 from "../components/Partners2";
+import { useParams } from "react-router";
+import { useEffect } from "react";
 
 // import InstagramGalleryViewer from "../components/InstagramGallery"
+const scrollTo = (target) => {
+  const { id } = useParams();
+
+  useEffect(() => {
+    console.log(id);
+    if (id) {
+      scrollTo(id);
+    }
+  }, []);
+  
+  const otherComponentElement = document.getElementById(target);
+
+  if (otherComponentElement) {
+    otherComponentElement.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
+
 
 const Home = () => {
   return (
@@ -48,7 +68,7 @@ const Home = () => {
       {/* <WinladsNew/> */}
       <Footer3 />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

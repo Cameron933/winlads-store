@@ -33,6 +33,7 @@ const Level = () => {
       //   position: "relative",
       //   background: "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
       // }}
+      id="packages"
     >
     <br /><br />
       <div className="flex flex-col xl:px-8 px-4 justify-between xl:items-center 2xl-pt-0 xl:pt-0 py-8">
