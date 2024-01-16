@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Hero from "../components/Hero";
 import Level from "../components/Level";
 import Reviews from "../components/Reviews";
@@ -19,11 +20,18 @@ import Welcome from "../components/Welcome";
 import Gallery from "../components/Gallery";
 import Partners2 from "../components/Partners2";
 import { useParams } from "react-router";
-import { useEffect } from "react";
 
 // import InstagramGalleryViewer from "../components/InstagramGallery"
-const scrollTo = (target) => {
+
+const Home = () => {
   const { id } = useParams();
+  const scrollTo = (target) => {
+    const otherComponentElement = document.getElementById(target);
+
+    if (otherComponentElement) {
+      otherComponentElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   useEffect(() => {
     console.log(id);
@@ -31,17 +39,7 @@ const scrollTo = (target) => {
       scrollTo(id);
     }
   }, []);
-  
-  const otherComponentElement = document.getElementById(target);
 
-  if (otherComponentElement) {
-    otherComponentElement.scrollIntoView({ behavior: "smooth" });
-  }
-};
-
-
-
-const Home = () => {
   return (
     <div className="relative pageBgColor">
       <Hero />
