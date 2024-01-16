@@ -48,7 +48,7 @@ const Banners = () => {
                     allow="autoplay; fullscreen; picture-in-picture"
                     title="Winlads"
                     width="100%"
-                    className="w-full h-full mx-auto md:min-h-52 xl:h-full"
+                    className="w-full min-h-64 mx-auto md:min-h-52 xl:h-full"
                 ></iframe>
             </div>
 
