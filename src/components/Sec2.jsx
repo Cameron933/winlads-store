@@ -51,22 +51,22 @@ const Sec2 = () => {
         <div className="flex flex-row justify-center text-white gap-4">
           <div className="flex flex-col">
             <p className="xl:text-6xl text-4xl">{timeRemaining.days}</p>
-            <p className="xl:text-xl text-sm">days</p>
+            <p className="xl:text-xl text-sm">Days</p>
           </div>
           <p className="xl:text-6xl text-4xl">:</p>
           <div className="flex flex-col">
             <p className="xl:text-6xl text-4xl">{timeRemaining.hours}</p>
-            <p className="xl:text-xl text-sm">hours</p>
+            <p className="xl:text-xl text-sm">Hours</p>
           </div>
           <p className="xl:text-6xl text-4xl">:</p>
           <div className="flex flex-col">
             <p className="xl:text-6xl text-4xl">{timeRemaining.minutes}</p>
-            <p className="xl:text-xl text-sm">minutes</p>
+            <p className="xl:text-xl text-sm">Minutes</p>
           </div>
           <p className="xl:text-6xl text-4xl">:</p>
           <div className="flex flex-col">
             <p className="xl:text-6xl text-4xl">{timeRemaining.seconds}</p>
-            <p className="xl:text-xl text-sm">seconds</p>
+            <p className="xl:text-xl text-sm">Seconds</p>
           </div>
         </div>
       </div>
