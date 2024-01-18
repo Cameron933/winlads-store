@@ -82,7 +82,7 @@ function Footer() {
       <div className="py-2 flex items-left justify-between md:px-10 px-5">
         <div className="flex lg:flex-row flex-col justify-start items-start">
           <p className="text-left text-xs special:text-base text-white">
-            Copyright 2023 Winlads, All Rights Reserved. |
+            Copyright 2024 Winlads, All Rights Reserved. |&nbsp;
           </p>
           <ul className="text-xs flex md:flex-row flex-col text-white gap-1">
 
