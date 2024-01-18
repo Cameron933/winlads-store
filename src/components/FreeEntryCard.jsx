@@ -1,9 +1,28 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import FreeEntry from "../assets/freeEntryImg.png";
 
 const FreeEntryCard = () => {
+
+  const [inapp, setInapp] = useState(false);
+
+  useEffect(() => {
+      if (navigator.userAgent.match(/(iPod|iPhone|iPad)/) && navigator.userAgent.match(/FBAV/i)) {
+          //iOS Facebook App Browser detected
+          console.log("in app")
+          setInapp(true)
+      } else {
+          console.log("fdf")
+          setInapp(false)
+      }
+  }, [])
+
   const handleClickButton = () => {
-    window.location.href = "https://app.winlads.com/register?COUPEN=WINFREE";
+    if(inapp) {
+      window.location.href = "https://app.winlads.com/inapp";
+    } else {
+      window.location.href = "https://app.winlads.com/register?COUPEN=WINFREE";
+    }
+
   };
   return (
     <div className="rounded-2xl xl:w-72 w-full md:w-72  shadow-lg bg-[#F7B928] shadow-gray-400 relative flex flex-col border-2 border-black">
