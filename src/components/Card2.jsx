@@ -40,7 +40,6 @@ const Card = ({
   const [btnBgColor1, setBtnBgColor1] = useState(buttonColor2);
   const [selectedPackage, setSelectedPackage] = useState(packageId || "");
   const navigate = useNavigate();
-  const [inapp, setInapp] = useState(false);
 
   const switchBtnColor = () => {
     if (btnBgColor == buttonColor) {
@@ -58,20 +57,6 @@ const Card = ({
     }
   };
 
-  useEffect(() => {
-    if (
-      navigator.userAgent.match(/(iPod|iPhone|iPad)/) &&
-      navigator.userAgent.match(/FBAV/i)
-    ) {
-      //iOS Facebook App Browser detected
-      console.log("in app");
-      setInapp(true);
-    } else {
-      console.log("fdf");
-      setInapp(false);
-    }
-  }, []);
-
   const handleClick = () => {
     setShowmore(!showmore);
   };
@@ -80,11 +65,8 @@ const Card = ({
       event: "signup_button_click",
     });
     console.log(window.dataLayer);
-    if (inapp) {
-      window.location.href = `https://www.winlads.com/inapp?mem=true`;
-    } else {
-      window.location.href = `https://www.winlads.com/register?mem=true`;
-    }
+
+    window.location.href = `https://www.winlads.com/register?mem=true`;
   };
   const handleClickButton = () => {
     window.dataLayer.push({
@@ -92,11 +74,8 @@ const Card = ({
       data: selectedPackage,
     });
     console.log(window.dataLayer);
-    if (inapp) {
-      window.location.href = `https://www.winlads.com/inapp`;
-    } else {
-      window.location.href = `https://www.winlads.com/register/${selectedPackage}`;
-    }
+
+    window.location.href = `https://www.winlads.com/register/${selectedPackage}`;
   };
 
   return (

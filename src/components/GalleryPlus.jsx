@@ -9,21 +9,6 @@ import ImgPoster from "../assets/winpost.jpg";
 import { motion } from "framer-motion";
 
 const GalleryPlus = () => {
-  const [inapp, setInapp] = useState(false);
-
-  useEffect(() => {
-    if (
-      navigator.userAgent.match(/(iPod|iPhone|iPad)/) &&
-      navigator.userAgent.match(/FBAV/i)
-    ) {
-      //iOS Facebook App Browser detected
-      console.log("in app");
-      setInapp(true);
-    } else {
-      console.log("fdf");
-      setInapp(false);
-    }
-  }, []);
 
   return (
     <div className="py-8 flex flex-col md:flex-row px-10 xl:px-20 gap-4">
@@ -33,7 +18,7 @@ const GalleryPlus = () => {
         <img className="w-[1500px]" src={Img2} alt="" />
       </div>
 
-      <a href={inapp ? "https://app.winlads.com/inapp?ability=WINACCESSEN" : "https://app.winlads.com/register?ability=WINACCESSEN"}>
+      <a href="https://app.winlads.com/register?ability=WINACCESSEN">
         <div>
           <img src={ImgPoster} alt="" />
         </div>

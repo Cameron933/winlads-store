@@ -4,32 +4,12 @@ import Logo from "../assets/headerLogo.png";
 
 const Header = () => {
 
-  const [inapp, setInapp] = useState(false);
-
-  useEffect(() => {
-    if (
-      navigator.userAgent.match(/(iPod|iPhone|iPad)/) &&
-      navigator.userAgent.match(/FBAV/i)
-    ) {
-      //iOS Facebook App Browser detected
-      console.log("in app");
-      setInapp(true);
-    } else {
-      console.log("fdf");
-      setInapp(false);
-    }
-  }, []);
-
-
   const handleClick = () => {
     window.dataLayer.push({
-      event: 'signup_button_click'})
-      if(inapp) {
-        window.location.href = "https://www.winlads.com/inapp";
-      } else {
-        window.location.href = "https://www.winlads.com/register";
-      }
+      event: "signup_button_click",
+    });
 
+    window.location.href = "https://www.winlads.com/register";
   };
 
   return (
@@ -60,7 +40,7 @@ const Header = () => {
           </button>
         </div>
       </div> */}
-       <div className="flex xl:justify-end justify-center">
+      <div className="flex xl:justify-end justify-center">
         <div
           className="bg-red-500 hover:bg-red-700 px-2 py-2 rounded-md text-center w-full flex justify-center items-center"
           onClick={handleClick}
