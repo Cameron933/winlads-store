@@ -1,11 +1,35 @@
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/headerLogo.png";
 
 const Header = () => {
+
+  const [inapp, setInapp] = useState(false);
+
+  useEffect(() => {
+    if (
+      navigator.userAgent.match(/(iPod|iPhone|iPad)/) &&
+      navigator.userAgent.match(/FBAV/i)
+    ) {
+      //iOS Facebook App Browser detected
+      console.log("in app");
+      setInapp(true);
+    } else {
+      console.log("fdf");
+      setInapp(false);
+    }
+  }, []);
+
+
   const handleClick = () => {
     window.dataLayer.push({
       event: 'signup_button_click'})
-    window.location.href = "https://www.winlads.com/register";
+      if(inapp) {
+        window.location.href = "https://www.winlads.com/inapp";
+      } else {
+        window.location.href = "https://www.winlads.com/register";
+      }
+
   };
 
   return (
