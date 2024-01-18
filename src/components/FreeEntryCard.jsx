@@ -18,7 +18,7 @@ const FreeEntryCard = () => {
 
   const handleClickButton = () => {
     if(inapp) {
-      window.location.href = "https://app.winlads.com/inapp";
+      window.location.href = "https://app.winlads.com/inapp?COUPEN=WINFREE";
     } else {
       window.location.href = "https://app.winlads.com/register?COUPEN=WINFREE";
     }

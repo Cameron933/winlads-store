@@ -33,7 +33,7 @@ const GalleryPlus = () => {
         <img className="w-[1500px]" src={Img2} alt="" />
       </div>
 
-      <a href={inapp ? "https://app.winlads.com/inapp" : "https://app.winlads.com/register?ability=WINACCESSEN"}>
+      <a href={inapp ? "https://app.winlads.com/inapp?ability=WINACCESSEN" : "https://app.winlads.com/register?ability=WINACCESSEN"}>
         <div>
           <img src={ImgPoster} alt="" />
         </div>
