@@ -25,6 +25,7 @@ import { useParams } from "react-router";
 
 const Home = () => {
   const { id } = useParams();
+
   const scrollTo = (target) => {
     const otherComponentElement = document.getElementById(target);
 
@@ -32,11 +33,14 @@ const Home = () => {
       otherComponentElement.scrollIntoView({ behavior: "smooth" });
     }
   };
-
   useEffect(() => {
-    console.log(id);
-    if (id) {
-      scrollTo(id);
+    console.log("ID IS : " + id);
+    if (id !== undefined) {
+      setTimeout(() => {
+        scrollTo(id);
+      }, 2000);
+    } else {
+      console.log("No ID in the URL");
     }
   }, []);
 

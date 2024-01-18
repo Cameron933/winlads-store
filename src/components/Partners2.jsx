@@ -6,7 +6,7 @@ import NewPartner from "../assets/partners/partners7.png";
 
 const Partners2 = () => {
   return (
-    <div className=" md:py-10 py-5">
+    <div className=" md:py-10 py-5" id="partners">
       <motion.p
         initial={{ opacity: 0, y: "-40%" }}
         whileInView={{ opacity: 1, y: "0" }}
