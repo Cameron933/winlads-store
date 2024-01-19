@@ -33,18 +33,18 @@ const Level = () => {
       //   position: "relative",
       //   background: "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
       // }}
-     
+      id="packages"
     >
     <br /><br />
       <div className="flex flex-col xl:px-8 px-4 justify-between xl:items-center 2xl-pt-0 xl:pt-0 py-8">
         
         {/* <motion.div variants={textAnimate}> */}
-        <div className="grid xl:grid-cols-5 grid-cols-1 md:grid-cols-3 gap-4 px-3 xs:px-0 md:px-0" id="packages">
+        <div className="grid xl:grid-cols-5 grid-cols-1 md:grid-cols-3 gap-4 px-3 xs:px-0 md:px-0">
           <CardPlus
             classNames={"col-span-1"}
             title="Starter Tier"
             // titleColor="white"
-            title2="01"
+            title2="1"
             titleColor2="black"
             price="9.99"
             desc1="$9.99 per month"
@@ -73,7 +73,7 @@ const Level = () => {
             title="Boomer Tier"
             titleColor="black"
             // titleColor="white"
-            title2="03"
+            title2="3"
             titleColor2="black"
             buttonColor2="#CF3A00"
 

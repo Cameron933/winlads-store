@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 // import Correct from "../assets/correct.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaStar } from "react-icons/fa6";
@@ -33,15 +33,12 @@ const CardPlus = ({
   classNames,
   desc10,
   btnBgColor1atr,
-  packageId
-
+  packageId,
 }) => {
   const [showmore, setShowmore] = useState(false);
   const [btnBgColor, setBtnBgColor] = useState(buttonColor);
   const [btnBgColor1, setBtnBgColor1] = useState(btnBgColor1atr);
-  const [selectedPackage, setSelectedPackage] = useState(packageId || '');
-
-
+  const [selectedPackage, setSelectedPackage] = useState(packageId || "");
 
   const switchBtnColor1 = () => {
     if (btnBgColor1 == buttonColor2) {
@@ -59,21 +56,24 @@ const CardPlus = ({
     }
   };
 
-  
   const handleClick = () => {
     setShowmore(!showmore);
   };
 
   const handleClickButton = () => {
     window.dataLayer.push({
-      event: 'signup_button_click',
-      data: selectedPackage})
+      event: "signup_button_click",
+      data: selectedPackage,
+    });
+
     window.location.href = `https://www.winlads.com/register/${selectedPackage}`;
   };
 
   const handleClickButton2 = () => {
     window.dataLayer.push({
-      event: 'signup_button_click'})
+      event: "signup_button_click",
+    });
+
     window.location.href = `https://www.winlads.com/register?mem=true`;
   };
 
@@ -93,7 +93,8 @@ const CardPlus = ({
           className="flex items-center justify-center gap-2 text-center absolute rounded-t-xl top-0 left-0 w-full py-2 bg-black font-semibold"
           style={{ color: bgColorFrom }}
         >
-          <FaStar className="text-yellow-400" /> <span className="text-white">Most Popular</span>
+          <FaStar className="text-yellow-400" />{" "}
+          <span className="text-white">Most Popular</span>
         </div>
       )}
       <p
@@ -116,7 +117,10 @@ const CardPlus = ({
           <span className="text-5xl lg:text-6xl text-center">
             {title2.slice(0, 3).trim()}
           </span>{" "}
-          <span className="text-xs capitalize">Free<br /> Accumulating&nbsp;{title2 === "01" ? "Entry" : "Entries"}</span>
+          <span className="text-xs capitalize">
+            Free
+            <br /> Accumulating&nbsp;{title2 === "01" ? "Entry" : "Entries"}
+          </span>
         </p>
       </div>
       <div className="flex flex-col  border-2 space-y-4 border-black bg-white px-2 py-4  rounded-xl mb-5 h-full relative">
@@ -124,7 +128,6 @@ const CardPlus = ({
           <span className="text-2xl xl:text-4xl font-semibold">
             <span className="text-xl">$</span>&nbsp;{price}
           </span>
-
           &nbsp;per month
         </p>
         {/* <p className="text-xs text-center"><span className="font-bold">{title2}</span>&nbsp;Accumulating entry</p> */}
@@ -135,8 +138,11 @@ const CardPlus = ({
           onMouseEnter={() => switchBtnColor1()}
           onMouseLeave={() => switchBtnColor1()}
         >
-          <button className="flex flex-row items-center gap-2" onClick={handleClickButton2}>
-            <p className={`text-xs 2xl:text-lg`}>ONE OFF PACKAGE</p>
+          <button
+            className="flex flex-row items-center gap-2"
+            onClick={handleClickButton2}
+          >
+            <p className={`text-xs 2xl:text-lg`}>ONE OFF PACKAGES</p>
             {/* <MdKeyboardArrowRight className={`text-${arrowColor}`} /> */}
           </button>
         </div>

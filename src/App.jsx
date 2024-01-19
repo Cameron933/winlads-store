@@ -15,7 +15,7 @@ function App() {
 
   TagManager.initialize(tagManagerArgs)
 
-  const router = createHashRouter([
+  const router = createBrowserRouter([
    
     {
       path: "/privacypolicy",

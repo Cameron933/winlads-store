@@ -1,10 +1,14 @@
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/headerLogo.png";
 
 const Header = () => {
+
   const handleClick = () => {
     window.dataLayer.push({
-      event: 'signup_button_click'})
+      event: "signup_button_click",
+    });
+
     window.location.href = "https://www.winlads.com/register";
   };
 
@@ -36,7 +40,7 @@ const Header = () => {
           </button>
         </div>
       </div> */}
-       <div className="flex xl:justify-end justify-center">
+      <div className="flex xl:justify-end justify-center">
         <div
           className="bg-red-500 hover:bg-red-700 px-2 py-2 rounded-md text-center w-full flex justify-center items-center"
           onClick={handleClick}

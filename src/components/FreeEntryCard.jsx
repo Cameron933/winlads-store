@@ -1,9 +1,14 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import FreeEntry from "../assets/freeEntryImg.png";
 
 const FreeEntryCard = () => {
+
+
   const handleClickButton = () => {
-    window.location.href = "https://winlads.com/register?COUPEN=WINFREE";
+  
+      window.location.href = "https://app.winlads.com/register?COUPEN=WINFREE";
+    
+
   };
   return (
     <div className="rounded-2xl xl:w-72 w-full md:w-72  shadow-lg bg-[#F7B928] shadow-gray-400 relative flex flex-col border-2 border-black">

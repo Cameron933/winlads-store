@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 // import Correct from "../assets/correct.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaStar } from "react-icons/fa6";
@@ -33,12 +33,12 @@ const Card = ({
   mostPopular = false,
   yValue,
   classNames,
-  packageId
+  packageId,
 }) => {
   const [showmore, setShowmore] = useState(false);
   const [btnBgColor, setBtnBgColor] = useState(buttonColor);
   const [btnBgColor1, setBtnBgColor1] = useState(buttonColor2);
-  const [selectedPackage, setSelectedPackage] = useState(packageId || '');
+  const [selectedPackage, setSelectedPackage] = useState(packageId || "");
   const navigate = useNavigate();
 
   const switchBtnColor = () => {
@@ -62,15 +62,19 @@ const Card = ({
   };
   const handleClickButton2 = () => {
     window.dataLayer.push({
-      event: 'signup_button_click'})
-      console.log(window.dataLayer)
+      event: "signup_button_click",
+    });
+    console.log(window.dataLayer);
+
     window.location.href = `https://www.winlads.com/register?mem=true`;
   };
   const handleClickButton = () => {
     window.dataLayer.push({
-      event: 'signup_button_click',
-      data: selectedPackage})
-      console.log(window.dataLayer)
+      event: "signup_button_click",
+      data: selectedPackage,
+    });
+    console.log(window.dataLayer);
+
     window.location.href = `https://www.winlads.com/register/${selectedPackage}`;
   };
 
@@ -114,7 +118,11 @@ const Card = ({
           <span className="text-5xl lg:text-6xl">
             {title2.slice(0, 3).trim()}
           </span>{" "}
-          <span className="text-xs capitalize">Free<br />Accumulating&nbsp;{title2 === "01" ? "Entry" : "Entries"}</span>
+          <span className="text-xs capitalize">
+            Free
+            <br />
+            Accumulating&nbsp;{title2 === "01" ? "Entry" : "Entries"}
+          </span>
         </p>
       </div>
       <div className="flex flex-col  border-2 space-y-4 border-black bg-white px-2 py-4  rounded-xl mb-5 h-full relative">
@@ -122,7 +130,6 @@ const Card = ({
           <span className="text-2xl xl:text-4xl font-semibold">
             <span className="text-xl">$</span>&nbsp;{desc1}
           </span>
-
           &nbsp;per month
         </p>
         {/* <p className="text-xs text-center"><span className="font-bold">{title2}</span>&nbsp;Accumulating entry</p> */}

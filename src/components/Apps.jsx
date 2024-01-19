@@ -1,11 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
 import video from "../assets/video.mp4";
 import BgImg from "../assets/bgCar.png";
 import AppStore from "../assets/apple.png"
 import PlayStore from "../assets/google.png"
 import { motion } from 'framer-motion';
+import axios from 'axios';
+
 
 const Apps = () => {
+
+  const [uCount , setUserCount]= useState(0);
+
+  const getUserCount = async()=>{
+    try {
+      const userCount = await axios.get(`${import.meta.env.VITE_SERVER_API}/getUserCount`)
+      setUserCount(userCount.data?.users);
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  useEffect(()=>{
+    getUserCount();
+  },[])
 
   return (
     <div className="w-full relative h-[500px] flex items-center justify-center mb-8">
@@ -38,7 +55,7 @@ const Apps = () => {
             viewport={{ once: true }}
             className="text-[#00F0FF] font-bold text-2xl lg:text3xl xl:text-4xl 2xl:text-6xl"
           >
-            104 <span className="text-white">+</span>
+            {uCount} <span className="text-white">+</span>
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: "40%" }}

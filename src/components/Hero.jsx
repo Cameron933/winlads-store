@@ -63,12 +63,12 @@ const Hero = () => {
           </div>
           <div className="flex flex-col gap-4 xl:px-8 px-4">
             <p className="text-6xl xl:text-6xl 2xl:text-10xl uppercase font-bold text-black text-center">
-              win a brand new mazda<br /> bt-50 or $60k cash
+              win a brand new mazda<br /> bt-50 or $60K cash
             </p>
-            <p className="text-black text-sm xl:text-center 2xl:text-xl capitalize text-center font-semibold">
-              by purchasing any winlads package below, you will automatically go
-              into the draw to win your choice of a brand new mazda bt-50 or
-              $60k cash
+            <p className="text-black text-sm xl:text-center 2xl:text-xl text-center font-semibold">
+              By purchasing any winlads package below, You will automatically go
+              into the draw to win your choice of a Brand New Mazda BT-50 or
+              $60K cash
             </p>
           </div>
         </div>

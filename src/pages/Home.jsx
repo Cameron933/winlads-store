@@ -21,32 +21,28 @@ import Gallery from "../components/Gallery";
 import Partners2 from "../components/Partners2";
 import { useParams } from "react-router";
 
-
 // import InstagramGalleryViewer from "../components/InstagramGallery"
-
 
 const Home = () => {
   const { id } = useParams();
+
   const scrollTo = (target) => {
-  
     const otherComponentElement = document.getElementById(target);
-  
+
     if (otherComponentElement) {
       otherComponentElement.scrollIntoView({ behavior: "smooth" });
     }
   };
-  
   useEffect(() => {
-    console.log('ID IS : ' + id);
-  if (id !== undefined) {
-    setTimeout(()=>{
-      scrollTo(id);
-    },2000)
-    scrollTo(id);
-  } else {
-    console.log('No ID in the URL');
-  }
-  },[id])
+    console.log("ID IS : " + id);
+    if (id !== undefined) {
+      setTimeout(() => {
+        scrollTo(id);
+      }, 4000);
+    } else {
+      console.log("No ID in the URL");
+    }
+  }, []);
 
   return (
     <div className="relative pageBgColor">
