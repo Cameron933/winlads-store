@@ -38,7 +38,7 @@ const Home = () => {
     if (id !== undefined) {
       setTimeout(() => {
         scrollTo(id);
-      }, 2000);
+      }, 4000);
     } else {
       console.log("No ID in the URL");
     }
