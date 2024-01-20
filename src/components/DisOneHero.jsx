@@ -18,20 +18,33 @@ const DisOneHero = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    window.location.href = "https://www.winlads.com/register";
+    window.location.href = "https://www.winlads.com/register-district-1";
   };
 
   return (
     <>
       <div className="flex flex-col relative xl:mb-16 bg-hero items-center ">
-        <motion.img
-          variants={imageAnimate}
-          className="w-4/5 xl:w-full"
-          src={HeroJeep}
-        />
+        <div className="w-full relative">
+          <motion.img
+            variants={imageAnimate}
+            className="w-full xl:w-full"
+            src={HeroJeep}
+          />
+          <div className="absolute flex justify-center bottom-6 right-4 xl:bottom-10 xl:right-20 z-10">
+            <div
+              className="text-white border-2 hover:opacity-75 px-2 py-2 font-bold border-white rounded-md text-center w-full flex justify-center items-center"
+              onClick={handleClick}
+            >
+              <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm cursor-pointer">
+                Sign up now
+              </button>
+            </div>
+          </div>
+        </div>
         <div className="absolute top-10 right-4 xl:right-10 md:right-10 xl:left-20 left-4 bottom-0 z-10">
           <DisOneHeader />
         </div>
+
         <div className="flex flex-col xl:flex-row items-center special:justify-between special:pr-52 space-y-2">
           <div className="flex flex-col gap-4 xl:px-8 px-4">
             <p className="text-xl xl:text-2xl 2xl:text-4xl uppercase font-bold text-white text-center">

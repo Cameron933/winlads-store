@@ -18,17 +18,6 @@ const DisOneHeader = () => {
         </div>
         <div className="flex flex-row gap-2 uppercase text-black items-center cursor-pointer 2xl:text-lg"></div>
       </div>
-
-      <div className="flex xl:justify-end justify-center">
-        <div
-          className="bg-[#f86a97] hover:bg-red-700 px-2 py-2 rounded-md text-center w-full flex justify-center items-center"
-          onClick={handleClick}
-        >
-          <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm cursor-pointer">
-            Sign up now
-          </button>
-        </div>
-      </div>
     </div>
   );
 };
