@@ -37,7 +37,7 @@ const DistrictOne = () => {
   }, []);
 
   return (
-    <div className="relative pageBgColor">
+    <div className="relative pageBgColorDisOne">
       <DisOneHero />
       <DisOnePackages />
       <CountDown />

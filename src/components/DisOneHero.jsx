@@ -23,7 +23,7 @@ const DisOneHero = () => {
 
   return (
     <>
-      <div className="flex flex-col relative xl:mb-16 bg-hero items-center">
+      <div className="flex flex-col relative xl:mb-16 bg-hero items-center ">
         <motion.img
           variants={imageAnimate}
           className="w-4/5 xl:w-full"
@@ -34,7 +34,7 @@ const DisOneHero = () => {
         </div>
         <div className="flex flex-col xl:flex-row items-center special:justify-between special:pr-52 space-y-2">
           <div className="flex flex-col gap-4 xl:px-8 px-4">
-            <p className="text-xl xl:text-2xl 2xl:text-4xl uppercase font-bold text-black text-center">
+            <p className="text-xl xl:text-2xl 2xl:text-4xl uppercase font-bold text-white text-center">
               ENTER TO WIN X2 BOOTH GIVEAWAYS AT <br /> DISTRICT 1 - ON
               AUSTRALIA DAY 26TH JAN <br /> AMETHYST DISTRCIT - VALUED AT $1790{" "}
               <br /> OR
@@ -44,7 +44,7 @@ const DisOneHero = () => {
               <br /> WINNER DRAWN 28TH FEB
               <br />
             </p>
-            <p className="text-black text-sm xl:text-center 2xl:text-xl text-center font-semibold">
+            <p className="text-white text-sm xl:text-center 2xl:text-xl text-center font-semibold">
               SUBSCRIBERS ARE AUTOMATICALLY <br /> ENTERED INTO THE DRAW TO WIN
               WEEKLY
               <br />

@@ -2,29 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-.bgImg{
+.bgImg {
   background-image: url("./assets/bgCar.png");
 }
 
-.bgColor{
-  background: linear-gradient(to right, #E83F3F 100%, #A20505  100%);
+.bgColor {
+  background: linear-gradient(to right, #e83f3f 100%, #a20505 100%);
 }
 
 .buttonColor {
-  background: linear-gradient(to right, #43BBED 100%, #017E9D 100%);
+  background: linear-gradient(to right, #43bbed 100%, #017e9d 100%);
 }
 
 .pageBgColor {
-  background: linear-gradient(to right, #80E2E2 0%, #FFE9E9 100%);
+  background: linear-gradient(to right, #80e2e2 0%, #ffe9e9 100%);
+}
+
+.pageBgColorDisOne {
+  background: black;
 }
 
 .buttonColor:hover {
-  background: #76EBF3;
-
+  background: #76ebf3;
 }
 
 .purchaseButton {
-  background: linear-gradient(to right, #43E3ED 100%, #01819D 100%);
+  background: linear-gradient(to right, #43e3ed 100%, #01819d 100%);
 }
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -105,7 +108,7 @@ button:focus-visible {
   animation: rotate 2s linear infinite;
 }
 
-.card-container{
+.card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -130,8 +133,8 @@ button:focus-visible {
 }
 
 .scroll-text {
-  animation: scroll 20s linear infinite; 
-  white-space: nowrap; 
+  animation: scroll 20s linear infinite;
+  white-space: nowrap;
 }
 
 @keyframes scroll1 {
@@ -144,6 +147,6 @@ button:focus-visible {
 }
 
 .scroll-text1 {
-  animation: scroll1 20s linear infinite; 
-  white-space: nowrap; 
+  animation: scroll1 20s linear infinite;
+  white-space: nowrap;
 }
