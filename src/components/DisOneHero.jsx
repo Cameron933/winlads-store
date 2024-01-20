@@ -41,9 +41,6 @@ const DisOneHero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute top-10 right-4 xl:right-10 md:right-10 xl:left-20 left-4 bottom-0 z-10">
-          <DisOneHeader />
-        </div>
 
         <div className="flex flex-col xl:flex-row items-center special:justify-between special:pr-52 space-y-2">
           <div className="flex flex-col gap-4 xl:px-8 px-4">
