@@ -30,7 +30,7 @@ const DisOneHero = () => {
             className="w-full xl:w-full"
             src={HeroJeep}
           />
-          <div className="absolute flex justify-center bottom-6 right-4 xl:bottom-10 xl:right-20 z-10">
+          <div className="invisible md:visible absolute flex justify-center bottom-6 right-4 xl:bottom-10 xl:right-20 z-10">
             <div
               className="text-white border-2 hover:opacity-75 px-2 py-2 font-bold border-white rounded-md text-center w-full flex justify-center items-center"
               onClick={handleClick}
@@ -61,6 +61,16 @@ const DisOneHero = () => {
               PRIZES, AND ACCUMULATE FREE ENTRIES
               <br /> EVERY MONTH FOR ALL WINLADS GIVEAWAYS!
             </p>
+          </div>
+          <div className="md:invisible flex justify-center z-10 pb-4">
+            <div
+              className="text-white border-2 hover:opacity-75 px-2 py-2 font-bold border-white rounded-md text-center w-full flex justify-center items-center"
+              onClick={handleClick}
+            >
+              <button className="text-white font-semibold capitalize xl:text-lg md:text-lg text-sm cursor-pointer">
+                Sign up now
+              </button>
+            </div>
           </div>
         </div>
       </div>

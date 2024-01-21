@@ -5,8 +5,8 @@ import Banner2 from "../assets/banner/banner2.jpg";
 const DisOneBanner = () => {
   return (
     <div className="w-full pt-4 flex flex-col gap-6 md:flex-row items-center justify-center">
-      <motion.img className="h-auto w-2/5" src={Banner1} />
-      <motion.img className="h-auto w-2/5" src={Banner2} />
+      <motion.img className="h-auto w-full md:w-[45%] xl:w-2/5" src={Banner1} />
+      <motion.img className="h-auto w-full md:w-[45%] xl:w-2/5" src={Banner2} />
     </div>
   );
 };
